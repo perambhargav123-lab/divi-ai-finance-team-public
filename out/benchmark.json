@@ -1,0 +1,185 @@
+{
+ "injected": 20,
+ "decoys": 4,
+ "decoy_ids": [
+  "BOK1",
+  "BOK2",
+  "JE-2OK1",
+  "JE-2OK2"
+ ],
+ "decoys_flagged": [],
+ "detected": 20,
+ "detection_rate": 1.0,
+ "false_positives": [],
+ "false_positive_detail": {},
+ "precision": 1.0,
+ "rows": [
+  {
+   "id": "PI-0021-X",
+   "kind": "duplicate vendor invoice",
+   "detected": true,
+   "by": [
+    "duplicate_vendor_invoice"
+   ]
+  },
+  {
+   "id": "PI-0035-X",
+   "kind": "duplicate vendor invoice",
+   "detected": true,
+   "by": [
+    "duplicate_vendor_invoice"
+   ]
+  },
+  {
+   "id": "PI-0014-X",
+   "kind": "duplicate vendor invoice",
+   "detected": true,
+   "by": [
+    "duplicate_vendor_invoice"
+   ]
+  },
+  {
+   "id": "PI-0043-X",
+   "kind": "near-duplicate vendor invoice (AED 1 different)",
+   "hard": true,
+   "detected": true,
+   "by": [
+    "near_duplicate_vendor_invoice"
+   ]
+  },
+  {
+   "id": "FT-S-0074",
+   "kind": "wrong VAT rate (4%)",
+   "detected": true,
+   "by": [
+    "VAT is not 5% of net"
+   ]
+  },
+  {
+   "id": "FT-S-0022",
+   "kind": "wrong VAT rate (4%)",
+   "detected": true,
+   "by": [
+    "VAT is not 5% of net"
+   ]
+  },
+  {
+   "id": "FT-S-0004",
+   "kind": "total does not add up",
+   "detected": true,
+   "by": [
+    "net + VAT does not equal total"
+   ]
+  },
+  {
+   "id": "Zenith Electronics FZCO",
+   "kind": "vendor bank details changed",
+   "detected": true,
+   "by": [
+    "vendor_bank_change"
+   ]
+  },
+  {
+   "id": "Palm Foods Import",
+   "kind": "vendor bank details changed",
+   "detected": true,
+   "by": [
+    "vendor_bank_change"
+   ]
+  },
+  {
+   "id": "BX1",
+   "kind": "large payment to new vendor",
+   "detected": true,
+   "by": [
+    "large_payment_to_new_vendor",
+    "round_amount_payment"
+   ]
+  },
+  {
+   "id": "BX2",
+   "kind": "large payment to new vendor",
+   "detected": true,
+   "by": [
+    "large_payment_to_new_vendor"
+   ]
+  },
+  {
+   "id": "BS1",
+   "kind": "split payments under threshold to new vendor (2 x 9,800)",
+   "hard": true,
+   "pair_of": "BS2",
+   "detected": true,
+   "by": [
+    "duplicate_bank_payment"
+   ]
+  },
+  {
+   "id": "BD1",
+   "kind": "duplicate bank payment",
+   "pair_of": "B136",
+   "detected": true,
+   "by": [
+    "duplicate_bank_payment"
+   ]
+  },
+  {
+   "id": "BD2",
+   "kind": "duplicate bank payment",
+   "pair_of": "B105",
+   "detected": true,
+   "by": [
+    "duplicate_bank_payment"
+   ]
+  },
+  {
+   "id": "BD3",
+   "kind": "duplicate bank payment",
+   "pair_of": "B101",
+   "detected": true,
+   "by": [
+    "duplicate_bank_payment"
+   ]
+  },
+  {
+   "id": "JE-201",
+   "kind": "weekend journal by junior",
+   "detected": true,
+   "by": [
+    "weekend_journal_by_junior"
+   ]
+  },
+  {
+   "id": "JE-202",
+   "kind": "weekend journal by junior",
+   "detected": true,
+   "by": [
+    "weekend_journal_by_junior"
+   ]
+  },
+  {
+   "id": "JE-203",
+   "kind": "weekend journal by junior",
+   "detected": true,
+   "by": [
+    "weekend_journal_by_junior"
+   ]
+  },
+  {
+   "id": "PI-0028",
+   "kind": "price above contract",
+   "detected": true,
+   "by": [
+    "price above contract"
+   ]
+  },
+  {
+   "id": "PI-0013",
+   "kind": "price above contract",
+   "detected": true,
+   "by": [
+    "price above contract"
+   ]
+  }
+ ]
+}

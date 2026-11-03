@@ -1,0 +1,97 @@
+customer,invoice,month,days_late,amount
+Al Noor Retail LLC,H-AL -01,2025-01,8,9499.13
+Al Noor Retail LLC,H-AL -02,2025-02,6,27181.11
+Al Noor Retail LLC,H-AL -03,2026-01,5,14058.13
+Al Noor Retail LLC,H-AL -04,2026-02,-2,15548.72
+Al Noor Retail LLC,H-AL -05,2026-03,1,24878.83
+Al Noor Retail LLC,H-AL -06,2026-04,-3,21217.44
+Al Noor Retail LLC,H-AL -07,2026-05,0,26572.88
+Al Noor Retail LLC,H-AL -08,2026-06,4,17866.74
+Al Noor Retail LLC,H-AL -09,2026-07,-2,23975.56
+Al Noor Retail LLC,H-AL -10,2026-08,1,6230.77
+Al Noor Retail LLC,H-AL -11,2026-09,3,22110.45
+Al Noor Retail LLC,H-AL -12,2026-10,7,30137.2
+Gulf Star Supermarkets,H-GUL-01,2025-01,27,20059.12
+Gulf Star Supermarkets,H-GUL-02,2025-02,24,27409.8
+Gulf Star Supermarkets,H-GUL-03,2026-01,27,17312.01
+Gulf Star Supermarkets,H-GUL-04,2026-02,35,14169.91
+Gulf Star Supermarkets,H-GUL-05,2026-03,24,33013.57
+Gulf Star Supermarkets,H-GUL-06,2026-04,19,14315.74
+Gulf Star Supermarkets,H-GUL-07,2026-05,19,19039.59
+Gulf Star Supermarkets,H-GUL-08,2026-06,26,30268.25
+Gulf Star Supermarkets,H-GUL-09,2026-07,24,18206.72
+Gulf Star Supermarkets,H-GUL-10,2026-08,32,14052.17
+Gulf Star Supermarkets,H-GUL-11,2026-09,30,17453.42
+Gulf Star Supermarkets,H-GUL-12,2026-10,31,19090.42
+Emirates Home Supplies,H-EMI-01,2025-01,-1,29531.69
+Emirates Home Supplies,H-EMI-02,2025-02,-1,31724.84
+Emirates Home Supplies,H-EMI-03,2026-01,0,25965.25
+Emirates Home Supplies,H-EMI-04,2026-02,4,13947.52
+Emirates Home Supplies,H-EMI-05,2026-03,0,17424.55
+Emirates Home Supplies,H-EMI-06,2026-04,1,18535.8
+Emirates Home Supplies,H-EMI-07,2026-05,-2,21459.85
+Emirates Home Supplies,H-EMI-08,2026-06,0,8743.75
+Emirates Home Supplies,H-EMI-09,2026-07,0,19171.8
+Emirates Home Supplies,H-EMI-10,2026-08,3,10231.6
+Emirates Home Supplies,H-EMI-11,2026-09,-1,28970.42
+Emirates Home Supplies,H-EMI-12,2026-10,5,26807.74
+Desert Rose Trading,H-DES-01,2025-01,5,26147.22
+Desert Rose Trading,H-DES-02,2025-02,14,21853.91
+Desert Rose Trading,H-DES-03,2026-01,8,26377.32
+Desert Rose Trading,H-DES-04,2026-02,8,11001.44
+Desert Rose Trading,H-DES-05,2026-03,6,33475.7
+Desert Rose Trading,H-DES-06,2026-04,16,17167.24
+Desert Rose Trading,H-DES-07,2026-05,7,33185.11
+Desert Rose Trading,H-DES-08,2026-06,6,12431.8
+Desert Rose Trading,H-DES-09,2026-07,0,25972.45
+Desert Rose Trading,H-DES-10,2026-08,7,18363.33
+Desert Rose Trading,H-DES-11,2026-09,8,34556.95
+Desert Rose Trading,H-DES-12,2026-10,8,21750.55
+Marina Hypermarket,H-MAR-01,2025-01,2,19402.78
+Marina Hypermarket,H-MAR-02,2025-02,2,24274.98
+Marina Hypermarket,H-MAR-03,2026-01,2,10892.03
+Marina Hypermarket,H-MAR-04,2026-02,4,31212.1
+Marina Hypermarket,H-MAR-05,2026-03,4,26332.48
+Marina Hypermarket,H-MAR-06,2026-04,5,11637.61
+Marina Hypermarket,H-MAR-07,2026-05,4,33412.2
+Marina Hypermarket,H-MAR-08,2026-06,1,11144.42
+Marina Hypermarket,H-MAR-09,2026-07,1,13192.59
+Marina Hypermarket,H-MAR-10,2026-08,4,17787.11
+Marina Hypermarket,H-MAR-11,2026-09,1,31043.65
+Marina Hypermarket,H-MAR-12,2026-10,4,14761.55
+Sharjah Wholesale Co,H-SHA-01,2025-01,37,18036.66
+Sharjah Wholesale Co,H-SHA-02,2025-02,25,5752.27
+Sharjah Wholesale Co,H-SHA-03,2026-01,19,24648.91
+Sharjah Wholesale Co,H-SHA-04,2026-02,-1,29592.26
+Sharjah Wholesale Co,H-SHA-05,2026-03,15,15913.68
+Sharjah Wholesale Co,H-SHA-06,2026-04,41,30770.28
+Sharjah Wholesale Co,H-SHA-07,2026-05,33,17653.96
+Sharjah Wholesale Co,H-SHA-08,2026-06,18,27046.51
+Sharjah Wholesale Co,H-SHA-09,2026-07,15,7440.75
+Sharjah Wholesale Co,H-SHA-10,2026-08,4,15670.51
+Sharjah Wholesale Co,H-SHA-11,2026-09,17,17268.89
+Sharjah Wholesale Co,H-SHA-12,2026-10,16,32493.17
+Oasis Hotels FZE,H-OAS-01,2025-01,27,9074.8
+Oasis Hotels FZE,H-OAS-02,2025-02,19,22143.61
+Oasis Hotels FZE,H-OAS-03,2026-01,21,20475.07
+Oasis Hotels FZE,H-OAS-04,2026-02,22,34752.88
+Oasis Hotels FZE,H-OAS-05,2026-03,19,6876.09
+Oasis Hotels FZE,H-OAS-06,2026-04,15,19230.3
+Oasis Hotels FZE,H-OAS-07,2026-05,68,20511.68
+Oasis Hotels FZE,H-OAS-08,2026-06,35,23029.34
+Oasis Hotels FZE,H-OAS-09,2026-07,28,29642.46
+Oasis Hotels FZE,H-OAS-10,2026-08,26,25965.55
+Oasis Hotels FZE,H-OAS-11,2026-09,60,30980.96
+Oasis Hotels FZE,H-OAS-12,2026-10,45,34704.37
+Blue Creek Catering,H-BLU-01,2025-01,13,28382.73
+Blue Creek Catering,H-BLU-02,2025-02,11,12627.24
+Blue Creek Catering,H-BLU-03,2026-01,11,6880.34
+Blue Creek Catering,H-BLU-04,2026-02,9,21429.54
+Blue Creek Catering,H-BLU-05,2026-03,7,14979.77
+Blue Creek Catering,H-BLU-06,2026-04,2,17512.75
+Blue Creek Catering,H-BLU-07,2026-05,7,21931.17
+Blue Creek Catering,H-BLU-08,2026-06,7,29557.06
+Blue Creek Catering,H-BLU-09,2026-07,8,14091.83
+Blue Creek Catering,H-BLU-10,2026-08,6,29513.58
+Blue Creek Catering,H-BLU-11,2026-09,4,33225.58
+Blue Creek Catering,H-BLU-12,2026-10,13,30772.73

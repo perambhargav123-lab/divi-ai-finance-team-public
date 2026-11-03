@@ -1,0 +1,391 @@
+{
+ "contract_terms": {
+  "prices": [
+   {
+    "vendor": "Jebel Ali Packaging LLC",
+    "item": "Size A",
+    "price": 4.2,
+    "cite": "contracts/jebel_ali_packaging.txt#L5"
+   },
+   {
+    "vendor": "Jebel Ali Packaging LLC",
+    "item": "Size B",
+    "price": 6.1,
+    "cite": "contracts/jebel_ali_packaging.txt#L5"
+   },
+   {
+    "vendor": "Palm Foods Import",
+    "item": "Basmati rice",
+    "price": 11.0,
+    "cite": "contracts/palm_foods_supply.txt#L5"
+   },
+   {
+    "vendor": "Zenith Electronics FZCO",
+    "item": "LED panel 60x60",
+    "price": 62.0,
+    "cite": "contracts/zenith_electronics_distribution.txt#L5"
+   },
+   {
+    "vendor": "Zenith Electronics FZCO",
+    "item": "Bluetooth speaker X2",
+    "price": 140.0,
+    "cite": "contracts/zenith_electronics_distribution.txt#L5"
+   }
+  ],
+  "terms": [
+   {
+    "party": "Gulf Star Supermarkets",
+    "kind": "credit_terms",
+    "summary": "30 days from invoice date. Credit limit AED 150,000.",
+    "pct": null,
+    "days": 30,
+    "effective": "2026-07-01",
+    "cite": "contracts/gulf_star_customer.txt#L4"
+   },
+   {
+    "party": "Gulf Star Supermarkets",
+    "kind": "rebate",
+    "summary": "2% of net sales if quarterly net purchases exceed AED 120,000. Rebate settled as a credit note after quarter end.",
+    "pct": 2,
+    "days": null,
+    "effective": "2026-07-01",
+    "cite": "contracts/gulf_star_customer.txt#L5"
+   },
+   {
+    "party": "Gulf Star Supermarkets",
+    "kind": "title_transfer",
+    "summary": "title and risk pass on delivery to the Customer warehouse, evidenced by a signed delivery note.",
+    "pct": null,
+    "days": null,
+    "effective": "2026-07-01",
+    "cite": "contracts/gulf_star_customer.txt#L7"
+   },
+   {
+    "party": "Jebel Ali Packaging LLC",
+    "kind": "credit_terms",
+    "summary": "net 45 days.",
+    "pct": null,
+    "days": 45,
+    "effective": "2026-03-01",
+    "cite": "contracts/jebel_ali_packaging.txt#L6"
+   },
+   {
+    "party": "Jebel Ali Packaging LLC",
+    "kind": "early_pay_discount",
+    "summary": "2% of the invoice value if paid within 10 days of invoice date (2/10 net 45).",
+    "pct": 2,
+    "days": 10,
+    "effective": "2026-03-01",
+    "cite": "contracts/jebel_ali_packaging.txt#L7"
+   },
+   {
+    "party": "Oasis Hotels FZE",
+    "kind": "credit_terms",
+    "summary": "45 days from invoice date.",
+    "pct": null,
+    "days": 45,
+    "effective": "2026-02-01",
+    "cite": "contracts/oasis_hotels_customer.txt#L4"
+   },
+   {
+    "party": "Oasis Hotels FZE",
+    "kind": "dispute_clause",
+    "summary": "Disputes are escalated to the account managers, then to the finance directors within 14 days.",
+    "pct": null,
+    "days": 14,
+    "effective": "2026-02-01",
+    "cite": "contracts/oasis_hotels_customer.txt#L6"
+   },
+   {
+    "party": "Oasis Hotels FZE",
+    "kind": "title_transfer",
+    "summary": "title passes on signed delivery note.",
+    "pct": null,
+    "days": null,
+    "effective": "2026-02-01",
+    "cite": "contracts/oasis_hotels_customer.txt#L7"
+   },
+   {
+    "party": "Palm Foods Import",
+    "kind": "credit_terms",
+    "summary": "45 days from invoice date.",
+    "pct": null,
+    "days": 45,
+    "effective": "2026-01-01",
+    "cite": "contracts/palm_foods_supply.txt#L7"
+   },
+   {
+    "party": "Palm Foods Import",
+    "kind": "price_escalation",
+    "summary": "Price changes require 60 days written notice and a signed amendment.",
+    "pct": null,
+    "days": 60,
+    "effective": "2026-01-01",
+    "cite": "contracts/palm_foods_supply.txt#L8"
+   },
+   {
+    "party": "Zenith Electronics FZCO",
+    "kind": "credit_terms",
+    "summary": "60 days from invoice date.",
+    "pct": null,
+    "days": 60,
+    "effective": "2026-04-15",
+    "cite": "contracts/zenith_electronics_distribution.txt#L6"
+   },
+   {
+    "party": "Zenith Electronics FZCO",
+    "kind": "price_escalation",
+    "summary": "from 1 December 2026 all list prices increase by 3% if the LME copper price stays above USD 9,000 per tonne for 30 days.",
+    "pct": 3,
+    "days": null,
+    "effective": "2026-12-01",
+    "cite": "contracts/zenith_electronics_distribution.txt#L7"
+   }
+  ]
+ },
+ "findings": [
+  {
+   "source": "contracts",
+   "kind": "overbilling",
+   "party": "Palm Foods Import",
+   "invoice": "PI-0012",
+   "amount": 3560.33,
+   "status": "open",
+   "claim": "Palm Foods Import invoice PI-0012 charges AED 12.50 per unit against the contract price of AED 11.00; 2,373.55 units overbilled by AED 3,560.33 before VAT (AED 3,738.35 with VAT).",
+   "cites": [
+    "invoice_lines.csv#PI-0012",
+    "contracts/palm_foods_supply.txt#L5"
+   ],
+   "calc_inputs": [
+    1.5
+   ],
+   "action": "Hold payment of PI-0012 and request a credit note of AED 3,738.35 under the overbilling clause.",
+   "id": "C01",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Quantities prices and VAT math all match",
+   "verified": true
+  },
+  {
+   "source": "contracts",
+   "kind": "early_pay_discount",
+   "party": "Jebel Ali Packaging LLC",
+   "amount": 2083.04,
+   "claim": "Jebel Ali Packaging LLC offers 2% off for payment within 10 days; on October spend of AED 104,152.06 that is worth AED 2,083.04 a month.",
+   "cites": [
+    "contracts/jebel_ali_packaging.txt#L7",
+    "agg:invoices#Jebel Ali Packaging LLC|total"
+   ],
+   "action": "Pay this supplier on day 10 when cash allows.",
+   "id": "C02",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "2% of 104152.06 equals 2083.04",
+   "verified": true
+  },
+  {
+   "source": "contracts",
+   "kind": "price_escalation",
+   "party": "Zenith Electronics FZCO",
+   "amount": 4956.23,
+   "claim": "Zenith Electronics FZCO prices rise 3% from 2026-12-01; at October volume of AED 165,207.62 that adds AED 4,956.23 a month to cost.",
+   "cites": [
+    "contracts/zenith_electronics_distribution.txt#L7",
+    "messages.jsonl#M07",
+    "agg:invoices#Zenith Electronics FZCO|net"
+   ],
+   "action": "Buy ahead in November or renegotiate before 1 December.",
+   "id": "C03",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": false,
+   "muse_reason": "Increase conditional only expected not confirmed",
+   "verified": false
+  }
+ ],
+ "signals": [
+  {
+   "source": "messages",
+   "customer": "Gulf Star Supermarkets",
+   "kind": "promise_to_pay",
+   "pay_after": "2026-11-15",
+   "amount_aed": 71062.6,
+   "claim": "Gulf Star will pay invoices FT-S-0012 and FT-S-0080 after 15 November.",
+   "cites": [
+    "messages.jsonl#M01",
+    "invoices.csv#FT-S-0012",
+    "invoices.csv#FT-S-0080"
+   ],
+   "id": "C04",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Email promises payment after 15 November",
+   "verified": true
+  },
+  {
+   "source": "messages",
+   "customer": "Oasis Hotels FZE",
+   "kind": "dispute",
+   "pay_after": null,
+   "amount_aed": 12000,
+   "claim": "Oasis is withholding AED 12,000 of FT-S-0066 for water-damaged linen pending a credit note.",
+   "cites": [
+    "messages.jsonl#M02",
+    "invoices.csv#FT-S-0066"
+   ],
+   "id": "C05",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Email states withholding 12000 pending credit",
+   "verified": true
+  },
+  {
+   "source": "messages",
+   "customer": "Desert Rose Trading",
+   "kind": "unbilled_receipt",
+   "pay_after": null,
+   "amount_aed": 18500,
+   "claim": "Desert Rose paid AED 18,500 for delivered order DR-77 not yet invoiced matching receipt B160.",
+   "cites": [
+    "messages.jsonl#M05",
+    "bank_statement.csv#B160"
+   ],
+   "id": "C06",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Amount matches invoice requested delivery stated",
+   "verified": true
+  },
+  {
+   "source": "messages",
+   "customer": "Sharjah Wholesale Co",
+   "kind": "payment_plan",
+   "pay_after": "2026-11-20",
+   "amount_aed": 40000,
+   "claim": "Sharjah will clear AED 40,000 overdue in AED 20,000 on 20 Nov and AED 20,000 on 10 Dec.",
+   "cites": [
+    "messages.jsonl#M06"
+   ],
+   "id": "C07",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Email states exact split and dates",
+   "verified": true
+  },
+  {
+   "source": "messages",
+   "customer": "Al Noor Retail LLC",
+   "kind": "on_time",
+   "pay_after": null,
+   "amount_aed": null,
+   "claim": "Al Noor paid all September invoices on 24 October.",
+   "cites": [
+    "messages.jsonl#M08"
+   ],
+   "id": "C08",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Email confirms September payment sent today",
+   "verified": true
+  },
+  {
+   "source": "messages",
+   "customer": "Oasis Hotels FZE",
+   "kind": "payment_plan",
+   "pay_after": "2026-11-15",
+   "amount_aed": 52000,
+   "claim": "Oasis proposes to pay the older AED 52,000 balance in mid November and mid December.",
+   "cites": [
+    "messages.jsonl#M14"
+   ],
+   "id": "C09",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Email proposes split mid November December",
+   "verified": true
+  },
+  {
+   "source": "messages",
+   "customer": "Marina Hypermarket",
+   "kind": "on_time",
+   "pay_after": null,
+   "amount_aed": null,
+   "claim": "Marina confirms all October invoices are approved and scheduled on normal terms.",
+   "cites": [
+    "messages.jsonl#M15"
+   ],
+   "id": "C10",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Email confirms approval on normal terms",
+   "verified": true
+  }
+ ],
+ "adjustments": [
+  {
+   "source": "cut-off",
+   "kind": "unbilled_revenue",
+   "standard": "IFRS 15",
+   "dr": "Contract asset",
+   "cr": "Revenue",
+   "amount_aed": 42000,
+   "claim": "Goods delivered to Marina on 31 Oct but not invoiced until 3 Nov so recognize revenue at close. Adjustment AED 42,000.00: Dr Contract asset, Cr Revenue.",
+   "cites": [
+    "messages.jsonl#M03"
+   ],
+   "id": "C11",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Delivery 31 Oct invoice 3 Nov 42000",
+   "verified": true
+  },
+  {
+   "source": "cut-off",
+   "kind": "prepayment",
+   "standard": "IAS 1",
+   "dr": "Prepaid expenses",
+   "cr": "ERP licence expense",
+   "amount_aed": 18000,
+   "claim": "ERP licence paid covers 1 Nov 2026 to 31 Oct 2027 so defer full cost at 31 Oct. Adjustment AED 18,000.00: Dr Prepaid expenses, Cr ERP licence expense.",
+   "cites": [
+    "messages.jsonl#M04",
+    "invoices.csv#PI-0001"
+   ],
+   "id": "C12",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": false,
+   "muse_reason": "Invoice net 18000.12 not 18000.00",
+   "verified": false
+  },
+  {
+   "source": "cut-off",
+   "kind": "accrued_revenue",
+   "standard": "IFRS 15",
+   "dr": "Unallocated receipts",
+   "cr": "Revenue",
+   "amount_aed": 18500,
+   "claim": "Desert Rose order delivered 29 Oct and cash received but not invoiced so recognize revenue at close. Adjustment AED 18,500.00: Dr Unallocated receipts, Cr Revenue.",
+   "cites": [
+    "messages.jsonl#M05",
+    "bank_statement.csv#B160"
+   ],
+   "id": "C13",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Cash delivery invoice pending support recognition",
+   "verified": true
+  }
+ ]
+}

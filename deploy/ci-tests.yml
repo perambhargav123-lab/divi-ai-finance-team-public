@@ -1,0 +1,15 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      DIVI_MOCK: "1"   # offline: recorded answers and mocks, no API keys needed
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python scripts/secrets_scan.py
+      - run: python -m pytest -q tests

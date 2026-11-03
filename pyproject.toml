@@ -1,0 +1,9 @@
+[project]
+name = "divi"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["openai>=1.40", "pillow", "reportlab", "fastapi", "uvicorn", "python-multipart", "requests", "httpx", "arabic-reshaper", "python-bidi"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

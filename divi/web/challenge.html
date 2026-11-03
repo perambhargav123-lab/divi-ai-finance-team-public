@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Beat the Controller · Divi</title><link rel="icon" href="/favicon.ico"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/static/divi.css"></head>
+<body><main style="max-width:1080px;margin:0 auto;padding:32px 24px">
+<p><a class="p" href="/">← Back to Divi</a></p>
+<div class="eyebrow">Challenge · local only</div>
+<h2>Beat the Controller.</h2>
+<p class="support">Add rows to a copy of Falcon Trading's October books and try to sneak money out. Divi's Red Team and your own controls run on the edited copy. The real books are never changed.</p>
+<div class="card" style="margin-top:16px">
+ <div class="row"><input id="who" placeholder="Your name for the leaderboard" maxlength="24"></div>
+ <div class="sublabel">Start from a tactic, then edit anything</div>
+ <div class="row" id="tactics"></div>
+ <div class="grid" style="margin-top:12px">
+  <div class="s6"><div class="ctitle">Bank payment out</div><div class="row"><input id="b_date" type="date"><input id="b_desc" placeholder="Narrative"><input id="b_amt" type="number" placeholder="AED"></div></div>
+  <div class="s6"><div class="ctitle">New vendor (optional)</div><div class="row"><input id="v_name" placeholder="Vendor name"><input id="v_created" type="date"><select id="v_iban"><option value="no">IBAN unchanged</option><option value="yes">IBAN changed</option></select></div></div>
+  <div class="s6"><div class="ctitle">Purchase invoice (optional)</div><div class="row"><input id="i_party" placeholder="Supplier"><input id="i_date" type="date"><input id="i_net" type="number" placeholder="Net AED"></div></div>
+  <div class="s6"><div class="ctitle">Manual journal (optional)</div><div class="row"><input id="j_date" type="date"><input id="j_by" placeholder="Posted by"><input id="j_amt" type="number" placeholder="AED"></div></div>
+ </div>
+ <button class="btn" style="margin-top:14px" onclick="go()">Run Divi on my books</button>
+ <div id="res" style="margin-top:14px"></div>
+</div>
+<div class="sublabel">Leaderboard (this machine only)</div><div class="card" id="board"></div>
+<p class="hint">Scoring: if nothing you added is flagged, you score the AED you moved. Any catch scores zero. Every miss becomes a new test case for Divi.</p>
+</main>
+<script>
+const $=i=>document.getElementById(i),A=n=>'AED '+Number(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const T={'Fake new vendor':{b_date:'2026-10-27',b_desc:'TT TO DUNE STAR GENERAL TRADING',b_amt:45000,v_name:'DUNE STAR GENERAL TRADING',v_created:'2026-10-24'},
+ 'Split under the radar':{b_date:'2026-10-20',b_desc:'TT TO DUNES CONSULTING FZE',b_amt:9400},
+ 'Copy a supplier invoice':{i_party:'Palm Foods Import',i_date:'2026-10-09',i_net:15066.37},
+ 'Weekend journal':{j_date:'2026-10-25',j_by:'trainee.r',j_amt:12000}};
+$('tactics').innerHTML=Object.keys(T).map(k=>`<button class="btn ghost sm" onclick='fill(${JSON.stringify(k)})'>${k}</button>`).join('');
+function fill(k){document.querySelectorAll('input:not(#who)').forEach(i=>i.value='');Object.entries(T[k]).forEach(([i,v])=>$(i).value=v)}
+async function go(){const v=i=>$(i).value.trim(),body={name:v('who')||'anonymous',bank:[],vendors:[],invoices:[],journals:[]};
+ if(v('b_amt'))body.bank.push({date:v('b_date')||'2026-10-27',description:v('b_desc')||'TT PAYMENT',amount:+v('b_amt')});
+ if(v('v_name'))body.vendors.push({vendor:v('v_name'),created:v('v_created')||'2026-10-27',bank_iban_changed:v('v_iban')});
+ if(v('i_net'))body.invoices.push({party:v('i_party')||'Unknown Supplier',date:v('i_date')||'2026-10-27',net:+v('i_net')});
+ if(v('j_amt'))body.journals.push({date:v('j_date')||'2026-10-27',posted_by:v('j_by')||'staff',amount:+v('j_amt')});
+ $('res').innerHTML='<p class="hint">Red Team is checking your books...</p>';
+ const r=await (await fetch('/api/challenge',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})).json();
+ if(r.error){$('res').innerHTML=`<p class="no">${r.error}</p>`;return}
+ $('res').innerHTML=`<div class="claim"><b class="${r.won?'no':'ok'}">${r.won?'You beat the Controller':'Caught'}</b> · you moved ${A(r.amount)}<div>${r.verdict}</div>${r.caught.map(c=>`<div class="hint">${c.rule.replaceAll('_',' ')}: ${c.items.join(', ')} ${c.detail||''}</div>`).join('')}</div>`+(r.proposal?learnCard(r.proposal):'');board(r.leaderboard)}
+function learnCard(p){return `<div class="card alert" style="margin-top:12px" id="learn"><div class="ctitle">Divi learns: proposed new rule</div><div>${p.why}</div>
+ <div style="margin-top:6px"><b>${p.rule.plain}</b></div><pre class="rule">${JSON.stringify({source:p.rule.source,conditions:p.rule.conditions},null,1)}</pre>
+ <div class="hint">Tested on the real October books first: ${p.real_book_hits.length?p.real_book_hits.length+' existing payments would be flagged':'0 false alarms on 157 real payments'}. ${p.status}.</div>
+ <div class="row" style="margin-top:10px"><button class="btn sm" onclick="learn()">Approve and re-run my sneak</button><button class="btn ghost sm" onclick="this.closest('#learn').innerHTML='<span class=no>Rejected. Rule not added.</span>'">Reject</button></div></div>`}
+async function learn(){const r=await (await fetch('/api/challenge/learn',{method:'POST'})).json();
+ $('learn').innerHTML=`<div class="ctitle">Divi learns: rule approved</div><div class="claim"><b class="${r.won?'no':'ok'}">${r.won?'Still slipped past':'Caught on re-run'}</b> · same rows, AED ${Number(r.amount).toLocaleString('en-US',{minimumFractionDigits:2})}<div class="hint">${r.verdict}</div></div><p class="hint">The original miss stays on the leaderboard as an honest result. <a class="p" onclick="forget()">Remove the learned rule</a> to demo again.</p>`;board(r.leaderboard)}
+async function forget(){await fetch('/api/challenge/forget',{method:'POST'});$('learn').innerHTML='<span class="hint">Learned rule removed. Run the split again to replay.</span>'}
+function board(b){$('board').innerHTML=b.length?`<table><tr><th>#</th><th>Player</th><th>Rows</th><th>AED moved</th><th>Result</th><th>Score</th><th>Time</th></tr>${b.map((e,i)=>`<tr><td>${i+1}</td><td>${e.name.replace(/</g,'')}</td><td>${e.rows}</td><td>${A(e.amount)}</td><td>${e.won?'<span class="no">Slipped past</span>':'<span class="ok">Caught by '+e.caught_by.length+' rule'+(e.caught_by.length==1?'':'s')+'</span>'}</td><td>${e.score.toLocaleString()}</td><td>${e.time}</td></tr>`).join('')}</table>`:'<p class="hint">No attempts yet.</p>'}
+fetch('/api/edge').then(r=>r.json()).then(e=>board(e.leaderboard||[]));
+</script></body></html>

@@ -1,0 +1,17 @@
+code,name,type
+1000,Cash at Bank Emirates NBD,Asset
+1100,Accounts Receivable,Asset
+1200,Inventory,Asset
+1300,VAT Input Recoverable,Asset
+1500,Fixed Assets,Asset
+2000,Accounts Payable,Liability
+2100,VAT Output Payable,Liability
+2200,Accrued Expenses,Liability
+3000,Share Capital,Equity
+3100,Retained Earnings,Equity
+4000,Sales,Income
+5000,Cost of Goods Sold,Expense
+6000,Rent,Expense
+6100,Salaries,Expense
+6200,Bank Charges,Expense
+6300,Utilities DEWA,Expense

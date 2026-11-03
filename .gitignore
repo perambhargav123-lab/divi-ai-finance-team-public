@@ -1,0 +1,13 @@
+__pycache__/
+.env
+*.pyc
+.venv/
+out/decisions.json
+out/bench/
+out/leaderboard.json
+out/uvicorn.log
+screens/
+out/hy/
+out/review/
+preview/
+drafts/

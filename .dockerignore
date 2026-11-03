@@ -1,0 +1,11 @@
+.env
+.venv
+.git
+__pycache__
+out/bench
+out/screens
+tests
+out/uvicorn.log
+out/hy
+out/review
+screens

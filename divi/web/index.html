@@ -1,0 +1,154 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Divi: your AI finance team</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<link rel="icon" type="image/svg+xml" href="/static/favicon.svg"><link rel="stylesheet" href="/static/divi.css">
+</head><body>
+<header class="top"><div class="brand"><div class="logo">D</div><div><div class="bname">Divi</div><div class="bsub">Falcon Trading LLC · October 2026 close · fictional data</div></div></div>
+<div class="topr"><div class="cashpill clk" id="cashpill" onclick="location.hash='#ch4';showCash()" title="See every line">Cash found <b id="cashtop">AED 0</b></div><button class="btn" id="run">Run the close</button></div></header>
+
+<aside class="rail" id="rail">
+ <a href="#ch1" data-c="ch1"><i>1</i>Close the month</a>
+ <a href="#ch2" data-c="ch2"><i>2</i>Prove every number</a>
+ <a href="#ch3" data-c="ch3"><i>3</i>Catch the fraud</a>
+ <a href="#ch4" data-c="ch4"><i>4</i>Find the cash</a>
+ <a href="#ch5" data-c="ch5"><i>5</i>Ask your CFO</a>
+ <a href="#ch6" data-c="ch6"><i>6</i>Auditor signs off</a>
+ <a href="#hood" data-c="hood" class="hoodlink"><i>+</i>Under the hood</a>
+ <button class="resetlink" id="modebtn" onclick="toggleMode()" title="Owner mode hides the accounting detail">👤 Owner mode</button>
+ <button class="resetlink" onclick="resetDemo()" title="Clear your approvals and start the demo fresh">↺ Reset demo</button>
+</aside>
+
+<main>
+<section class="ch" id="starthere" style="padding-bottom:0"><div class="card start"><button class="x" onclick="hideStart()" title="Hide">Hide</button>
+ <div class="eyebrow">Start here</div>
+ <h3>Divi is an AI finance team for a small UAE business. It closes the month's books, has an independent auditor check them, and finds cash the owner can use.</h3>
+ <ol><li><b>Click Run the close</b> (top right) and watch five agents read receipts, match the bank and post the books. It takes about a minute.</li>
+ <li><b>See what they caught:</b> a hidden AED 18,500 sale and a AED 50,000 payment to a brand new vendor that you can block.</li>
+ <li><b>See the auditor sign off</b> and the cash Divi found. Every number links to its source row.</li></ol>
+ <p class="hint">This public demo replays a recorded real run of Meta's Muse models, so it is the same every time. All company data is fictional.</p></div></section>
+<div id="wjh"></div>
+<section class="hero"><div class="eyebrow">AI finance team for UAE SMEs</div>
+ <h1>Five AI agents close the books, prove every number and find the cash.</h1>
+ <p class="lead">Powered by Meta Muse Spark. Click any number to open its source row.</p>
+ <div class="score" id="score"></div></section>
+
+<section class="ch" id="cyc" style="padding-top:8px"><div class="card"><div class="ctitle">Full cycle for one SME close: every step re-performed in code, nothing paid or sent without the owner</div>
+ <div class="cstrip" id="cstrip"></div>
+ <details class="proof" id="cycbox"><summary>See the detail: three-way match, payment run, collections drafts, close checklist</summary><div id="cycd"></div></details></div></section>
+
+<!-- 1 -->
+<section class="ch" id="ch1"><div class="eyebrow">Chapter 1 · Close the month</div>
+ <h2>October closed with almost no human help.</h2><p class="hint" id="runtime">Live on open-weight Muse via Baseten: about 1 to 2 minutes, with every step streamed. Recorded replay: about 35 seconds.</p>
+ <p class="support">Capture, Reconciler, Controller, Red Team and Treasurer work live. Press <b>Run the close</b>.</p>
+ <div class="powered" id="powered"><span class="pdot"></span><span id="pwho">Powered by <b>Muse Spark Open</b>, Meta's open-weight model, on <b>Baseten</b></span><span class="pnum"><b id="pcalls">0</b> model calls</span><span class="pnum"><b id="ptok">0</b> tokens</span></div>
+ <div class="grid">
+  <div class="card kpi s4"><div class="klabel">Handled without a human</div><div class="knum clk" id="tot" data-open="ch1" title="Open the proof">98.5%</div><div class="ksub" id="totsub"></div><div id="meters" class="meters"></div></div>
+  <div class="card s8 feedcard"><div class="roster" id="roster"></div><div id="feed"><div class="empty" id="hint"><div class="emptyicon">▶</div>Press <b>Run the close</b> to watch the agents work.</div></div></div>
+ </div>
+ <details class="proof"><summary>See proof: statements, checklist and your decisions</summary>
+  <div class="grid"><div class="s6"><h4>Profit and loss</h4><p class="hint">Click any number to see its source.</p><table id="pnl"></table><p id="np"></p></div>
+  <div class="s6"><h4>Balance sheet</h4><table id="bs"></table><h4>Close checklist</h4><table id="ck"></table><h4>Your decisions</h4><div id="dec" class="hint">Escalations appear here during the run.</div></div></div>
+ </details></section>
+
+<!-- 2 -->
+<section class="ch" id="ch2"><div class="eyebrow">Chapter 2 · Prove every number</div>
+ <h2>Every AI claim is checked against the source before you see it.</h2>
+ <p class="support">Code traces each number, then a second Muse call judges the evidence. Unsupported claims are rejected.</p>
+ <div class="grid">
+  <div class="card kpi s4"><div class="klabel">Claims verified</div><div class="knum clk" id="k2" data-open="ch2" title="See every claim">-</div><div class="ksub" id="k2s"></div><div class="pill ok" id="k2p"></div><ul class="checks" id="k2c"></ul></div>
+  <div class="s8 stack" id="v2"></div>
+ </div>
+ <details class="proof"><summary>See proof: every claim, rejected reasons, contract terms and customer signals</summary><div id="p2"></div></details></section>
+
+<!-- 3 -->
+<section class="ch" id="ch3"><div class="eyebrow">Chapter 3 · Catch the fraud</div>
+ <h2>Red Team found a hidden sale and stopped a risky payment.</h2>
+ <p class="support">Agents argue in the open, and you approve the escalation.</p>
+ <div class="grid">
+  <div class="card kpi s4 danger"><div class="klabel">Hidden sale found</div><div class="knum clk" data-ref="bank_statement.csv#B160" title="Open bank line B160"><span class="cur">AED</span>18,500</div><div class="ksub">received on B160, never invoiced</div><div class="pill bad">VAT at risk AED 881</div><div class="kchain" id="k3c"></div></div>
+  <div class="s8 stack" id="v3"></div>
+ </div>
+ <details class="proof"><summary>See proof: evidence chain, all Red Team flags and the 20-anomaly benchmark</summary><div id="p3"></div></details></section>
+
+<!-- 4 -->
+<section class="ch" id="ch4"><div class="eyebrow">Chapter 4 · Find the cash</div>
+ <h2 id="h4">Six drafts add cash to your tightest week.</h2>
+ <p class="support" id="h4s">2,000 simulated futures, from each customer's payment history and what they said in their emails.</p>
+ <div class="grid">
+  <div class="card kpi s4"><div class="klabel">Chance cash goes below zero</div><div class="drop"><span class="knum bad clk" id="k4a" data-ref="treasury#downside" title="Open the downside forecast">-</span><span class="arrow">→ <span class="ok" id="k4b">-</span> after actions</span></div><div class="ksub" id="k4s"></div></div>
+  <div class="card s8"><div class="ctitle">13-week cash, P10 to P90 range</div><div class="chartbox"><canvas id="mcchart"></canvas></div></div>
+ </div>
+ <div class="card cashcard clk" onclick="showCash()"><div><div class="klabel">Cash Divi found this month</div><div class="knum good" id="cashbig">AED 0</div><div class="ksub">Click to see every line and its source.</div></div><div class="cashsplit" id="cashsplit"></div></div>
+ <div id="cashlines" class="cashlines" style="display:none"></div>
+ <div class="sublabel">Six actions, drafted and priced. Nothing is sent until you approve.</div>
+ <div class="grid" id="drafts"></div>
+ <details class="proof"><summary>See proof: customer payment model, cash release plan and scenario forecast</summary><div id="p4"></div>
+  <div class="grid"><div class="card s12"><div class="ctitle">Base and downside scenarios (from the live run)</div><div class="chartbox"><canvas id="cash"></canvas></div><div class="hint" id="low"></div></div></div></details></section>
+
+<!-- 5 -->
+<section class="ch" id="ch5"><div class="eyebrow">Chapter 5 · Ask your CFO</div>
+ <h2>Ask anything, in English or Arabic, by text or voice.</h2>
+ <p class="support">Every answer comes with its proof. If cash is tight, Divi drafts the credit line request.</p>
+ <div class="grid">
+  <div class="card kpi s4"><div class="klabel">Credit line to cover the downside</div><div class="knum clk" data-ref="treasury#downside" title="Open the downside low"><span class="cur">AED</span>165k</div><div class="ksub">with a lender proof pack PDF</div><button class="btn" style="margin-top:20px" onclick="credit()">Draft the request</button><div id="cl"></div></div>
+  <div class="card s8"><div class="chat" id="chat"><div class="a">Try <a class="p" onclick="askq('Can we survive week 6?')">Can we survive week 6?</a> or <a class="p" onclick="askq('كم ضريبة القيمة المضافة المستحقة لشهر أكتوبر؟')">كم ضريبة القيمة المضافة؟</a>, <a class="p" onclick="askq('अक्टूबर में शुद्ध लाभ कितना है?')">शुद्ध लाभ कितना है?</a> or <a class="p" onclick="askq('اکتوبر کا خالص منافع کتنا ہے؟')">خالص منافع کتنا ہے؟</a></div></div>
+   <div class="row"><input type="text" id="qin" placeholder="Ask about the books" onkeydown="if(event.key=='Enter')askq(qin.value)"><button class="btn" onclick="askq(qin.value)">Ask</button>
+   <button class="btn" id="v4" onclick="voice4()">🎤 Are we safe in week 4?</button><label class="btn ghost">🎤 Voice<input type="file" id="aud" accept="audio/*" hidden onchange="voiceq()"></label></div></div>
+ </div></section>
+
+<!-- 6 -->
+<section class="ch" id="ch6"><div class="eyebrow">Chapter 6 · Auditor signs off</div>
+ <h2>An independent Auditor agent challenges every material number.</h2>
+ <p class="support">It sees only the raw books, asks, re-performs the maths in code, and signs only when nothing material is left.</p>
+ <div class="grid">
+  <div class="card kpi s4"><div class="klabel">Audit queries</div><div class="knum" id="a6n">-</div><div class="ksub" id="a6s">Press the button to start the audit.</div>
+   <button class="btn" id="a6go" style="margin-top:18px;align-self:flex-start" onclick="auditLoop()">Send to the auditor</button><div id="stamp" class="stamp" style="display:none"></div></div>
+  <div class="s8 stack" id="a6q"><div class="card empty" style="padding:40px"><div class="emptyicon">§</div>The Auditor's questions appear here, one at a time.</div></div>
+ </div>
+ <div class="card" id="dlog" style="margin-top:18px"><div class="ctitle">Decision log: every exception, the policy behind it, who decided and what happens next month</div><div id="dlogt" class="hint">Appears after the audit.</div><details class="proof" id="polbox"><summary>See the close policy the agents follow (owner editable)</summary><div id="polt"></div></details></div>
+ <details class="proof"><summary>See proof: materiality, re-performance and the sign-off letter</summary><div id="p6"></div></details></section>
+
+<!-- hood -->
+<section class="ch hood" id="hood"><div class="eyebrow">Under the hood</div>
+ <h2>The detail behind the story.</h2>
+ <div class="hoodlist">
+  <details class="hd grp"><summary><span>AI and models</span><b id="g1"></b></summary><div class="hoodlist">
+  <details class="hd sub"><summary><span>Model router</span><b id="hs15"></b></summary><div id="h-router"></div></details>
+  <details class="hd sub"><summary><span>AI trace and cost</span><b id="hs4"></b></summary><div id="h-trace"></div></details>
+  <details class="hd sub"><summary><span>Vision lab</span><b id="hs6"></b></summary><div id="h-vision"></div><div id="h-sam"></div></details>
+  <details class="hd sub"><summary><span>Long-context review and tool calling</span><b id="hs8"></b></summary><div id="h-lc"></div></details>
+  <details class="hd sub"><summary><span>Loan covenant check (103-page agreement)</span><b id="hs12"></b></summary><div id="h-loan"></div></details>
+  </div></details>
+  <details class="hd grp"><summary><span>Controls</span><b id="g2"></b></summary><div class="hoodlist">
+  <details class="hd sub"><summary><span>Your controls and alerts</span><b id="hs11"></b></summary><div id="h-rules"></div></details>
+  <details class="hd sub"><summary><span>Debate scorecard</span><b id="hs13"></b></summary><div id="h-debate"></div></details>
+  <details class="hd sub"><summary><span>Beat the Controller</span><b>try to sneak a fraud past Divi</b></summary><p class="hint">Edit a copy of the sample books, add a fake payment, vendor, invoice or journal, and see if the Red Team catches it. Local leaderboard. <a class="p" href="/challenge">Open the challenge</a></p><div id="h-board"></div></details>
+  <details class="hd sub"><summary><span>Learning loop</span><b id="hs3"></b></summary><div class="grid"><div class="s5"><div class="chartbox sm"><canvas id="lchart"></canvas></div><div id="l-tab"></div></div><div class="s7" id="l-rules"></div></div></details>
+  <details class="hd sub"><summary><span>Audit trail</span><b id="hs9"></b></summary><div id="h-audit"></div></details>
+  </div></details>
+  <details class="hd grp"><summary><span>UAE tax and compliance</span><b id="g3"></b></summary><div class="hoodlist">
+  <details class="hd sub"><summary><span>UAE tax</span><b id="hs1"></b></summary><div id="h-uae"></div><div id="h-taxweb"></div></details>
+  </div></details>
+  <details class="hd grp"><summary><span>Books and exports</span><b id="g4"></b></summary><div class="hoodlist">
+  <details class="hd sub"><summary><span>Multi currency and FX revaluation</span><b id="hs7"></b></summary><div id="h-fx"></div></details>
+  <details class="hd sub"><summary><span>JE-1040 cost of sales check</span><b id="hs17"></b></summary><div id="h-cogs"></div></details>
+  <details class="hd sub"><summary><span>Missing receipt requests</span><b id="hs14"></b></summary><div id="h-rcpt"></div></details>
+  <details class="hd sub"><summary><span>Export to Xero or Zoho Books</span><b id="hs16"></b></summary><div id="h-exp"></div></details>
+  <details class="hd sub"><summary><span>Bring your own books</span><b>upload a bank CSV</b></summary>
+   <p class="hint">Upload any bank statement CSV. Muse maps your columns, then Divi runs close checks and a 13-week forecast. No file? <a class="p" href="/api/sample.csv" download>Download a sample bank CSV</a> and upload it.</p>
+   <div class="row"><input type="file" id="bcsv" accept=".csv"><input type="number" id="ocash" placeholder="Opening cash AED (optional)"><button class="btn" onclick="byob()">Run</button></div>
+   <div class="grid"><div class="s6" id="byobout"></div><div class="s6"><div class="chartbox sm"><canvas id="bchart"></canvas></div></div></div></details>
+  </div></details>
+  <details class="hd grp"><summary><span>Proof and value</span><b id="g5"></b></summary><div class="hoodlist">
+  <details class="hd sub"><summary><span>Board flux commentary</span><b id="hs2"></b></summary><div id="h-flux"></div></details>
+  <details class="hd sub"><summary><span>Cost and ROI (estimate)</span><b id="hs10"></b></summary><div id="h-roi"></div></details>
+  </div></details>
+ </div></section>
+<footer>Divi · built for the Meta AI Developer Hackathon · fictional company and data</footer>
+</main>
+<div class="card drawer" id="proof"></div>
+<script src="/static/app.js"></script>
+<script src="/static/audit.js"></script>
+<script src="/static/cycle.js"></script>
+</body></html>

@@ -1,0 +1,245 @@
+{
+ "06c5213baad475bc6a61": {
+  "text": "{\"prices\": [{\"vendor\": \"Jebel Ali Packaging LLC\", \"item\": \"Size A\", \"price\": 4.2, \"cite\": \"contracts/jebel_ali_packaging.txt#L5\"}, {\"vendor\": \"Jebel Ali Packaging LLC\", \"item\": \"Size B\", \"price\": 6.1, \"cite\": \"contracts/jebel_ali_packaging.txt#L5\"}, {\"vendor\": \"Palm Foods Import\", \"item\": \"Basmati rice\", \"price\": 11.0, \"cite\": \"contracts/palm_foods_supply.txt#L5\"}, {\"vendor\": \"Zenith Electronics FZCO\", \"item\": \"LED panel 60x60\", \"price\": 62.0, \"cite\": \"contracts/zenith_electronics_distribution.txt#L5\"}, {\"vendor\": \"Zenith Electronics FZCO\", \"item\": \"Bluetooth speaker X2\", \"price\": 140.0, \"cite\": \"contracts/zenith_electronics_distribution.txt#L5\"}], \"terms\": [{\"party\": \"Gulf Star Supermarkets\", \"kind\": \"credit_terms\", \"summary\": \"30 days from invoice date. Credit limit AED 150,000.\", \"pct\": null, \"days\": 30, \"effective\": \"2026-07-01\", \"cite\": \"contracts/gulf_star_customer.txt#L4\"}, {\"party\": \"Gulf Star Supermarkets\", \"kind\": \"rebate\", \"summary\": \"2% of net sales if quarterly net purchases exceed AED 120,000. Rebate settled as a credit note after quarter end.\", \"pct\": 2, \"days\": null, \"effective\": \"2026-07-01\", \"cite\": \"contracts/gulf_star_customer.txt#L5\"}, {\"party\": \"Gulf Star Supermarkets\", \"kind\": \"title_transfer\", \"summary\": \"title and risk pass on delivery to the Customer warehouse, evidenced by a signed delivery note.\", \"pct\": null, \"days\": null, \"effective\": \"2026-07-01\", \"cite\": \"contracts/gulf_star_customer.txt#L7\"}, {\"party\": \"Jebel Ali Packaging LLC\", \"kind\": \"credit_terms\", \"summary\": \"net 45 days.\", \"pct\": null, \"days\": 45, \"effective\": \"2026-03-01\", \"cite\": \"contracts/jebel_ali_packaging.txt#L6\"}, {\"party\": \"Jebel Ali Packaging LLC\", \"kind\": \"early_pay_discount\", \"summary\": \"2% of the invoice value if paid within 10 days of invoice date (2/10 net 45).\", \"pct\": 2, \"days\": 10, \"effective\": \"2026-03-01\", \"cite\": \"contracts/jebel_ali_packaging.txt#L7\"}, {\"party\": \"Oasis Hotels FZE\", \"kind\": \"credit_terms\", \"summary\": \"45 days from invoice date.\", \"pct\": null, \"days\": 45, \"effective\": \"2026-02-01\", \"cite\": \"contracts/oasis_hotels_customer.txt#L4\"}, {\"party\": \"Oasis Hotels FZE\", \"kind\": \"dispute_clause\", \"summary\": \"Disputes are escalated to the account managers, then to the finance directors within 14 days.\", \"pct\": null, \"days\": 14, \"effective\": \"2026-02-01\", \"cite\": \"contracts/oasis_hotels_customer.txt#L6\"}, {\"party\": \"Oasis Hotels FZE\", \"kind\": \"title_transfer\", \"summary\": \"title passes on signed delivery note.\", \"pct\": null, \"days\": null, \"effective\": \"2026-02-01\", \"cite\": \"contracts/oasis_hotels_customer.txt#L7\"}, {\"party\": \"Palm Foods Import\", \"kind\": \"credit_terms\", \"summary\": \"45 days from invoice date.\", \"pct\": null, \"days\": 45, \"effective\": \"2026-01-01\", \"cite\": \"contracts/palm_foods_supply.txt#L7\"}, {\"party\": \"Palm Foods Import\", \"kind\": \"price_escalation\", \"summary\": \"Price changes require 60 days written notice and a signed amendment.\", \"pct\": null, \"days\": 60, \"effective\": \"2026-01-01\", \"cite\": \"contracts/palm_foods_supply.txt#L8\"}, {\"party\": \"Zenith Electronics FZCO\", \"kind\": \"credit_terms\", \"summary\": \"60 days from invoice date.\", \"pct\": null, \"days\": 60, \"effective\": \"2026-04-15\", \"cite\": \"contracts/zenith_electronics_distribution.txt#L6\"}, {\"party\": \"Zenith Electronics FZCO\", \"kind\": \"price_escalation\", \"summary\": \"from 1 December 2026 all list prices increase by 3% if the LME copper price stays above USD 9,000 per tonne for 30 days.\", \"pct\": 3, \"days\": null, \"effective\": \"2026-12-01\", \"cite\": \"contracts/zenith_electronics_distribution.txt#L7\"}]}",
+  "model": "muse-spark-1.3",
+  "tokens_in": 997,
+  "tokens_out": 6289,
+  "latency_s": 18.9,
+  "purpose": "contracts: extract prices and terms"
+ },
+ "f878b42578ec943437cd": {
+  "text": "{\"signals\": [{\"customer\": \"Gulf Star Supermarkets\", \"kind\": \"promise_to_pay\", \"pay_after\": \"2026-11-15\", \"amount_aed\": 71062.6, \"claim\": \"Gulf Star will pay invoices FT-S-0012 and FT-S-0080 after 15 November.\", \"cites\": [\"messages.jsonl#M01\", \"invoices.csv#FT-S-0012\", \"invoices.csv#FT-S-0080\"]}, {\"customer\": \"Oasis Hotels FZE\", \"kind\": \"dispute\", \"pay_after\": null, \"amount_aed\": 12000, \"claim\": \"Oasis is withholding AED 12,000 of FT-S-0066 for water-damaged linen pending a credit note.\", \"cites\": [\"messages.jsonl#M02\", \"invoices.csv#FT-S-0066\"]}, {\"customer\": \"Desert Rose Trading\", \"kind\": \"unbilled_receipt\", \"pay_after\": null, \"amount_aed\": 18500, \"claim\": \"Desert Rose paid AED 18,500 for delivered order DR-77 not yet invoiced matching receipt B160.\", \"cites\": [\"messages.jsonl#M05\", \"bank_statement.csv#B160\"]}, {\"customer\": \"Sharjah Wholesale Co\", \"kind\": \"payment_plan\", \"pay_after\": \"2026-11-20\", \"amount_aed\": 40000, \"claim\": \"Sharjah will clear AED 40,000 overdue in AED 20,000 on 20 Nov and AED 20,000 on 10 Dec.\", \"cites\": [\"messages.jsonl#M06\"]}, {\"customer\": \"Al Noor Retail LLC\", \"kind\": \"on_time\", \"pay_after\": null, \"amount_aed\": null, \"claim\": \"Al Noor paid all September invoices on 24 October.\", \"cites\": [\"messages.jsonl#M08\"]}, {\"customer\": \"Oasis Hotels FZE\", \"kind\": \"payment_plan\", \"pay_after\": \"2026-11-15\", \"amount_aed\": 52000, \"claim\": \"Oasis proposes to pay the older AED 52,000 balance in mid November and mid December.\", \"cites\": [\"messages.jsonl#M14\"]}, {\"customer\": \"Marina Hypermarket\", \"kind\": \"on_time\", \"pay_after\": null, \"amount_aed\": null, \"claim\": \"Marina confirms all October invoices are approved and scheduled on normal terms.\", \"cites\": [\"messages.jsonl#M15\"]}], \"adjustments\": [{\"kind\": \"unbilled_revenue\", \"standard\": \"IFRS 15\", \"dr\": \"Contract asset\", \"cr\": \"Revenue\", \"amount_aed\": 42000, \"claim\": \"Goods delivered to Marina on 31 Oct but not invoiced until 3 Nov so recognize revenue at close.\", \"cites\": [\"messages.jsonl#M03\"]}, {\"kind\": \"prepayment\", \"standard\": \"IAS 1\", \"dr\": \"Prepaid expenses\", \"cr\": \"ERP licence expense\", \"amount_aed\": 18000, \"claim\": \"ERP licence paid covers 1 Nov 2026 to 31 Oct 2027 so defer full cost at 31 Oct.\", \"cites\": [\"messages.jsonl#M04\", \"invoices.csv#PI-0001\"]}, {\"kind\": \"accrued_revenue\", \"standard\": \"IFRS 15\", \"dr\": \"Unallocated receipts\", \"cr\": \"Revenue\", \"amount_aed\": 18500, \"claim\": \"Desert Rose order delivered 29 Oct and cash received but not invoiced so recognize revenue at close.\", \"cites\": [\"messages.jsonl#M05\", \"bank_statement.csv#B160\"]}]}",
+  "model": "muse-spark-1.3",
+  "tokens_in": 3029,
+  "tokens_out": 7228,
+  "latency_s": 23.9,
+  "purpose": "messages: payment signals and cut-off"
+ },
+ "43c1d8c891c6dfddad8e": {
+  "text": "[{\"id\": \"C01\", \"supported\": true, \"reason\": \"Quantities prices and VAT math match cited texts\"}, {\"id\": \"C02\", \"supported\": false, \"reason\": \"October spend and supplier name lack citation\"}, {\"id\": \"C03\", \"supported\": false, \"reason\": \"No Palm Foods price rise or volume cited\"}, {\"id\": \"C04\", \"supported\": false, \"reason\": \"October volume figure not in cited text\"}, {\"id\": \"C05\", \"supported\": true, \"reason\": \"Email explicitly promises payment after 15th November\"}, {\"id\": \"C06\", \"supported\": true, \"reason\": \"Email and invoice confirm withholding details\"}, {\"id\": \"C07\", \"supported\": true, \"reason\": \"Message and bank receipt confirm all details\"}, {\"id\": \"C08\", \"supported\": true, \"reason\": \"Email states exact split payment schedule\"}, {\"id\": \"C09\", \"supported\": true, \"reason\": \"Remittance email confirms September payment sent\"}, {\"id\": \"C10\", \"supported\": true, \"reason\": \"Email proposes split payment as claimed\"}, {\"id\": \"C11\", \"supported\": true, \"reason\": \"Email confirms approval on normal terms\"}, {\"id\": \"C12\", \"supported\": true, \"reason\": \"Delivery before close supports revenue recognition\"}, {\"id\": \"C13\", \"supported\": true, \"reason\": \"Coverage starts after year-end supports deferral\"}, {\"id\": \"C14\", \"supported\": true, \"reason\": \"Delivery cash and uninvoiced status confirmed\"}]",
+  "model": "muse-spark-1.3",
+  "tokens_in": 2604,
+  "tokens_out": 2785,
+  "latency_s": 12.0,
+  "purpose": "verifier: contracts and messages"
+ },
+ "c6bd3a8dccb868b10791": {
+  "text": "[{\"id\": \"C01\", \"supported\": true, \"reason\": \"Quantities prices and VAT math all match\"}, {\"id\": \"C02\", \"supported\": true, \"reason\": \"2% of 104152.06 equals 2083.04\"}, {\"id\": \"C03\", \"supported\": false, \"reason\": \"Increase conditional only expected not confirmed\"}, {\"id\": \"C04\", \"supported\": true, \"reason\": \"Email promises payment after 15 November\"}, {\"id\": \"C05\", \"supported\": true, \"reason\": \"Email states withholding 12000 pending credit\"}, {\"id\": \"C06\", \"supported\": true, \"reason\": \"Amount matches invoice requested delivery stated\"}, {\"id\": \"C07\", \"supported\": true, \"reason\": \"Email states exact split and dates\"}, {\"id\": \"C08\", \"supported\": true, \"reason\": \"Email confirms September payment sent today\"}, {\"id\": \"C09\", \"supported\": true, \"reason\": \"Email proposes split mid November December\"}, {\"id\": \"C10\", \"supported\": true, \"reason\": \"Email confirms approval on normal terms\"}, {\"id\": \"C11\", \"supported\": true, \"reason\": \"Delivery 31 Oct invoice 3 Nov 42000\"}, {\"id\": \"C12\", \"supported\": false, \"reason\": \"Invoice net 18000.12 not 18000.00\"}, {\"id\": \"C13\", \"supported\": true, \"reason\": \"Cash delivery invoice pending support recognition\"}]",
+  "model": "muse-spark-1.3",
+  "tokens_in": 2521,
+  "tokens_out": 4584,
+  "latency_s": 16.6,
+  "purpose": "verifier: contracts and messages"
+ },
+ "ab128cef504a6c25bbd8": {
+  "text": "{\"C1\": {\"subject\": \"AED 48,000 overdue - request payment after 15 Nov\", \"body\": \"Dear Gulf Star Supermarkets team,\\n\\nOur records show AED 48,000 is 61 to 90 days overdue. You noted payment after 15 Nov and we ask you to keep to that date.\\n\\nWe value our long relationship and your large account. Your credit limit is 150,000 and our contract allows us to suspend deliveries when amounts are over 30 days overdue. We wish to avoid that step.\\n\\nPlease confirm payment date.\\n\\nFinance team, Falcon Trading LLC\"}, \"C2\": {\"subject\": \"AED 52,000 overdue and FT-S-0066 dispute\", \"body\": \"Dear Oasis Hotels FZE team,\\n\\nWe note AED 52,000 is over 90 days overdue and your plan to pay 26,000 in mid Nov and 26,000 in mid Dec.\\n\\nWe also note your dispute for AED 12,000 under FT-S-0066 for water damaged linen. Our contract states undisputed amounts stay payable on time and disputes go to finance directors within 14 days.\\n\\nPlease pay the undisputed balance on time and let us start the dispute review.\\n\\nFinance team, Falcon Trading LLC\"}, \"C3\": {\"subject\": \"AED 40,000 overdue - confirm 20 Nov and 10 Dec plan\", \"body\": \"Dear Sharjah Wholesale Co team,\\n\\nOur records show AED 40,000 is 31 to 60 days overdue. Thank you for offering 20,000 on 20 Nov and 20,000 on 10 Dec.\\n\\nWe support this plan and ask you to lock in both dates. Please confirm so we can record the schedule.\\n\\nWe value your business and wish to help you stay on track.\\n\\nFinance team, Falcon Trading LLC\"}, \"S1\": {\"subject\": \"Request 30 day extension PI-0050 PI-0014 PI-0037 PI-0013\", \"body\": \"Dear Zenith Electronics FZCO team,\\n\\nInvoices PI-0050, PI-0014, PI-0037 and PI-0013 total about AED 60,400 and fall due 18 to 25 Nov, our tightest weeks. Our contract terms are 60 days.\\n\\nWe ask for 30 more days on these invoices. We note your planned 3 percent increase from 1 Dec. In return we can offer an early volume commitment.\\n\\nPlease let us know if this works.\\n\\nFinance team, Falcon Trading LLC\"}, \"S2\": {\"subject\": \"Request 30 day extension PI-0044 due 20 Nov\", \"body\": \"Dear Sahara Freight Services team,\\n\\nInvoice PI-0044 for AED 8,790.54 is due 20 Nov. We ask for 30 more days to pay.\\n\\nWe note fuel surcharge stays flat in Nov. Thank you.\\n\\nPlease confirm if the extension is possible.\\n\\nFinance team, Falcon Trading LLC\"}, \"S3\": {\"subject\": \"PI-0012 pricing error - request credit note AED 3,738.35\", \"body\": \"Dear Palm Foods Import team,\\n\\nInvoice PI-0012 bills basmati at AED 12.50 per kg, but our contract fixes AED 11.00. Price changes need 60 days notice and a signed amendment.\\n\\nThis overbilled AED 3,738.35 with VAT. Please issue a credit note within 14 days as required. We will hold PI-0012 until then.\\n\\nPlease confirm.\\n\\nFinance team, Falcon Trading LLC\"}}",
+  "model": "muse-spark-1.3",
+  "tokens_in": 656,
+  "tokens_out": 4015,
+  "latency_s": 9.6,
+  "purpose": "collections and supplier drafts"
+ },
+ "25c7b5c30d913dbe7712": {
+  "text": "[{\"id\":\"C01\",\"supported\":false,\"reason\":\"Cited price is 11.00 not 12.50\"},{\"id\":\"C02\",\"supported\":false,\"reason\":\"Amount cited is 18500 not 25000\"},{\"id\":\"C03\",\"supported\":false,\"reason\":\"Text says pay after 15th November\"},{\"id\":\"C04\",\"supported\":false,\"reason\":\"Vendor created 2026-10-16 not 2019\"},{\"id\":\"C05\",\"supported\":false,\"reason\":\"Cited sales figure is 1654342.56\"},{\"id\":\"C06\",\"supported\":false,\"reason\":\"No evidence provided null citation\"}]",
+  "model": "muse-spark-1.3",
+  "tokens_in": 496,
+  "tokens_out": 1109,
+  "latency_s": 3.1,
+  "purpose": "verifier self-test (planted false claims)"
+ },
+ "e72a354c1c851a76e0b7": {
+  "text": "[{\"sentence\": \"Revenue grew to 1654342.56 in October from 1512300.0 in September as units sold rose to 64900 from 61200 and average price rose to 25.49 from 24.71 with 3 promo days and active customers steady at 8.\", \"cites\": [\"pnl_oct#4000\", \"pnl_sep#4000\", \"drivers_oct#units_sold\", \"drivers_sep#units_sold\", \"drivers_oct#avg_price_aed\", \"drivers_sep#avg_price_aed\", \"drivers_oct#promo_days\", \"drivers_sep#promo_days\", \"drivers_oct#active_customers\", \"drivers_sep#active_customers\"]}, {\"sentence\": \"Cost of goods sold rose to 1190000.0 in October from 1071000.0 in September, up 119000.0 or 11.1, broadly in line with higher units sold.\", \"cites\": [\"pnl_oct#5000\", \"pnl_sep#5000\", \"drivers_oct#units_sold\", \"drivers_sep#units_sold\"]}, {\"sentence\": \"Rent rose to 44750.0 in October from 35000.0 in September, up 9750.0 or 27.9.\", \"cites\": [\"pnl_oct#6000\", \"pnl_sep#6000\"]}, {\"sentence\": \"Salaries rose to 128400.0 in October from 121400.0 in September, up 7000.0 or 5.8, after headcount moved to 23 from 22 following a warehouse hire noted for October.\", \"cites\": [\"pnl_oct#6100\", \"pnl_sep#6100\", \"drivers_oct#headcount\", \"drivers_sep#headcount\", \"drivers_oct#note\"]}, {\"sentence\": \"General expenses rose to 54624.35 in October from 22800.0 in September, up 31824.35 or 139.6, including a trade show stand of 21,000 noted for October.\", \"cites\": [\"pnl_oct#6700\", \"pnl_sep#6700\", \"drivers_oct#note\"]}, {\"sentence\": \"Bank charges moved to 125.0 in October from 310.0 in September, a change of -185.0 and -59.7, while utilities moved to 3180.4 in October from 3420.0 in September, a change of -239.6 and -7.0.\", \"cites\": [\"pnl_oct#6200\", \"pnl_sep#6200\", \"pnl_oct#6300\", \"pnl_sep#6300\"]}, {\"sentence\": \"Audit fee held at 2000.0 in both months and insurance held at 1500.0 in both months, with change 0.0.\", \"cites\": [\"pnl_oct#6400\", \"pnl_sep#6400\", \"pnl_oct#6500\", \"pnl_sep#6500\"]}]",
+  "model": "muse-spark-1.3",
+  "tokens_in": 700,
+  "tokens_out": 8223,
+  "latency_s": 22.2,
+  "purpose": "board flux commentary"
+ },
+ "7d851db02980e33b7a0c": {
+  "text": "[{\"id\":\"C01\",\"supported\":true,\"reason\":\"All figures match cited sources exactly\"},{\"id\":\"C02\",\"supported\":true,\"reason\":\"Amounts and calculated change match sources\"},{\"id\":\"C03\",\"supported\":true,\"reason\":\"Amounts and calculated change match sources\"},{\"id\":\"C04\",\"supported\":true,\"reason\":\"Amounts headcount and hire note match\"},{\"id\":\"C05\",\"supported\":true,\"reason\":\"Amounts and trade show note match\"},{\"id\":\"C06\",\"supported\":true,\"reason\":\"All amounts and changes match sources\"},{\"id\":\"C07\",\"supported\":true,\"reason\":\"Both balances unchanged as cited\"}]",
+  "model": "muse-spark-1.3",
+  "tokens_in": 973,
+  "tokens_out": 2577,
+  "latency_s": 8.5,
+  "purpose": "verifier: flux commentary"
+ },
+ "3a06df2299d2cde2b7cc": {
+  "text": "{\"findings\": [{\"title\": \"Unsupported AED 1.19m COGS margin-method entry\", \"why\": \"Single Friday manual JE books COGS of 1,190,000 as 72% margin method with no support, dwarfing October purchases and sales and distorting gross margin, inventory and VAT position - reverse and book actuals with GRN/inventory rollforward.\", \"amount_aed\": 1190000.0, \"refs\": [\"journals.csv#JE-1040\"]}, {\"title\": \"AED 50k same-day round payment to 2-day-old vendor\", \"why\": \"Quickline General Trading created 16 Oct, invoiced 18 Oct for exactly 50000 due same day and paid same day B108 - classic fictitious-vendor / diversion pattern with no track record, requires contract, GRN, KYC, bank-IBAN check and approval recovery.\", \"amount_aed\": 50000.0, \"refs\": [\"invoices.csv#QGT-001\", \"bank_statement.csv#B108\", \"vendor_master.csv#Quickline General Trading\"]}, {\"title\": \"Duplicate AED 18.9k payment to Horizon Office Supplies\", \"why\": \"PI-0001 for 18900.13 paid twice - B136 flagged DUPLICATE on 22 Oct and again B140 on 23 Oct - double cash outflow, overstates expense/AP payment, recover from vendor and fix payment controls.\", \"amount_aed\": 18900.13, \"refs\": [\"invoices.csv#PI-0001\", \"bank_statement.csv#B136\", \"bank_statement.csv#B140\"]}, {\"title\": \"AED 18.5k unallocated Desert Rose receipt with no ref\", \"why\": \"Inward TT 18500 on 27 Oct coded DESERT ROSE TRADING NO REF matches no sales invoice, leaving AR/cash unreconciled and cutoff and lapping risk - match to credit note/remittance or hold as unapplied.\", \"amount_aed\": 18500.0, \"refs\": [\"bank_statement.csv#B160\"]}, {\"title\": \"Weekend junior journal with no approver\", \"why\": \"JE-1041 posted Saturday by intern.k (junior) debit 6000 credit 2200 for 9750 with accrual adj and no approver - segregation of duties and period-end control failure, requires review, support and reversal if unsupported.\", \"amount_aed\": 9750.0, \"refs\": [\"journals.csv#JE-1041\"]}, {\"title\": \"Duplicate Sahara Freight invoice doubles liability\", \"why\": \"PI-0006 and PI-0006-A are identical vendor, date 2026-10-12 and amount 3938.72, flag confirms duplicate vendor invoice - inflates AP/input VAT and risks double payment, void duplicate.\", \"amount_aed\": 3938.72, \"refs\": [\"invoices.csv#PI-0006\", \"invoices.csv#PI-0006-A\"]}]}",
+  "model": "muse-spark-1.3",
+  "tokens_in": 13436,
+  "tokens_out": 3126,
+  "latency_s": 11.8,
+  "purpose": "controller_long_context_review"
+ },
+ "tools:6ed15030e68f89dd72fd": {
+  "calls": [
+   {
+    "name": "get_lowest_cash",
+    "arguments": {
+     "scenario": "downside"
+    }
+   }
+  ],
+  "model": "muse-spark-1.3",
+  "tokens_in": 692,
+  "tokens_out": 467,
+  "latency_s": 2.5,
+  "purpose": "cfo_tool_calling"
+ },
+ "tools:206eee24561a7414ae74": {
+  "calls": [
+   {
+    "name": "get_invoice",
+    "arguments": {
+     "invoice_no": "PI-0012"
+    }
+   }
+  ],
+  "model": "muse-spark-1.3",
+  "tokens_in": 692,
+  "tokens_out": 458,
+  "latency_s": 1.7,
+  "purpose": "cfo_tool_calling"
+ },
+ "tools:48b15661a15aa55597fe": {
+  "calls": [
+   {
+    "name": "get_vat_payable",
+    "arguments": {}
+   }
+  ],
+  "model": "muse-spark-1.3",
+  "tokens_in": 690,
+  "tokens_out": 643,
+  "latency_s": 2.0,
+  "purpose": "cfo_tool_calling"
+ },
+ "36c69b4a109d33e62d54": {
+  "text": "{\"vendor\": \"Sahara Freight Services\", \"invoice_no\": \"PI-0006\", \"date\": \"12-10-2026\", \"net\": 3751.16, \"vat\": 187.56, \"total\": 3938.72, \"currency\": \"AED\", \"trn\": \"100837929841622\"}",
+  "model": "muse-spark-1.3",
+  "tokens_in": 1271,
+  "tokens_out": 620,
+  "latency_s": 2.4,
+  "purpose": "capture_crumpled_receipt"
+ },
+ "09df624d5977962c4e8f": {
+  "text": "{\"vendor\": \"Al Futtaim Logistics Demo\", \"invoice_no\": \"PI-0011\", \"date\": \"31-10-2026\", \"net\": 13456.77, \"vat\": 672.84, \"total\": 14129.61, \"currency\": \"AED\", \"trn\": \"100876804571784\"}",
+  "model": "muse-spark-1.3",
+  "tokens_in": 1271,
+  "tokens_out": 688,
+  "latency_s": 2.6,
+  "purpose": "capture_crumpled_receipt"
+ },
+ "122c56a288a814144c34": {
+  "text": "{\"boxes\": {\"invoice_no\": {\"value\": \"PI-0002\", \"box\": [270, 192, 400, 216]}, \"date\": {\"value\": \"2026-10-26\", \"box\": [163, 237, 328, 261]}, \"trn\": {\"value\": \"100701079819331\", \"box\": [155, 145, 395, 170]}, \"net\": {\"value\": \"AED 15,064.37\", \"box\": [262, 282, 476, 306]}, \"vat\": {\"value\": \"AED 753.22\", \"box\": [200, 328, 363, 352]}, \"total\": {\"value\": \"AED 15,817.59\", \"box\": [175, 373, 388, 397]}}}",
+  "model": "muse-spark-1.3",
+  "tokens_in": 1078,
+  "tokens_out": 2366,
+  "latency_s": 6.9,
+  "purpose": "vision_grounding_boxes"
+ },
+ "c9aa78a6e36313c30d50": {
+  "text": "[\n  {\n    \"name\": \"Debt Service Cover\",\n    \"clause\": \"22.2\",\n    \"page\": 57,\n    \"quote\": \"The Borrower shall ensure that the ratio of EBITDA to Debt Service for each Relevant Period ending on a Quarter Date is not less than 1.25:1.\",\n    \"metric\": \"dscr\",\n    \"threshold\": 1.25,\n    \"frequency\": \"quarterly on each Quarter Date\",\n    \"cure\": null\n  },\n  {\n    \"name\": \"Minimum Liquidity\",\n    \"clause\": \"22.3\",\n    \"page\": 57,\n    \"quote\": \"The Borrower shall ensure that Cash is not, at the close of business on the last Business Day of any week, less than AED 250,000\",\n    \"metric\": \"min_weekly_cash_aed\",\n    \"threshold\": 250000,\n    \"frequency\": \"weekly\",\n    \"cure\": {\n      \"clause\": \"22.5\",\n      \"description\": \"Borrower may within 10 Business Days procure shareholder cash injection sufficient to cure shortfall\"\n    }\n  }\n]",
+  "model": "muse-spark-1.3",
+  "tokens_in": 55919,
+  "tokens_out": 2347,
+  "latency_s": 8.2,
+  "purpose": "long_document_loan_covenants"
+ },
+ "6a272fbc1a3767de0be0": {
+  "text": "[{\"flag\": \"duplicate_vendor_invoice\", \"redteam\": \"Same Sahara vendor, TRN, dates, net 3751.16 and total 3938.72, both paid suggests double payment.\", \"controller\": \"Suffix -A may be amendment reissue; need goods receipts and ledger to prove duplicate payment.\", \"winner\": \"redteam\", \"winning_evidence\": \"invoices.csv#PI-0006-A\", \"why\": \"Identical amounts, dates, and paid status confirm duplication risk.\", \"score_redteam\": 9, \"score_controller\": 3}, {\"flag\": \"large_payment_to_new_vendor\", \"redteam\": \"AED 50000 outward to Quickline on Oct 18, only two days after Oct 16 creation.\", \"controller\": \"Valid TRN and unchanged IBAN suggest legitimate; need KYC, PO and invoice to judge.\", \"winner\": \"redteam\", \"winning_evidence\": \"bank_statement.csv#B108\", \"why\": \"Dates prove two-day gap with large amount transferred.\", \"score_redteam\": 8, \"score_controller\": 5}, {\"flag\": \"duplicate_bank_payment\", \"redteam\": \"Description labels B136 duplicate outward 18900.13, indicating possible double cash outflow.\", \"controller\": \"Only one debit shown; need matching bank entry and vendor account to prove duplication.\", \"winner\": \"controller\", \"winning_evidence\": \"bank_statement.csv#B136\", \"why\": \"Single line cannot confirm duplicate without counterpart transaction.\", \"score_redteam\": 5, \"score_controller\": 7}, {\"flag\": \"weekend_journal_by_junior\", \"redteam\": \"Saturday JE-1041 by intern.k junior for 9750 with no approver risks unauthorized override.\", \"controller\": \"Accrual adjustment may be routine; need lines, support and approval history to conclude.\", \"winner\": \"redteam\", \"winning_evidence\": \"journals.csv#JE-1041\", \"why\": \"Weekday, junior poster and no approver explicitly documented.\", \"score_redteam\": 9, \"score_controller\": 3}]",
+  "model": "muse-spark-1.3",
+  "tokens_in": 1077,
+  "tokens_out": 5078,
+  "latency_s": 14.5,
+  "purpose": "debate_scorecard"
+ },
+ "716ac2ccc0d7c1cb49e4": {
+  "text": "[]",
+  "model": "muse-spark-1.3",
+  "tokens_in": 66,
+  "tokens_out": 340,
+  "latency_s": 1.2,
+  "purpose": "missing_receipt_whatsapp"
+ },
+ "0cd82d2a7772355374ea": {
+  "text": "[\"Hi! Could you please send the receipt photo for AED 894.72 spent at CARD PURCHASE ADNOC on 2026-10-22? Thanks so much!\", \"Hi! Could you please send the receipt photo for AED 886.26 spent at CARD PURCHASE NOON BUSINESS on 2026-10-08? Thanks so much!\", \"Hi! Could you please send the receipt photo for AED 879.73 spent at CARD PURCHASE ADNOC on 2026-10-13? Thanks so much!\", \"Hi! Could you please send the receipt photo for AED 874.87 spent at CARD PURCHASE CARREFOUR on 2026-10-18? Thanks so much!\", \"Hi! Could you please send the receipt photo for AED 870.59 spent at CARD PURCHASE DU TELECOM on 2026-10-03? Thanks so much!\", \"Hi! Could you please send the receipt photo for AED 868.94 spent at CARD PURCHASE CARREFOUR on 2026-10-24? Thanks so much!\"]",
+  "model": "muse-spark-1.3",
+  "tokens_in": 366,
+  "tokens_out": 1092,
+  "latency_s": 5.3,
+  "purpose": "missing_receipt_whatsapp"
+ },
+ "ec232bfdba5cfa05418d": {
+  "text": "{\n  \"name\": \"payment_over_20k_vendor_added_this_month\",\n  \"source\": \"payments\",\n  \"conditions\": [\n    {\n      \"field\": \"amount\",\n      \"op\": \">\",\n      \"value\": 20000\n    },\n    {\n      \"field\": \"vendor_created_this_month\",\n      \"op\": \"==\",\n      \"value\": true\n    }\n  ],\n  \"severity\": \"high\",\n  \"plain\": \"Flag any payment over AED 20,000 to a vendor added this month.\"\n}",
+  "model": "muse-spark-1.3",
+  "tokens_in": 335,
+  "tokens_out": 1404,
+  "latency_s": 5.2,
+  "purpose": "compile_owner_control"
+ },
+ "88d395db47e899f2a254": {
+  "text": "{\"vendor\": \"Sahara Freight Services\", \"invoice_no\": \"PI-0006\", \"date\": \"12-10-2026\", \"net\": 3751.16, \"vat\": 187.56, \"total\": 3938.72, \"currency\": \"AED\", \"trn\": \"100837929841622\"}",
+  "model": "muse-spark-1.3",
+  "tokens_in": 451,
+  "tokens_out": 1224,
+  "latency_s": 6.6,
+  "purpose": "capture_receipt_after_sam_cutout"
+ },
+ "0e261e02c7efbd4b59ee": {
+  "text": "{\"boxes\": {\"vendor\": {\"value\": \"Sahara Freight Services\", \"box\": [440, 124, 769, 156]}, \"trn\": {\"value\": \"100837929841622\", \"box\": [418, 165, 698, 197]}, \"invoice_no\": {\"value\": \"PI-0006\", \"box\": [600, 205, 715, 230]}, \"date\": {\"value\": \"12-10-2026\", \"box\": [612, 250, 760, 276]}, \"net\": {\"value\": \"3,751.16\", \"box\": [553, 287, 680, 316]}, \"vat\": {\"value\": \"187.56\", \"box\": [556, 335, 669, 363]}, \"total\": {\"value\": \"3,938.72\", \"box\": [553, 383, 688, 414]}}}",
+  "model": "muse-spark-1.3",
+  "tokens_in": 487,
+  "tokens_out": 1832,
+  "latency_s": 5.4,
+  "purpose": "receipt_field_boxes_after_sam"
+ },
+ "a8eef63be59a51e97ae3": {
+  "text": "Dear Owner, materiality basis is 1% of October sales with revenue of 1654342.56, overall of 16543.43, performance of 12407.57 and trivial of 827.17. Q1 Cost of sales was adjusted with difference of 78459.47, Q2 Revenue was adjusted with difference of 18500.0, Q3 Payables was adjusted with difference of 3938.72, Q4 Cash was adjusted with difference of 18900.13, Q5 Payments was a control point with difference of 0.0, Q6 Journals was a control point with difference of 0.0 and Q7 Payables was cleared with difference of 3738.35. Net profit before is 229762.81 and net profit after is 172673.55. Opinion is Signed with one open item: the Quickline payment.",
+  "model": "muse-spark-1.3",
+  "tokens_in": 337,
+  "tokens_out": 5146,
+  "latency_s": 16.5,
+  "purpose": "auditor"
+ },
+ "open:a8eef63be59a51e97ae3": {
+  "text": "I have completed my independent review with materiality determined on the basis of October sales and applied at overall, performance and trivial levels. Adjustments were processed for cost of sales, revenue, payables and cash, while payments and journals were recorded as control points and an additional payables matter was cleared. Consequently net profit after adjustments is reduced compared to the position before adjustments. The statements are signed with one open item remaining concerning the Quickline payment.",
+  "model": "meta-models/muse-spark-open-1026",
+  "tokens_in": 474,
+  "tokens_out": 2439,
+  "latency_s": 9.9,
+  "purpose": "auditor"
+ },
+ "open:d6db6fb18f565091d3a1": {
+  "text": "As independent external auditor to your UAE company, I have completed my review of the financial information for October. Materiality for the engagement was set by reference to October sales. Queries relating to cost of sales, revenue, payables and cash were adjusted, an additional payables query was cleared, and matters relating to payments and journals were noted as control points. After these adjustments the net profit was revised and in my opinion no material misstatement remains.",
+  "model": "meta-models/muse-spark-open-1026",
+  "tokens_in": 471,
+  "tokens_out": 2709,
+  "latency_s": 11.4,
+  "purpose": "auditor"
+ },
+ "open:e26ca9db03fe29814b39": {
+  "text": "Materiality was set on the basis of a percentage of October sales, with overall, performance and trivial thresholds applied accordingly. Cost of sales, revenue, payables and cash differences were adjusted, while payments and journals were recorded as control points and a further payables item was cleared. Following these adjustments the net profit after adjustments is lower than the net profit before adjustments. My opinion is signed with one open item remaining, namely the Quickline payment which is waiting for the owner.",
+  "model": "meta-models/muse-spark-open-1026",
+  "tokens_in": 479,
+  "tokens_out": 2000,
+  "latency_s": 10.5,
+  "purpose": "auditor"
+ },
+ "open:2b0cde5c75942006b71d": {
+  "text": "Dear Owner, we have completed our independent audit with materiality determined on the basis of October sales, with overall, performance and trivial thresholds applied. Matters relating to cost of sales, revenue, payables and cash were adjusted, a further payables matter was cleared, and payments and journals were noted as control points. As a result of adjustments net profit after adjustments is lower than before and no material misstatement remains. Our opinion is signed and we note that the Quickline payment was blocked by you as owner.",
+  "model": "meta-models/muse-spark-open-1026",
+  "tokens_in": 479,
+  "tokens_out": 2713,
+  "latency_s": 11.7,
+  "purpose": "auditor"
+ },
+ "open:2af6a1404ccd70bdf60f": {
+  "text": "Dear Owner, our independent external audit of your UAE company is now complete and materiality was determined on the basis of October sales. Following our work, adjustments were posted for cost of sales, revenue, payables and cash, a further payables item was cleared, and payments and journals were raised as control points where no monetary difference arose. As a result of the adjusted items, net profit decreased from the pre-adjustment amount to the final audited amount. We have signed with no material misstatement remaining, noting that the Quickline payment was released by you as owner and that this gives rise to a noted control risk.",
+  "model": "meta-models/muse-spark-open-1026",
+  "tokens_in": 483,
+  "tokens_out": 2082,
+  "latency_s": 8.4,
+  "purpose": "auditor"
+ }
+}

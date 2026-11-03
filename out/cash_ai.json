@@ -1,0 +1,409 @@
+{
+ "base": {
+  "weeks": [
+   "2026-11-02",
+   "2026-11-09",
+   "2026-11-16",
+   "2026-11-23",
+   "2026-11-30",
+   "2026-12-07",
+   "2026-12-14",
+   "2026-12-21",
+   "2026-12-28",
+   "2027-01-04",
+   "2027-01-11",
+   "2027-01-18",
+   "2027-01-25"
+  ],
+  "deterministic": [
+   349562.74,
+   344831.99,
+   234291.1,
+   247376.44,
+   332073.91,
+   305163.64,
+   713222.62,
+   838823.41,
+   773574.91,
+   888707.62,
+   981662.38,
+   1123297.54,
+   1069532.7
+  ],
+  "n": 2000,
+  "p10": [
+   227282.58,
+   112246.84,
+   -27821.45,
+   -68131.85,
+   -9800.88,
+   -2776.5,
+   463615.69,
+   606344.0,
+   543240.01,
+   652700.69,
+   750646.33,
+   850933.07,
+   790692.11
+  ],
+  "p50": [
+   264545.07,
+   168486.44,
+   48802.11,
+   17678.29,
+   77389.35,
+   78624.35,
+   560497.66,
+   708938.1,
+   646897.54,
+   769808.23,
+   876240.31,
+   983616.01,
+   938391.58
+  ],
+  "p90": [
+   311912.62,
+   227927.0,
+   122334.7,
+   108515.31,
+   163696.08,
+   155837.18,
+   658269.47,
+   812761.84,
+   761979.4,
+   890190.61,
+   1002737.93,
+   1119579.03,
+   1088524.85
+  ],
+  "p_negative_by_week": [
+   0.0,
+   0.0,
+   0.206,
+   0.402,
+   0.136,
+   0.107,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "p_negative_any": 0.523,
+  "p_negative_w6": 0.107
+ },
+ "with_actions": {
+  "weeks": [
+   "2026-11-02",
+   "2026-11-09",
+   "2026-11-16",
+   "2026-11-23",
+   "2026-11-30",
+   "2026-12-07",
+   "2026-12-14",
+   "2026-12-21",
+   "2026-12-28",
+   "2027-01-04",
+   "2027-01-11",
+   "2027-01-18",
+   "2027-01-25"
+  ],
+  "deterministic": [
+   349562.74,
+   344831.99,
+   234291.1,
+   247376.44,
+   332073.91,
+   305163.64,
+   713222.62,
+   838823.41,
+   773574.91,
+   888707.62,
+   981662.38,
+   1123297.54,
+   1069532.7
+  ],
+  "n": 2000,
+  "p10": [
+   227282.58,
+   116308.71,
+   49659.72,
+   52284.72,
+   106390.05,
+   88561.18,
+   521617.91,
+   636336.31,
+   573153.03,
+   686305.17,
+   780660.11,
+   874252.85,
+   816009.92
+  ],
+  "p50": [
+   263637.54,
+   171045.52,
+   122834.23,
+   134914.45,
+   193107.55,
+   172210.21,
+   621217.51,
+   738450.63,
+   678292.61,
+   797343.02,
+   900183.14,
+   1009343.84,
+   964597.71
+  ],
+  "p90": [
+   310516.22,
+   231219.66,
+   199071.97,
+   222644.77,
+   286428.74,
+   254294.99,
+   721575.65,
+   836765.74,
+   786612.5,
+   916956.62,
+   1030685.42,
+   1151005.78,
+   1118293.7
+  ],
+  "p_negative_by_week": [
+   0.0,
+   0.0,
+   0.013,
+   0.018,
+   0.003,
+   0.002,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "p_negative_any": 0.034,
+  "p_negative_w6": 0.002
+ },
+ "drafts": [
+  {
+   "id": "C1",
+   "agent": "Collections",
+   "party": "Gulf Star Supermarkets",
+   "tone": "firm but warm",
+   "subject": "AED 48,000 overdue - request payment after 15 Nov",
+   "body": "Dear Gulf Star Supermarkets team,\n\nOur records show AED 48,000 is 61 to 90 days overdue. You noted payment after 15 Nov and we ask you to keep to that date.\n\nWe value our long relationship and your large account. Your credit limit is 150,000 and our contract allows us to suspend deliveries when amounts are over 30 days overdue. We wish to avoid that step.\n\nPlease confirm payment date.\n\nFinance team, Falcon Trading LLC",
+   "impact": {
+    "p50_low_week": 4,
+    "p50_delta": 6732.17,
+    "p_neg_before": 0.523,
+    "p_neg_after": 0.49
+   },
+   "status": "draft, not sent"
+  },
+  {
+   "id": "C2",
+   "agent": "Collections",
+   "party": "Oasis Hotels FZE",
+   "tone": "dispute path: acknowledge claim, separate undisputed amount",
+   "subject": "AED 52,000 overdue and FT-S-0066 dispute",
+   "body": "Dear Oasis Hotels FZE team,\n\nWe note AED 52,000 is over 90 days overdue and your plan to pay 26,000 in mid Nov and 26,000 in mid Dec.\n\nWe also note your dispute for AED 12,000 under FT-S-0066 for water damaged linen. Our contract states undisputed amounts stay payable on time and disputes go to finance directors within 14 days.\n\nPlease pay the undisputed balance on time and let us start the dispute review.\n\nFinance team, Falcon Trading LLC",
+   "impact": {
+    "p50_low_week": 4,
+    "p50_delta": 6908.73,
+    "p_neg_before": 0.523,
+    "p_neg_after": 0.473
+   },
+   "status": "draft, not sent"
+  },
+  {
+   "id": "C3",
+   "agent": "Collections",
+   "party": "Sharjah Wholesale Co",
+   "tone": "supportive, lock in dates",
+   "subject": "AED 40,000 overdue - confirm 20 Nov and 10 Dec plan",
+   "body": "Dear Sharjah Wholesale Co team,\n\nOur records show AED 40,000 is 31 to 60 days overdue. Thank you for offering 20,000 on 20 Nov and 20,000 on 10 Dec.\n\nWe support this plan and ask you to lock in both dates. Please confirm so we can record the schedule.\n\nWe value your business and wish to help you stay on track.\n\nFinance team, Falcon Trading LLC",
+   "impact": {
+    "p50_low_week": 4,
+    "p50_delta": 3320.5,
+    "p_neg_before": 0.523,
+    "p_neg_after": 0.502
+   },
+   "status": "draft, not sent"
+  },
+  {
+   "id": "S1",
+   "agent": "Supplier",
+   "party": "Zenith Electronics FZCO",
+   "tone": "partner",
+   "subject": "Request 30 day extension PI-0050 PI-0014 PI-0037 PI-0013",
+   "body": "Dear Zenith Electronics FZCO team,\n\nInvoices PI-0050, PI-0014, PI-0037 and PI-0013 total about AED 60,400 and fall due 18 to 25 Nov, our tightest weeks. Our contract terms are 60 days.\n\nWe ask for 30 more days on these invoices. We note your planned 3 percent increase from 1 Dec. In return we can offer an early volume commitment.\n\nPlease let us know if this works.\n\nFinance team, Falcon Trading LLC",
+   "impact": {
+    "p50_low_week": 4,
+    "p50_delta": 60430.25,
+    "p_neg_before": 0.523,
+    "p_neg_after": 0.211
+   },
+   "status": "draft, not sent"
+  },
+  {
+   "id": "S2",
+   "agent": "Supplier",
+   "party": "Sahara Freight Services",
+   "tone": "polite",
+   "subject": "Request 30 day extension PI-0044 due 20 Nov",
+   "body": "Dear Sahara Freight Services team,\n\nInvoice PI-0044 for AED 8,790.54 is due 20 Nov. We ask for 30 more days to pay.\n\nWe note fuel surcharge stays flat in Nov. Thank you.\n\nPlease confirm if the extension is possible.\n\nFinance team, Falcon Trading LLC",
+   "impact": {
+    "p50_low_week": 4,
+    "p50_delta": 8790.54,
+    "p_neg_before": 0.523,
+    "p_neg_after": 0.46
+   },
+   "status": "draft, not sent"
+  },
+  {
+   "id": "S3",
+   "agent": "Supplier",
+   "party": "Palm Foods Import",
+   "tone": "firm, contract based",
+   "subject": "PI-0012 pricing error - request credit note AED 3,738.35",
+   "body": "Dear Palm Foods Import team,\n\nInvoice PI-0012 bills basmati at AED 12.50 per kg, but our contract fixes AED 11.00. Price changes need 60 days notice and a signed amendment.\n\nThis overbilled AED 3,738.35 with VAT. Please issue a credit note within 14 days as required. We will hold PI-0012 until then.\n\nPlease confirm.\n\nFinance team, Falcon Trading LLC",
+   "impact": {
+    "p50_low_week": 4,
+    "p50_delta": 31152.84,
+    "p_neg_before": 0.523,
+    "p_neg_after": 0.343
+   },
+   "status": "draft, not sent"
+  }
+ ],
+ "model": {
+  "Al Noor Retail LLC": {
+   "mean": 2.3,
+   "sd": 3.6,
+   "signals": [
+    {
+     "kind": "on_time",
+     "pay_after": null,
+     "amount": null,
+     "claim": "Al Noor paid all September invoices on 24 October."
+    }
+   ],
+   "cites": [
+    "payment_history.csv#Al Noor Retail LLC",
+    "messages.jsonl#M08"
+   ]
+  },
+  "Gulf Star Supermarkets": {
+   "mean": 26.5,
+   "sd": 4.7,
+   "signals": [
+    {
+     "kind": "promise_to_pay",
+     "pay_after": "2026-11-15",
+     "amount": 71062.6,
+     "claim": "Gulf Star will pay invoices FT-S-0012 and FT-S-0080 after 15 November."
+    }
+   ],
+   "cites": [
+    "payment_history.csv#Gulf Star Supermarkets",
+    "messages.jsonl#M01",
+    "invoices.csv#FT-S-0012",
+    "invoices.csv#FT-S-0080"
+   ]
+  },
+  "Emirates Home Supplies": {
+   "mean": 0.7,
+   "sd": 2.1,
+   "signals": [],
+   "cites": [
+    "payment_history.csv#Emirates Home Supplies"
+   ]
+  },
+  "Desert Rose Trading": {
+   "mean": 7.8,
+   "sd": 3.9,
+   "signals": [
+    {
+     "kind": "unbilled_receipt",
+     "pay_after": null,
+     "amount": 18500,
+     "claim": "Desert Rose paid AED 18,500 for delivered order DR-77 not yet invoiced matching receipt B160."
+    }
+   ],
+   "cites": [
+    "payment_history.csv#Desert Rose Trading",
+    "messages.jsonl#M05",
+    "bank_statement.csv#B160"
+   ]
+  },
+  "Marina Hypermarket": {
+   "mean": 2.8,
+   "sd": 1.4,
+   "signals": [
+    {
+     "kind": "on_time",
+     "pay_after": null,
+     "amount": null,
+     "claim": "Marina confirms all October invoices are approved and scheduled on normal terms."
+    }
+   ],
+   "cites": [
+    "payment_history.csv#Marina Hypermarket",
+    "messages.jsonl#M15"
+   ]
+  },
+  "Sharjah Wholesale Co": {
+   "mean": 19.9,
+   "sd": 11.9,
+   "signals": [
+    {
+     "kind": "payment_plan",
+     "pay_after": "2026-11-20",
+     "amount": 40000,
+     "claim": "Sharjah will clear AED 40,000 overdue in AED 20,000 on 20 Nov and AED 20,000 on 10 Dec."
+    }
+   ],
+   "cites": [
+    "payment_history.csv#Sharjah Wholesale Co",
+    "messages.jsonl#M06"
+   ]
+  },
+  "Oasis Hotels FZE": {
+   "mean": 32.1,
+   "sd": 16.3,
+   "signals": [
+    {
+     "kind": "dispute",
+     "pay_after": null,
+     "amount": 12000,
+     "claim": "Oasis is withholding AED 12,000 of FT-S-0066 for water-damaged linen pending a credit note."
+    },
+    {
+     "kind": "payment_plan",
+     "pay_after": "2026-11-15",
+     "amount": 52000,
+     "claim": "Oasis proposes to pay the older AED 52,000 balance in mid November and mid December."
+    }
+   ],
+   "cites": [
+    "payment_history.csv#Oasis Hotels FZE",
+    "messages.jsonl#M02",
+    "invoices.csv#FT-S-0066",
+    "messages.jsonl#M14"
+   ]
+  },
+  "Blue Creek Catering": {
+   "mean": 8.2,
+   "sd": 3.3,
+   "signals": [],
+   "cites": [
+    "payment_history.csv#Blue Creek Catering"
+   ]
+  }
+ }
+}

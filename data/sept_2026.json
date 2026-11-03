@@ -1,0 +1,28 @@
+{
+  "pnl": {
+    "4000": -1512300.0,
+    "5000": 1071000.0,
+    "6000": 35000.0,
+    "6100": 121400.0,
+    "6200": 310.0,
+    "6300": 3420.0,
+    "6400": 2000.0,
+    "6500": 1500.0,
+    "6700": 22800.0
+  },
+  "drivers": {
+    "units_sold": 61200,
+    "avg_price_aed": 24.71,
+    "headcount": 22,
+    "active_customers": 8,
+    "promo_days": 0
+  },
+  "drivers_oct": {
+    "units_sold": 64900,
+    "avg_price_aed": 25.49,
+    "headcount": 23,
+    "active_customers": 8,
+    "promo_days": 3,
+    "note": "one warehouse hire on 1 Oct; card spend includes trade show stand AED 21,000"
+  }
+}

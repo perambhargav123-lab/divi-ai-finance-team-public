@@ -1,0 +1,3 @@
+je,date,weekday,posted_by,debit,credit,amount,memo,flag
+JE-1041,2026-10-24,Saturday,intern.k (junior),6000,2200,9750.0,accrual adj,"ANOMALY weekend journal by junior, no approver"
+JE-1040,2026-10-23,Friday,fc.ahmed,5000,1200,1190000.0,"COGS Oct, 72% margin method",

@@ -1,0 +1,36 @@
+[
+ {
+  "step": "receipt cut-out from photo",
+  "model": "sam-3.1",
+  "calls": 1,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "cost_aed": 0
+ },
+ {
+  "step": "treasurer web search: UAE tax rules",
+  "model": "muse-spark-1.3",
+  "calls": 1,
+  "tokens_in": 17409,
+  "tokens_out": 2350,
+  "cost_aed": 0.1166
+ },
+ {
+  "step": "thumbnail art",
+  "model": "muse-image-1.0",
+  "calls": 1,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "cost_aed": 0,
+  "latency_s": 20.8
+ },
+ {
+  "step": "end_card art",
+  "model": "muse-image-1.0",
+  "calls": 1,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "cost_aed": 0,
+  "latency_s": 11.8
+ }
+]

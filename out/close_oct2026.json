@@ -1,0 +1,9612 @@
+{
+  "entries": [
+    {
+      "id": "DV-0001",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 420000.0
+        },
+        {
+          "acct": "OB",
+          "amt": -420000.0
+        }
+      ],
+      "memo": "opening balance",
+      "proof": [
+        "opening_trial_balance.csv"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0002",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 610000.0
+        },
+        {
+          "acct": "OB",
+          "amt": -610000.0
+        }
+      ],
+      "memo": "opening balance",
+      "proof": [
+        "opening_trial_balance.csv"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0003",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 385000.0
+        },
+        {
+          "acct": "OB",
+          "amt": -385000.0
+        }
+      ],
+      "memo": "opening balance",
+      "proof": [
+        "opening_trial_balance.csv"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0004",
+      "lines": [
+        {
+          "acct": "1300",
+          "amt": 0.0
+        },
+        {
+          "acct": "OB",
+          "amt": -0.0
+        }
+      ],
+      "memo": "opening balance",
+      "proof": [
+        "opening_trial_balance.csv"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0005",
+      "lines": [
+        {
+          "acct": "1500",
+          "amt": 150000.0
+        },
+        {
+          "acct": "OB",
+          "amt": -150000.0
+        }
+      ],
+      "memo": "opening balance",
+      "proof": [
+        "opening_trial_balance.csv"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0006",
+      "lines": [
+        {
+          "acct": "2000",
+          "amt": -455000.0
+        },
+        {
+          "acct": "OB",
+          "amt": 455000.0
+        }
+      ],
+      "memo": "opening balance",
+      "proof": [
+        "opening_trial_balance.csv"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0007",
+      "lines": [
+        {
+          "acct": "2100",
+          "amt": 0.0
+        },
+        {
+          "acct": "OB",
+          "amt": -0.0
+        }
+      ],
+      "memo": "opening balance",
+      "proof": [
+        "opening_trial_balance.csv"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0008",
+      "lines": [
+        {
+          "acct": "2200",
+          "amt": -40000.0
+        },
+        {
+          "acct": "OB",
+          "amt": 40000.0
+        }
+      ],
+      "memo": "opening balance",
+      "proof": [
+        "opening_trial_balance.csv"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0009",
+      "lines": [
+        {
+          "acct": "3000",
+          "amt": -300000.0
+        },
+        {
+          "acct": "OB",
+          "amt": 300000.0
+        }
+      ],
+      "memo": "opening balance",
+      "proof": [
+        "opening_trial_balance.csv"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0010",
+      "lines": [
+        {
+          "acct": "3100",
+          "amt": -770000.0
+        },
+        {
+          "acct": "OB",
+          "amt": 770000.0
+        }
+      ],
+      "memo": "opening balance",
+      "proof": [
+        "opening_trial_balance.csv"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0011",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 6687.89
+        },
+        {
+          "acct": "4000",
+          "amt": -6369.42
+        },
+        {
+          "acct": "2100",
+          "amt": -318.47
+        }
+      ],
+      "memo": "sale FT-S-0001",
+      "proof": [
+        "invoices.csv#FT-S-0001"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0012",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 24449.7
+        },
+        {
+          "acct": "4000",
+          "amt": -23285.43
+        },
+        {
+          "acct": "2100",
+          "amt": -1164.27
+        }
+      ],
+      "memo": "sale FT-S-0002",
+      "proof": [
+        "invoices.csv#FT-S-0002"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0013",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 10919.74
+        },
+        {
+          "acct": "4000",
+          "amt": -10399.75
+        },
+        {
+          "acct": "2100",
+          "amt": -519.99
+        }
+      ],
+      "memo": "sale FT-S-0003",
+      "proof": [
+        "invoices.csv#FT-S-0003"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0014",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 9489.67
+        },
+        {
+          "acct": "4000",
+          "amt": -9037.78
+        },
+        {
+          "acct": "2100",
+          "amt": -451.89
+        }
+      ],
+      "memo": "sale FT-S-0004",
+      "proof": [
+        "invoices.csv#FT-S-0004"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0015",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 22692.17
+        },
+        {
+          "acct": "4000",
+          "amt": -21611.59
+        },
+        {
+          "acct": "2100",
+          "amt": -1080.58
+        }
+      ],
+      "memo": "sale FT-S-0005",
+      "proof": [
+        "invoices.csv#FT-S-0005"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0016",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 30628.03
+        },
+        {
+          "acct": "4000",
+          "amt": -29169.55
+        },
+        {
+          "acct": "2100",
+          "amt": -1458.48
+        }
+      ],
+      "memo": "sale FT-S-0006",
+      "proof": [
+        "invoices.csv#FT-S-0006"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0017",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 22131.61
+        },
+        {
+          "acct": "4000",
+          "amt": -21077.72
+        },
+        {
+          "acct": "2100",
+          "amt": -1053.89
+        }
+      ],
+      "memo": "sale FT-S-0007",
+      "proof": [
+        "invoices.csv#FT-S-0007"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0018",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 27094.23
+        },
+        {
+          "acct": "4000",
+          "amt": -25804.03
+        },
+        {
+          "acct": "2100",
+          "amt": -1290.2
+        }
+      ],
+      "memo": "sale FT-S-0008",
+      "proof": [
+        "invoices.csv#FT-S-0008"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0019",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 17752.48
+        },
+        {
+          "acct": "4000",
+          "amt": -16907.12
+        },
+        {
+          "acct": "2100",
+          "amt": -845.36
+        }
+      ],
+      "memo": "sale FT-S-0009",
+      "proof": [
+        "invoices.csv#FT-S-0009"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0020",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 8703.47
+        },
+        {
+          "acct": "4000",
+          "amt": -8289.02
+        },
+        {
+          "acct": "2100",
+          "amt": -414.45
+        }
+      ],
+      "memo": "sale FT-S-0010",
+      "proof": [
+        "invoices.csv#FT-S-0010"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0021",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 8789.17
+        },
+        {
+          "acct": "4000",
+          "amt": -8370.64
+        },
+        {
+          "acct": "2100",
+          "amt": -418.53
+        }
+      ],
+      "memo": "sale FT-S-0011",
+      "proof": [
+        "invoices.csv#FT-S-0011"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0022",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 32211.57
+        },
+        {
+          "acct": "4000",
+          "amt": -30677.69
+        },
+        {
+          "acct": "2100",
+          "amt": -1533.88
+        }
+      ],
+      "memo": "sale FT-S-0012",
+      "proof": [
+        "invoices.csv#FT-S-0012"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0023",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 10201.72
+        },
+        {
+          "acct": "4000",
+          "amt": -9715.92
+        },
+        {
+          "acct": "2100",
+          "amt": -485.8
+        }
+      ],
+      "memo": "sale FT-S-0013",
+      "proof": [
+        "invoices.csv#FT-S-0013"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0024",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 14590.72
+        },
+        {
+          "acct": "4000",
+          "amt": -13895.92
+        },
+        {
+          "acct": "2100",
+          "amt": -694.8
+        }
+      ],
+      "memo": "sale FT-S-0014",
+      "proof": [
+        "invoices.csv#FT-S-0014"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0025",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 34099.22
+        },
+        {
+          "acct": "4000",
+          "amt": -32475.45
+        },
+        {
+          "acct": "2100",
+          "amt": -1623.77
+        }
+      ],
+      "memo": "sale FT-S-0015",
+      "proof": [
+        "invoices.csv#FT-S-0015"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0026",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 29165.27
+        },
+        {
+          "acct": "4000",
+          "amt": -27776.45
+        },
+        {
+          "acct": "2100",
+          "amt": -1388.82
+        }
+      ],
+      "memo": "sale FT-S-0016",
+      "proof": [
+        "invoices.csv#FT-S-0016"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0027",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 13239.66
+        },
+        {
+          "acct": "4000",
+          "amt": -12609.2
+        },
+        {
+          "acct": "2100",
+          "amt": -630.46
+        }
+      ],
+      "memo": "sale FT-S-0017",
+      "proof": [
+        "invoices.csv#FT-S-0017"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0028",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 12068.34
+        },
+        {
+          "acct": "4000",
+          "amt": -11493.66
+        },
+        {
+          "acct": "2100",
+          "amt": -574.68
+        }
+      ],
+      "memo": "sale FT-S-0018",
+      "proof": [
+        "invoices.csv#FT-S-0018"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0029",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 27975.89
+        },
+        {
+          "acct": "4000",
+          "amt": -26643.7
+        },
+        {
+          "acct": "2100",
+          "amt": -1332.19
+        }
+      ],
+      "memo": "sale FT-S-0019",
+      "proof": [
+        "invoices.csv#FT-S-0019"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0030",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 25917.28
+        },
+        {
+          "acct": "4000",
+          "amt": -24683.12
+        },
+        {
+          "acct": "2100",
+          "amt": -1234.16
+        }
+      ],
+      "memo": "sale FT-S-0020",
+      "proof": [
+        "invoices.csv#FT-S-0020"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0031",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 4515.99
+        },
+        {
+          "acct": "4000",
+          "amt": -4300.94
+        },
+        {
+          "acct": "2100",
+          "amt": -215.05
+        }
+      ],
+      "memo": "sale FT-S-0021",
+      "proof": [
+        "invoices.csv#FT-S-0021"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0032",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 11781.49
+        },
+        {
+          "acct": "4000",
+          "amt": -11220.47
+        },
+        {
+          "acct": "2100",
+          "amt": -561.02
+        }
+      ],
+      "memo": "sale FT-S-0022",
+      "proof": [
+        "invoices.csv#FT-S-0022"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0033",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 2683.25
+        },
+        {
+          "acct": "4000",
+          "amt": -2555.48
+        },
+        {
+          "acct": "2100",
+          "amt": -127.77
+        }
+      ],
+      "memo": "sale FT-S-0023",
+      "proof": [
+        "invoices.csv#FT-S-0023"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0034",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 5648.3
+        },
+        {
+          "acct": "4000",
+          "amt": -5379.33
+        },
+        {
+          "acct": "2100",
+          "amt": -268.97
+        }
+      ],
+      "memo": "sale FT-S-0024",
+      "proof": [
+        "invoices.csv#FT-S-0024"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0035",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 31574.8
+        },
+        {
+          "acct": "4000",
+          "amt": -30071.24
+        },
+        {
+          "acct": "2100",
+          "amt": -1503.56
+        }
+      ],
+      "memo": "sale FT-S-0025",
+      "proof": [
+        "invoices.csv#FT-S-0025"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0036",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 17378.4
+        },
+        {
+          "acct": "4000",
+          "amt": -16550.86
+        },
+        {
+          "acct": "2100",
+          "amt": -827.54
+        }
+      ],
+      "memo": "sale FT-S-0026",
+      "proof": [
+        "invoices.csv#FT-S-0026"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0037",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 39110.44
+        },
+        {
+          "acct": "4000",
+          "amt": -37248.04
+        },
+        {
+          "acct": "2100",
+          "amt": -1862.4
+        }
+      ],
+      "memo": "sale FT-S-0027",
+      "proof": [
+        "invoices.csv#FT-S-0027"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0038",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 21047.69
+        },
+        {
+          "acct": "4000",
+          "amt": -20045.42
+        },
+        {
+          "acct": "2100",
+          "amt": -1002.27
+        }
+      ],
+      "memo": "sale FT-S-0028",
+      "proof": [
+        "invoices.csv#FT-S-0028"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0039",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 13133.12
+        },
+        {
+          "acct": "4000",
+          "amt": -12507.73
+        },
+        {
+          "acct": "2100",
+          "amt": -625.39
+        }
+      ],
+      "memo": "sale FT-S-0029",
+      "proof": [
+        "invoices.csv#FT-S-0029"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0040",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 29133.53
+        },
+        {
+          "acct": "4000",
+          "amt": -27746.22
+        },
+        {
+          "acct": "2100",
+          "amt": -1387.31
+        }
+      ],
+      "memo": "sale FT-S-0030",
+      "proof": [
+        "invoices.csv#FT-S-0030"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0041",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 14594.72
+        },
+        {
+          "acct": "4000",
+          "amt": -13899.73
+        },
+        {
+          "acct": "2100",
+          "amt": -694.99
+        }
+      ],
+      "memo": "sale FT-S-0031",
+      "proof": [
+        "invoices.csv#FT-S-0031"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0042",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 31126.37
+        },
+        {
+          "acct": "4000",
+          "amt": -29644.16
+        },
+        {
+          "acct": "2100",
+          "amt": -1482.21
+        }
+      ],
+      "memo": "sale FT-S-0032",
+      "proof": [
+        "invoices.csv#FT-S-0032"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0043",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 15045.89
+        },
+        {
+          "acct": "4000",
+          "amt": -14329.42
+        },
+        {
+          "acct": "2100",
+          "amt": -716.47
+        }
+      ],
+      "memo": "sale FT-S-0033",
+      "proof": [
+        "invoices.csv#FT-S-0033"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0044",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 25497.08
+        },
+        {
+          "acct": "4000",
+          "amt": -24282.93
+        },
+        {
+          "acct": "2100",
+          "amt": -1214.15
+        }
+      ],
+      "memo": "sale FT-S-0034",
+      "proof": [
+        "invoices.csv#FT-S-0034"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0045",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 24664.8
+        },
+        {
+          "acct": "4000",
+          "amt": -23490.29
+        },
+        {
+          "acct": "2100",
+          "amt": -1174.51
+        }
+      ],
+      "memo": "sale FT-S-0035",
+      "proof": [
+        "invoices.csv#FT-S-0035"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0046",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 18156.31
+        },
+        {
+          "acct": "4000",
+          "amt": -17291.72
+        },
+        {
+          "acct": "2100",
+          "amt": -864.59
+        }
+      ],
+      "memo": "sale FT-S-0036",
+      "proof": [
+        "invoices.csv#FT-S-0036"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0047",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 11145.77
+        },
+        {
+          "acct": "4000",
+          "amt": -10615.02
+        },
+        {
+          "acct": "2100",
+          "amt": -530.75
+        }
+      ],
+      "memo": "sale FT-S-0037",
+      "proof": [
+        "invoices.csv#FT-S-0037"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0048",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 22622.64
+        },
+        {
+          "acct": "4000",
+          "amt": -21545.37
+        },
+        {
+          "acct": "2100",
+          "amt": -1077.27
+        }
+      ],
+      "memo": "sale FT-S-0038",
+      "proof": [
+        "invoices.csv#FT-S-0038"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0049",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 11738.03
+        },
+        {
+          "acct": "4000",
+          "amt": -11179.08
+        },
+        {
+          "acct": "2100",
+          "amt": -558.95
+        }
+      ],
+      "memo": "sale FT-S-0039",
+      "proof": [
+        "invoices.csv#FT-S-0039"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0050",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 22555.47
+        },
+        {
+          "acct": "4000",
+          "amt": -21481.4
+        },
+        {
+          "acct": "2100",
+          "amt": -1074.07
+        }
+      ],
+      "memo": "sale FT-S-0040",
+      "proof": [
+        "invoices.csv#FT-S-0040"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0051",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 25792.2
+        },
+        {
+          "acct": "4000",
+          "amt": -24564.0
+        },
+        {
+          "acct": "2100",
+          "amt": -1228.2
+        }
+      ],
+      "memo": "sale FT-S-0041",
+      "proof": [
+        "invoices.csv#FT-S-0041"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0052",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 26678.06
+        },
+        {
+          "acct": "4000",
+          "amt": -25407.68
+        },
+        {
+          "acct": "2100",
+          "amt": -1270.38
+        }
+      ],
+      "memo": "sale FT-S-0042",
+      "proof": [
+        "invoices.csv#FT-S-0042"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0053",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 26027.65
+        },
+        {
+          "acct": "4000",
+          "amt": -24788.24
+        },
+        {
+          "acct": "2100",
+          "amt": -1239.41
+        }
+      ],
+      "memo": "sale FT-S-0043",
+      "proof": [
+        "invoices.csv#FT-S-0043"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0054",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 26967.4
+        },
+        {
+          "acct": "4000",
+          "amt": -25683.24
+        },
+        {
+          "acct": "2100",
+          "amt": -1284.16
+        }
+      ],
+      "memo": "sale FT-S-0044",
+      "proof": [
+        "invoices.csv#FT-S-0044"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0055",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 38773.32
+        },
+        {
+          "acct": "4000",
+          "amt": -36926.97
+        },
+        {
+          "acct": "2100",
+          "amt": -1846.35
+        }
+      ],
+      "memo": "sale FT-S-0045",
+      "proof": [
+        "invoices.csv#FT-S-0045"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0056",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 30268.29
+        },
+        {
+          "acct": "4000",
+          "amt": -28826.94
+        },
+        {
+          "acct": "2100",
+          "amt": -1441.35
+        }
+      ],
+      "memo": "sale FT-S-0046",
+      "proof": [
+        "invoices.csv#FT-S-0046"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0057",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 31968.18
+        },
+        {
+          "acct": "4000",
+          "amt": -30445.89
+        },
+        {
+          "acct": "2100",
+          "amt": -1522.29
+        }
+      ],
+      "memo": "sale FT-S-0047",
+      "proof": [
+        "invoices.csv#FT-S-0047"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0058",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 34653.85
+        },
+        {
+          "acct": "4000",
+          "amt": -33003.67
+        },
+        {
+          "acct": "2100",
+          "amt": -1650.18
+        }
+      ],
+      "memo": "sale FT-S-0048",
+      "proof": [
+        "invoices.csv#FT-S-0048"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0059",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 32772.34
+        },
+        {
+          "acct": "4000",
+          "amt": -31211.75
+        },
+        {
+          "acct": "2100",
+          "amt": -1560.59
+        }
+      ],
+      "memo": "sale FT-S-0049",
+      "proof": [
+        "invoices.csv#FT-S-0049"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0060",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 8083.52
+        },
+        {
+          "acct": "4000",
+          "amt": -7698.59
+        },
+        {
+          "acct": "2100",
+          "amt": -384.93
+        }
+      ],
+      "memo": "sale FT-S-0050",
+      "proof": [
+        "invoices.csv#FT-S-0050"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0061",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 15497.54
+        },
+        {
+          "acct": "4000",
+          "amt": -14759.56
+        },
+        {
+          "acct": "2100",
+          "amt": -737.98
+        }
+      ],
+      "memo": "sale FT-S-0051",
+      "proof": [
+        "invoices.csv#FT-S-0051"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0062",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 3517.74
+        },
+        {
+          "acct": "4000",
+          "amt": -3350.23
+        },
+        {
+          "acct": "2100",
+          "amt": -167.51
+        }
+      ],
+      "memo": "sale FT-S-0052",
+      "proof": [
+        "invoices.csv#FT-S-0052"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0063",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 29732.12
+        },
+        {
+          "acct": "4000",
+          "amt": -28316.3
+        },
+        {
+          "acct": "2100",
+          "amt": -1415.82
+        }
+      ],
+      "memo": "sale FT-S-0053",
+      "proof": [
+        "invoices.csv#FT-S-0053"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0064",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 10307.23
+        },
+        {
+          "acct": "4000",
+          "amt": -9816.41
+        },
+        {
+          "acct": "2100",
+          "amt": -490.82
+        }
+      ],
+      "memo": "sale FT-S-0054",
+      "proof": [
+        "invoices.csv#FT-S-0054"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0065",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 3787.51
+        },
+        {
+          "acct": "4000",
+          "amt": -3607.15
+        },
+        {
+          "acct": "2100",
+          "amt": -180.36
+        }
+      ],
+      "memo": "sale FT-S-0055",
+      "proof": [
+        "invoices.csv#FT-S-0055"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0066",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 5333.29
+        },
+        {
+          "acct": "4000",
+          "amt": -5079.32
+        },
+        {
+          "acct": "2100",
+          "amt": -253.97
+        }
+      ],
+      "memo": "sale FT-S-0056",
+      "proof": [
+        "invoices.csv#FT-S-0056"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0067",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 11982.59
+        },
+        {
+          "acct": "4000",
+          "amt": -11411.99
+        },
+        {
+          "acct": "2100",
+          "amt": -570.6
+        }
+      ],
+      "memo": "sale FT-S-0057",
+      "proof": [
+        "invoices.csv#FT-S-0057"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0068",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 13172.11
+        },
+        {
+          "acct": "4000",
+          "amt": -12544.87
+        },
+        {
+          "acct": "2100",
+          "amt": -627.24
+        }
+      ],
+      "memo": "sale FT-S-0058",
+      "proof": [
+        "invoices.csv#FT-S-0058"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0069",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 9232.76
+        },
+        {
+          "acct": "4000",
+          "amt": -8793.1
+        },
+        {
+          "acct": "2100",
+          "amt": -439.66
+        }
+      ],
+      "memo": "sale FT-S-0059",
+      "proof": [
+        "invoices.csv#FT-S-0059"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0070",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 25004.95
+        },
+        {
+          "acct": "4000",
+          "amt": -23814.24
+        },
+        {
+          "acct": "2100",
+          "amt": -1190.71
+        }
+      ],
+      "memo": "sale FT-S-0060",
+      "proof": [
+        "invoices.csv#FT-S-0060"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0071",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 31295.6
+        },
+        {
+          "acct": "4000",
+          "amt": -29805.33
+        },
+        {
+          "acct": "2100",
+          "amt": -1490.27
+        }
+      ],
+      "memo": "sale FT-S-0061",
+      "proof": [
+        "invoices.csv#FT-S-0061"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0072",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 21611.99
+        },
+        {
+          "acct": "4000",
+          "amt": -20582.85
+        },
+        {
+          "acct": "2100",
+          "amt": -1029.14
+        }
+      ],
+      "memo": "sale FT-S-0062",
+      "proof": [
+        "invoices.csv#FT-S-0062"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0073",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 35635.88
+        },
+        {
+          "acct": "4000",
+          "amt": -33938.93
+        },
+        {
+          "acct": "2100",
+          "amt": -1696.95
+        }
+      ],
+      "memo": "sale FT-S-0063",
+      "proof": [
+        "invoices.csv#FT-S-0063"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0074",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 16010.27
+        },
+        {
+          "acct": "4000",
+          "amt": -15247.88
+        },
+        {
+          "acct": "2100",
+          "amt": -762.39
+        }
+      ],
+      "memo": "sale FT-S-0064",
+      "proof": [
+        "invoices.csv#FT-S-0064"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0075",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 11480.26
+        },
+        {
+          "acct": "4000",
+          "amt": -10933.58
+        },
+        {
+          "acct": "2100",
+          "amt": -546.68
+        }
+      ],
+      "memo": "sale FT-S-0065",
+      "proof": [
+        "invoices.csv#FT-S-0065"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0076",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 35136.35
+        },
+        {
+          "acct": "4000",
+          "amt": -33463.19
+        },
+        {
+          "acct": "2100",
+          "amt": -1673.16
+        }
+      ],
+      "memo": "sale FT-S-0066",
+      "proof": [
+        "invoices.csv#FT-S-0066"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0077",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 25420.89
+        },
+        {
+          "acct": "4000",
+          "amt": -24210.37
+        },
+        {
+          "acct": "2100",
+          "amt": -1210.52
+        }
+      ],
+      "memo": "sale FT-S-0067",
+      "proof": [
+        "invoices.csv#FT-S-0067"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0078",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 36479.08
+        },
+        {
+          "acct": "4000",
+          "amt": -34741.98
+        },
+        {
+          "acct": "2100",
+          "amt": -1737.1
+        }
+      ],
+      "memo": "sale FT-S-0068",
+      "proof": [
+        "invoices.csv#FT-S-0068"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0079",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 32917.61
+        },
+        {
+          "acct": "4000",
+          "amt": -31350.1
+        },
+        {
+          "acct": "2100",
+          "amt": -1567.51
+        }
+      ],
+      "memo": "sale FT-S-0069",
+      "proof": [
+        "invoices.csv#FT-S-0069"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0080",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 4709.51
+        },
+        {
+          "acct": "4000",
+          "amt": -4485.25
+        },
+        {
+          "acct": "2100",
+          "amt": -224.26
+        }
+      ],
+      "memo": "sale FT-S-0070",
+      "proof": [
+        "invoices.csv#FT-S-0070"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0081",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 13894.59
+        },
+        {
+          "acct": "4000",
+          "amt": -13232.94
+        },
+        {
+          "acct": "2100",
+          "amt": -661.65
+        }
+      ],
+      "memo": "sale FT-S-0071",
+      "proof": [
+        "invoices.csv#FT-S-0071"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0082",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 14385.07
+        },
+        {
+          "acct": "4000",
+          "amt": -13700.07
+        },
+        {
+          "acct": "2100",
+          "amt": -685.0
+        }
+      ],
+      "memo": "sale FT-S-0072",
+      "proof": [
+        "invoices.csv#FT-S-0072"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0083",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 36048.58
+        },
+        {
+          "acct": "4000",
+          "amt": -34331.98
+        },
+        {
+          "acct": "2100",
+          "amt": -1716.6
+        }
+      ],
+      "memo": "sale FT-S-0073",
+      "proof": [
+        "invoices.csv#FT-S-0073"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0084",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 13957.2
+        },
+        {
+          "acct": "4000",
+          "amt": -13292.57
+        },
+        {
+          "acct": "2100",
+          "amt": -664.63
+        }
+      ],
+      "memo": "sale FT-S-0074",
+      "proof": [
+        "invoices.csv#FT-S-0074"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0085",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 28150.29
+        },
+        {
+          "acct": "4000",
+          "amt": -26809.8
+        },
+        {
+          "acct": "2100",
+          "amt": -1340.49
+        }
+      ],
+      "memo": "sale FT-S-0075",
+      "proof": [
+        "invoices.csv#FT-S-0075"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0086",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 32462.46
+        },
+        {
+          "acct": "4000",
+          "amt": -30916.63
+        },
+        {
+          "acct": "2100",
+          "amt": -1545.83
+        }
+      ],
+      "memo": "sale FT-S-0076",
+      "proof": [
+        "invoices.csv#FT-S-0076"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0087",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 23516.34
+        },
+        {
+          "acct": "4000",
+          "amt": -22396.51
+        },
+        {
+          "acct": "2100",
+          "amt": -1119.83
+        }
+      ],
+      "memo": "sale FT-S-0077",
+      "proof": [
+        "invoices.csv#FT-S-0077"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0088",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 14535.2
+        },
+        {
+          "acct": "4000",
+          "amt": -13843.05
+        },
+        {
+          "acct": "2100",
+          "amt": -692.15
+        }
+      ],
+      "memo": "sale FT-S-0078",
+      "proof": [
+        "invoices.csv#FT-S-0078"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0089",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 7594.69
+        },
+        {
+          "acct": "4000",
+          "amt": -7233.04
+        },
+        {
+          "acct": "2100",
+          "amt": -361.65
+        }
+      ],
+      "memo": "sale FT-S-0079",
+      "proof": [
+        "invoices.csv#FT-S-0079"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0090",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 38851.03
+        },
+        {
+          "acct": "4000",
+          "amt": -37000.98
+        },
+        {
+          "acct": "2100",
+          "amt": -1850.05
+        }
+      ],
+      "memo": "sale FT-S-0080",
+      "proof": [
+        "invoices.csv#FT-S-0080"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0091",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 13193.15
+        },
+        {
+          "acct": "4000",
+          "amt": -12564.9
+        },
+        {
+          "acct": "2100",
+          "amt": -628.25
+        }
+      ],
+      "memo": "sale FT-S-0081",
+      "proof": [
+        "invoices.csv#FT-S-0081"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0092",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 22879.95
+        },
+        {
+          "acct": "4000",
+          "amt": -21790.43
+        },
+        {
+          "acct": "2100",
+          "amt": -1089.52
+        }
+      ],
+      "memo": "sale FT-S-0082",
+      "proof": [
+        "invoices.csv#FT-S-0082"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0093",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 27772.82
+        },
+        {
+          "acct": "4000",
+          "amt": -26450.3
+        },
+        {
+          "acct": "2100",
+          "amt": -1322.52
+        }
+      ],
+      "memo": "sale FT-S-0083",
+      "proof": [
+        "invoices.csv#FT-S-0083"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0094",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 15411.67
+        },
+        {
+          "acct": "4000",
+          "amt": -14677.78
+        },
+        {
+          "acct": "2100",
+          "amt": -733.89
+        }
+      ],
+      "memo": "sale FT-S-0084",
+      "proof": [
+        "invoices.csv#FT-S-0084"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0095",
+      "lines": [
+        {
+          "acct": "1100",
+          "amt": 12194.67
+        },
+        {
+          "acct": "4000",
+          "amt": -11613.97
+        },
+        {
+          "acct": "2100",
+          "amt": -580.7
+        }
+      ],
+      "memo": "sale FT-S-0085",
+      "proof": [
+        "invoices.csv#FT-S-0085"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0096",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 18000.12
+        },
+        {
+          "acct": "1300",
+          "amt": 900.01
+        },
+        {
+          "acct": "2000",
+          "amt": -18900.13
+        }
+      ],
+      "memo": "purchase PI-0001",
+      "proof": [
+        "invoices.csv#PI-0001"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0097",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 15064.37
+        },
+        {
+          "acct": "1300",
+          "amt": 753.22
+        },
+        {
+          "acct": "2000",
+          "amt": -15817.59
+        }
+      ],
+      "memo": "purchase PI-0002",
+      "proof": [
+        "invoices.csv#PI-0002"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0098",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 7766.33
+        },
+        {
+          "acct": "1300",
+          "amt": 388.32
+        },
+        {
+          "acct": "2000",
+          "amt": -8154.65
+        }
+      ],
+      "memo": "purchase PI-0003",
+      "proof": [
+        "invoices.csv#PI-0003"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0099",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 9156.36
+        },
+        {
+          "acct": "1300",
+          "amt": 457.82
+        },
+        {
+          "acct": "2000",
+          "amt": -9614.18
+        }
+      ],
+      "memo": "purchase PI-0004",
+      "proof": [
+        "invoices.csv#PI-0004"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0100",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 14528.39
+        },
+        {
+          "acct": "1300",
+          "amt": 726.42
+        },
+        {
+          "acct": "2000",
+          "amt": -15254.81
+        }
+      ],
+      "memo": "purchase PI-0005",
+      "proof": [
+        "invoices.csv#PI-0005"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0101",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 3751.16
+        },
+        {
+          "acct": "1300",
+          "amt": 187.56
+        },
+        {
+          "acct": "2000",
+          "amt": -3938.72
+        }
+      ],
+      "memo": "purchase PI-0006",
+      "proof": [
+        "invoices.csv#PI-0006"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0102",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 29503.71
+        },
+        {
+          "acct": "1300",
+          "amt": 1475.19
+        },
+        {
+          "acct": "2000",
+          "amt": -30978.9
+        }
+      ],
+      "memo": "purchase PI-0007",
+      "proof": [
+        "invoices.csv#PI-0007"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0103",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 14708.72
+        },
+        {
+          "acct": "1300",
+          "amt": 735.44
+        },
+        {
+          "acct": "2000",
+          "amt": -15444.16
+        }
+      ],
+      "memo": "purchase PI-0008",
+      "proof": [
+        "invoices.csv#PI-0008"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0104",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 10319.27
+        },
+        {
+          "acct": "1300",
+          "amt": 515.96
+        },
+        {
+          "acct": "2000",
+          "amt": -10835.23
+        }
+      ],
+      "memo": "purchase PI-0009",
+      "proof": [
+        "invoices.csv#PI-0009"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0105",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 18288.23
+        },
+        {
+          "acct": "1300",
+          "amt": 914.41
+        },
+        {
+          "acct": "2000",
+          "amt": -19202.64
+        }
+      ],
+      "memo": "purchase PI-0010",
+      "proof": [
+        "invoices.csv#PI-0010"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0106",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 13456.77
+        },
+        {
+          "acct": "1300",
+          "amt": 672.84
+        },
+        {
+          "acct": "2000",
+          "amt": -14129.61
+        }
+      ],
+      "memo": "purchase PI-0011",
+      "proof": [
+        "invoices.csv#PI-0011"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0107",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 29669.37
+        },
+        {
+          "acct": "1300",
+          "amt": 1483.47
+        },
+        {
+          "acct": "2000",
+          "amt": -31152.84
+        }
+      ],
+      "memo": "purchase PI-0012",
+      "proof": [
+        "invoices.csv#PI-0012"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0108",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 11291.41
+        },
+        {
+          "acct": "1300",
+          "amt": 564.57
+        },
+        {
+          "acct": "2000",
+          "amt": -11855.98
+        }
+      ],
+      "memo": "purchase PI-0013",
+      "proof": [
+        "invoices.csv#PI-0013"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0109",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 15417.01
+        },
+        {
+          "acct": "1300",
+          "amt": 770.85
+        },
+        {
+          "acct": "2000",
+          "amt": -16187.86
+        }
+      ],
+      "memo": "purchase PI-0014",
+      "proof": [
+        "invoices.csv#PI-0014"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0110",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 19842.52
+        },
+        {
+          "acct": "1300",
+          "amt": 992.13
+        },
+        {
+          "acct": "2000",
+          "amt": -20834.65
+        }
+      ],
+      "memo": "purchase PI-0015",
+      "proof": [
+        "invoices.csv#PI-0015"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0111",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 8734.8
+        },
+        {
+          "acct": "1300",
+          "amt": 436.74
+        },
+        {
+          "acct": "2000",
+          "amt": -9171.54
+        }
+      ],
+      "memo": "purchase PI-0016",
+      "proof": [
+        "invoices.csv#PI-0016"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0112",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 16100.37
+        },
+        {
+          "acct": "1300",
+          "amt": 805.02
+        },
+        {
+          "acct": "2000",
+          "amt": -16905.39
+        }
+      ],
+      "memo": "purchase PI-0017",
+      "proof": [
+        "invoices.csv#PI-0017"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0113",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 3044.35
+        },
+        {
+          "acct": "1300",
+          "amt": 152.22
+        },
+        {
+          "acct": "2000",
+          "amt": -3196.57
+        }
+      ],
+      "memo": "purchase PI-0018",
+      "proof": [
+        "invoices.csv#PI-0018"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0114",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 22078.82
+        },
+        {
+          "acct": "1300",
+          "amt": 1103.94
+        },
+        {
+          "acct": "2000",
+          "amt": -23182.76
+        }
+      ],
+      "memo": "purchase PI-0019",
+      "proof": [
+        "invoices.csv#PI-0019"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0115",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 25953.46
+        },
+        {
+          "acct": "1300",
+          "amt": 1297.67
+        },
+        {
+          "acct": "2000",
+          "amt": -27251.13
+        }
+      ],
+      "memo": "purchase PI-0020",
+      "proof": [
+        "invoices.csv#PI-0020"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0116",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 16024.57
+        },
+        {
+          "acct": "1300",
+          "amt": 801.23
+        },
+        {
+          "acct": "2000",
+          "amt": -16825.8
+        }
+      ],
+      "memo": "purchase PI-0021",
+      "proof": [
+        "invoices.csv#PI-0021"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0117",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 20325.91
+        },
+        {
+          "acct": "1300",
+          "amt": 1016.3
+        },
+        {
+          "acct": "2000",
+          "amt": -21342.21
+        }
+      ],
+      "memo": "purchase PI-0022",
+      "proof": [
+        "invoices.csv#PI-0022"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0118",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 24240.99
+        },
+        {
+          "acct": "1300",
+          "amt": 1212.05
+        },
+        {
+          "acct": "2000",
+          "amt": -25453.04
+        }
+      ],
+      "memo": "purchase PI-0023",
+      "proof": [
+        "invoices.csv#PI-0023"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0119",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 26246.6
+        },
+        {
+          "acct": "1300",
+          "amt": 1312.33
+        },
+        {
+          "acct": "2000",
+          "amt": -27558.93
+        }
+      ],
+      "memo": "purchase PI-0024",
+      "proof": [
+        "invoices.csv#PI-0024"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0120",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 2322.96
+        },
+        {
+          "acct": "1300",
+          "amt": 116.15
+        },
+        {
+          "acct": "2000",
+          "amt": -2439.11
+        }
+      ],
+      "memo": "purchase PI-0025",
+      "proof": [
+        "invoices.csv#PI-0025"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0121",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 16507.44
+        },
+        {
+          "acct": "1300",
+          "amt": 825.37
+        },
+        {
+          "acct": "2000",
+          "amt": -17332.81
+        }
+      ],
+      "memo": "purchase PI-0026",
+      "proof": [
+        "invoices.csv#PI-0026"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0122",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 26403.52
+        },
+        {
+          "acct": "1300",
+          "amt": 1320.18
+        },
+        {
+          "acct": "2000",
+          "amt": -27723.7
+        }
+      ],
+      "memo": "purchase PI-0027",
+      "proof": [
+        "invoices.csv#PI-0027"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0123",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 25919.04
+        },
+        {
+          "acct": "1300",
+          "amt": 1295.95
+        },
+        {
+          "acct": "2000",
+          "amt": -27214.99
+        }
+      ],
+      "memo": "purchase PI-0028",
+      "proof": [
+        "invoices.csv#PI-0028"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0124",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 16682.03
+        },
+        {
+          "acct": "1300",
+          "amt": 834.1
+        },
+        {
+          "acct": "2000",
+          "amt": -17516.13
+        }
+      ],
+      "memo": "purchase PI-0029",
+      "proof": [
+        "invoices.csv#PI-0029"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0125",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 17212.3
+        },
+        {
+          "acct": "1300",
+          "amt": 860.62
+        },
+        {
+          "acct": "2000",
+          "amt": -18072.92
+        }
+      ],
+      "memo": "purchase PI-0030",
+      "proof": [
+        "invoices.csv#PI-0030"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0126",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 24223.49
+        },
+        {
+          "acct": "1300",
+          "amt": 1211.17
+        },
+        {
+          "acct": "2000",
+          "amt": -25434.66
+        }
+      ],
+      "memo": "purchase PI-0031",
+      "proof": [
+        "invoices.csv#PI-0031"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0127",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 24352.81
+        },
+        {
+          "acct": "1300",
+          "amt": 1217.64
+        },
+        {
+          "acct": "2000",
+          "amt": -25570.45
+        }
+      ],
+      "memo": "purchase PI-0032",
+      "proof": [
+        "invoices.csv#PI-0032"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0128",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 28317.72
+        },
+        {
+          "acct": "1300",
+          "amt": 1415.89
+        },
+        {
+          "acct": "2000",
+          "amt": -29733.61
+        }
+      ],
+      "memo": "purchase PI-0033",
+      "proof": [
+        "invoices.csv#PI-0033"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0129",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 11664.55
+        },
+        {
+          "acct": "1300",
+          "amt": 583.23
+        },
+        {
+          "acct": "2000",
+          "amt": -12247.78
+        }
+      ],
+      "memo": "purchase PI-0034",
+      "proof": [
+        "invoices.csv#PI-0034"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0130",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 22913.72
+        },
+        {
+          "acct": "1300",
+          "amt": 1145.69
+        },
+        {
+          "acct": "2000",
+          "amt": -24059.41
+        }
+      ],
+      "memo": "purchase PI-0035",
+      "proof": [
+        "invoices.csv#PI-0035"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0131",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 15457.66
+        },
+        {
+          "acct": "1300",
+          "amt": 772.88
+        },
+        {
+          "acct": "2000",
+          "amt": -16230.54
+        }
+      ],
+      "memo": "purchase PI-0036",
+      "proof": [
+        "invoices.csv#PI-0036"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0132",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 7796.69
+        },
+        {
+          "acct": "1300",
+          "amt": 389.83
+        },
+        {
+          "acct": "2000",
+          "amt": -8186.52
+        }
+      ],
+      "memo": "purchase PI-0037",
+      "proof": [
+        "invoices.csv#PI-0037"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0133",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 14770.74
+        },
+        {
+          "acct": "1300",
+          "amt": 738.54
+        },
+        {
+          "acct": "2000",
+          "amt": -15509.28
+        }
+      ],
+      "memo": "purchase PI-0038",
+      "proof": [
+        "invoices.csv#PI-0038"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0134",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 21872.28
+        },
+        {
+          "acct": "1300",
+          "amt": 1093.61
+        },
+        {
+          "acct": "2000",
+          "amt": -22965.89
+        }
+      ],
+      "memo": "purchase PI-0039",
+      "proof": [
+        "invoices.csv#PI-0039"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0135",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 11561.24
+        },
+        {
+          "acct": "1300",
+          "amt": 578.06
+        },
+        {
+          "acct": "2000",
+          "amt": -12139.3
+        }
+      ],
+      "memo": "purchase PI-0040",
+      "proof": [
+        "invoices.csv#PI-0040"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0136",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 24781.84
+        },
+        {
+          "acct": "1300",
+          "amt": 1239.09
+        },
+        {
+          "acct": "2000",
+          "amt": -26020.93
+        }
+      ],
+      "memo": "purchase PI-0041",
+      "proof": [
+        "invoices.csv#PI-0041"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0137",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 15843.01
+        },
+        {
+          "acct": "1300",
+          "amt": 792.15
+        },
+        {
+          "acct": "2000",
+          "amt": -16635.16
+        }
+      ],
+      "memo": "purchase PI-0042",
+      "proof": [
+        "invoices.csv#PI-0042"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0138",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 20406.88
+        },
+        {
+          "acct": "1300",
+          "amt": 1020.34
+        },
+        {
+          "acct": "2000",
+          "amt": -21427.22
+        }
+      ],
+      "memo": "purchase PI-0043",
+      "proof": [
+        "invoices.csv#PI-0043"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0139",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 8371.94
+        },
+        {
+          "acct": "1300",
+          "amt": 418.6
+        },
+        {
+          "acct": "2000",
+          "amt": -8790.54
+        }
+      ],
+      "memo": "purchase PI-0044",
+      "proof": [
+        "invoices.csv#PI-0044"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0140",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 12111.97
+        },
+        {
+          "acct": "1300",
+          "amt": 605.6
+        },
+        {
+          "acct": "2000",
+          "amt": -12717.57
+        }
+      ],
+      "memo": "purchase PI-0045",
+      "proof": [
+        "invoices.csv#PI-0045"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0141",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 22051.62
+        },
+        {
+          "acct": "1300",
+          "amt": 1102.58
+        },
+        {
+          "acct": "2000",
+          "amt": -23154.2
+        }
+      ],
+      "memo": "purchase PI-0046",
+      "proof": [
+        "invoices.csv#PI-0046"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0142",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 7461.66
+        },
+        {
+          "acct": "1300",
+          "amt": 373.08
+        },
+        {
+          "acct": "2000",
+          "amt": -7834.74
+        }
+      ],
+      "memo": "purchase PI-0047",
+      "proof": [
+        "invoices.csv#PI-0047"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0143",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 28150.98
+        },
+        {
+          "acct": "1300",
+          "amt": 1407.55
+        },
+        {
+          "acct": "2000",
+          "amt": -29558.53
+        }
+      ],
+      "memo": "purchase PI-0048",
+      "proof": [
+        "invoices.csv#PI-0048"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0144",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 26543.23
+        },
+        {
+          "acct": "1300",
+          "amt": 1327.16
+        },
+        {
+          "acct": "2000",
+          "amt": -27870.39
+        }
+      ],
+      "memo": "purchase PI-0049",
+      "proof": [
+        "invoices.csv#PI-0049"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0145",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 23047.51
+        },
+        {
+          "acct": "1300",
+          "amt": 1152.38
+        },
+        {
+          "acct": "2000",
+          "amt": -24199.89
+        }
+      ],
+      "memo": "purchase PI-0050",
+      "proof": [
+        "invoices.csv#PI-0050"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0146",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 21105.46
+        },
+        {
+          "acct": "1300",
+          "amt": 1055.27
+        },
+        {
+          "acct": "2000",
+          "amt": -22160.73
+        }
+      ],
+      "memo": "purchase PI-0051",
+      "proof": [
+        "invoices.csv#PI-0051"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0147",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 6895.03
+        },
+        {
+          "acct": "1300",
+          "amt": 344.75
+        },
+        {
+          "acct": "2000",
+          "amt": -7239.78
+        }
+      ],
+      "memo": "purchase PI-0052",
+      "proof": [
+        "invoices.csv#PI-0052"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0148",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 27029.56
+        },
+        {
+          "acct": "1300",
+          "amt": 1351.48
+        },
+        {
+          "acct": "2000",
+          "amt": -28381.04
+        }
+      ],
+      "memo": "purchase PI-0053",
+      "proof": [
+        "invoices.csv#PI-0053"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0149",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 22565.28
+        },
+        {
+          "acct": "1300",
+          "amt": 1128.26
+        },
+        {
+          "acct": "2000",
+          "amt": -23693.54
+        }
+      ],
+      "memo": "purchase PI-0054",
+      "proof": [
+        "invoices.csv#PI-0054"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0150",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 26772.0
+        },
+        {
+          "acct": "1300",
+          "amt": 1338.6
+        },
+        {
+          "acct": "2000",
+          "amt": -28110.6
+        }
+      ],
+      "memo": "purchase PI-0055",
+      "proof": [
+        "invoices.csv#PI-0055"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0151",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 24109.95
+        },
+        {
+          "acct": "1300",
+          "amt": 1205.5
+        },
+        {
+          "acct": "2000",
+          "amt": -25315.45
+        }
+      ],
+      "memo": "purchase PI-0056",
+      "proof": [
+        "invoices.csv#PI-0056"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0152",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 12255.96
+        },
+        {
+          "acct": "1300",
+          "amt": 612.8
+        },
+        {
+          "acct": "2000",
+          "amt": -12868.76
+        }
+      ],
+      "memo": "purchase PI-0057",
+      "proof": [
+        "invoices.csv#PI-0057"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0153",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 17465.52
+        },
+        {
+          "acct": "1300",
+          "amt": 873.28
+        },
+        {
+          "acct": "2000",
+          "amt": -18338.8
+        }
+      ],
+      "memo": "purchase PI-0058",
+      "proof": [
+        "invoices.csv#PI-0058"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0154",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 14638.16
+        },
+        {
+          "acct": "1300",
+          "amt": 731.91
+        },
+        {
+          "acct": "2000",
+          "amt": -15370.07
+        }
+      ],
+      "memo": "purchase PI-0059",
+      "proof": [
+        "invoices.csv#PI-0059"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0155",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 24897.52
+        },
+        {
+          "acct": "1300",
+          "amt": 1244.88
+        },
+        {
+          "acct": "2000",
+          "amt": -26142.4
+        }
+      ],
+      "memo": "purchase PI-0060",
+      "proof": [
+        "invoices.csv#PI-0060"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0156",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 2561.06
+        },
+        {
+          "acct": "1300",
+          "amt": 128.05
+        },
+        {
+          "acct": "2000",
+          "amt": -2689.11
+        }
+      ],
+      "memo": "purchase PI-0061",
+      "proof": [
+        "invoices.csv#PI-0061"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0157",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 14394.49
+        },
+        {
+          "acct": "1300",
+          "amt": 719.72
+        },
+        {
+          "acct": "2000",
+          "amt": -15114.21
+        }
+      ],
+      "memo": "purchase PI-0062",
+      "proof": [
+        "invoices.csv#PI-0062"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0158",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 17886.83
+        },
+        {
+          "acct": "1300",
+          "amt": 894.34
+        },
+        {
+          "acct": "2000",
+          "amt": -18781.17
+        }
+      ],
+      "memo": "purchase PI-0063",
+      "proof": [
+        "invoices.csv#PI-0063"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0159",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 3751.16
+        },
+        {
+          "acct": "1300",
+          "amt": 187.56
+        },
+        {
+          "acct": "2000",
+          "amt": -3938.72
+        }
+      ],
+      "memo": "purchase PI-0006-A",
+      "proof": [
+        "invoices.csv#PI-0006-A"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0160",
+      "lines": [
+        {
+          "acct": "1200",
+          "amt": 47619.05
+        },
+        {
+          "acct": "1300",
+          "amt": 2380.95
+        },
+        {
+          "acct": "2000",
+          "amt": -50000.0
+        }
+      ],
+      "memo": "purchase QGT-001",
+      "proof": [
+        "invoices.csv#QGT-001"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0161",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -35000.0
+        },
+        {
+          "acct": "6000",
+          "amt": 35000.0
+        }
+      ],
+      "memo": "cash RENT-10",
+      "proof": [
+        "bank_statement.csv#B002",
+        "rule:rule",
+        "ledger_cash.csv#RENT-10"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0162",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -469.1
+        },
+        {
+          "acct": "6700",
+          "amt": 469.1
+        }
+      ],
+      "memo": "cash EXP-100",
+      "proof": [
+        "bank_statement.csv#B003",
+        "rule:rule",
+        "ledger_cash.csv#EXP-100"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0163",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -343.98
+        },
+        {
+          "acct": "6700",
+          "amt": 343.98
+        }
+      ],
+      "memo": "cash EXP-105",
+      "proof": [
+        "bank_statement.csv#B004",
+        "rule:rule",
+        "ledger_cash.csv#EXP-105"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0164",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -286.73
+        },
+        {
+          "acct": "6700",
+          "amt": 286.73
+        }
+      ],
+      "memo": "cash EXP-123",
+      "proof": [
+        "bank_statement.csv#B005",
+        "rule:rule",
+        "ledger_cash.csv#EXP-123"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0165",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -599.25
+        },
+        {
+          "acct": "6700",
+          "amt": 599.25
+        }
+      ],
+      "memo": "cash EXP-147",
+      "proof": [
+        "bank_statement.csv#B006",
+        "rule:rule",
+        "ledger_cash.csv#EXP-147"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0166",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -334.59
+        },
+        {
+          "acct": "6700",
+          "amt": 334.59
+        }
+      ],
+      "memo": "cash EXP-152",
+      "proof": [
+        "bank_statement.csv#B007",
+        "rule:rule",
+        "ledger_cash.csv#EXP-152"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0167",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -402.3
+        },
+        {
+          "acct": "6700",
+          "amt": 402.3
+        }
+      ],
+      "memo": "cash EXP-191",
+      "proof": [
+        "bank_statement.csv#B008",
+        "rule:rule",
+        "ledger_cash.csv#EXP-191"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0168",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -684.08
+        },
+        {
+          "acct": "6700",
+          "amt": 684.08
+        }
+      ],
+      "memo": "cash EXP-089",
+      "proof": [
+        "bank_statement.csv#B009",
+        "rule:rule",
+        "ledger_cash.csv#EXP-089"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0169",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -290.53
+        },
+        {
+          "acct": "6700",
+          "amt": 290.53
+        }
+      ],
+      "memo": "cash EXP-121",
+      "proof": [
+        "bank_statement.csv#B010",
+        "rule:rule",
+        "ledger_cash.csv#EXP-121"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0170",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -672.04
+        },
+        {
+          "acct": "6700",
+          "amt": 672.04
+        }
+      ],
+      "memo": "cash EXP-179",
+      "proof": [
+        "bank_statement.csv#B011",
+        "rule:rule",
+        "ledger_cash.csv#EXP-179"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0171",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -259.6
+        },
+        {
+          "acct": "6700",
+          "amt": 259.6
+        }
+      ],
+      "memo": "cash EXP-114",
+      "proof": [
+        "bank_statement.csv#B012",
+        "rule:rule",
+        "ledger_cash.csv#EXP-114"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0172",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -248.37
+        },
+        {
+          "acct": "6700",
+          "amt": 248.37
+        }
+      ],
+      "memo": "cash EXP-130",
+      "proof": [
+        "bank_statement.csv#B013",
+        "rule:rule",
+        "ledger_cash.csv#EXP-130"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0173",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -683.13
+        },
+        {
+          "acct": "6700",
+          "amt": 683.13
+        }
+      ],
+      "memo": "cash EXP-137",
+      "proof": [
+        "bank_statement.csv#B014",
+        "rule:rule",
+        "ledger_cash.csv#EXP-137"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0174",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -870.59
+        },
+        {
+          "acct": "6700",
+          "amt": 870.59
+        }
+      ],
+      "memo": "cash EXP-143",
+      "proof": [
+        "bank_statement.csv#B015",
+        "rule:rule",
+        "ledger_cash.csv#EXP-143"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0175",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -678.62
+        },
+        {
+          "acct": "6700",
+          "amt": 678.62
+        }
+      ],
+      "memo": "cash EXP-146",
+      "proof": [
+        "bank_statement.csv#B016",
+        "rule:rule",
+        "ledger_cash.csv#EXP-146"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0176",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -30978.9
+        },
+        {
+          "acct": "2000",
+          "amt": 30978.9
+        }
+      ],
+      "memo": "cash PI-0007",
+      "proof": [
+        "bank_statement.csv#B017",
+        "rule:rule",
+        "ledger_cash.csv#PI-0007"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0177",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -376.98
+        },
+        {
+          "acct": "6700",
+          "amt": 376.98
+        }
+      ],
+      "memo": "cash EXP-087",
+      "proof": [
+        "bank_statement.csv#B018",
+        "rule:rule",
+        "ledger_cash.csv#EXP-087"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0178",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -813.48
+        },
+        {
+          "acct": "6700",
+          "amt": 813.48
+        }
+      ],
+      "memo": "cash EXP-116",
+      "proof": [
+        "bank_statement.csv#B019",
+        "rule:rule",
+        "ledger_cash.csv#EXP-116"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0179",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -364.43
+        },
+        {
+          "acct": "6700",
+          "amt": 364.43
+        }
+      ],
+      "memo": "cash EXP-148",
+      "proof": [
+        "bank_statement.csv#B020",
+        "rule:rule",
+        "ledger_cash.csv#EXP-148"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0180",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -98.07
+        },
+        {
+          "acct": "6700",
+          "amt": 98.07
+        }
+      ],
+      "memo": "cash EXP-156",
+      "proof": [
+        "bank_statement.csv#B021",
+        "rule:rule",
+        "ledger_cash.csv#EXP-156"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0181",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -243.07
+        },
+        {
+          "acct": "6700",
+          "amt": 243.07
+        }
+      ],
+      "memo": "cash EXP-196",
+      "proof": [
+        "bank_statement.csv#B022",
+        "rule:rule",
+        "ledger_cash.csv#EXP-196"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0182",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -22965.89
+        },
+        {
+          "acct": "2000",
+          "amt": 22965.89
+        }
+      ],
+      "memo": "cash PI-0039",
+      "proof": [
+        "bank_statement.csv#B023",
+        "rule:rule",
+        "ledger_cash.csv#PI-0039"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0183",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -41.3
+        },
+        {
+          "acct": "6700",
+          "amt": 41.3
+        }
+      ],
+      "memo": "cash EXP-142",
+      "proof": [
+        "bank_statement.csv#B024",
+        "rule:rule",
+        "ledger_cash.csv#EXP-142"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0184",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -859.73
+        },
+        {
+          "acct": "6700",
+          "amt": 859.73
+        }
+      ],
+      "memo": "cash EXP-106",
+      "proof": [
+        "bank_statement.csv#B025",
+        "rule:rule",
+        "ledger_cash.csv#EXP-106"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0185",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -510.81
+        },
+        {
+          "acct": "6700",
+          "amt": 510.81
+        }
+      ],
+      "memo": "cash EXP-126",
+      "proof": [
+        "bank_statement.csv#B026",
+        "rule:rule",
+        "ledger_cash.csv#EXP-126"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0186",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -243.72
+        },
+        {
+          "acct": "6700",
+          "amt": 243.72
+        }
+      ],
+      "memo": "cash EXP-133",
+      "proof": [
+        "bank_statement.csv#B027",
+        "rule:rule",
+        "ledger_cash.csv#EXP-133"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0187",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -465.68
+        },
+        {
+          "acct": "6700",
+          "amt": 465.68
+        }
+      ],
+      "memo": "cash EXP-141",
+      "proof": [
+        "bank_statement.csv#B028",
+        "rule:rule",
+        "ledger_cash.csv#EXP-141"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0188",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -728.08
+        },
+        {
+          "acct": "6700",
+          "amt": 728.08
+        }
+      ],
+      "memo": "cash EXP-172",
+      "proof": [
+        "bank_statement.csv#B029",
+        "rule:rule",
+        "ledger_cash.csv#EXP-172"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0189",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 35635.88
+        },
+        {
+          "acct": "1100",
+          "amt": -35635.88
+        }
+      ],
+      "memo": "cash FT-S-0063",
+      "proof": [
+        "bank_statement.csv#B030",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0063"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0190",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 22879.95
+        },
+        {
+          "acct": "1100",
+          "amt": -22879.95
+        }
+      ],
+      "memo": "cash FT-S-0082",
+      "proof": [
+        "bank_statement.csv#B031",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0082"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0191",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -83.96
+        },
+        {
+          "acct": "6700",
+          "amt": 83.96
+        }
+      ],
+      "memo": "cash EXP-112",
+      "proof": [
+        "bank_statement.csv#B032",
+        "rule:rule",
+        "ledger_cash.csv#EXP-112"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0192",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -647.71
+        },
+        {
+          "acct": "6700",
+          "amt": 647.71
+        }
+      ],
+      "memo": "cash EXP-115",
+      "proof": [
+        "bank_statement.csv#B033",
+        "rule:rule",
+        "ledger_cash.csv#EXP-115"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0193",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -474.17
+        },
+        {
+          "acct": "6700",
+          "amt": 474.17
+        }
+      ],
+      "memo": "cash EXP-134",
+      "proof": [
+        "bank_statement.csv#B034",
+        "rule:rule",
+        "ledger_cash.csv#EXP-134"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0194",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -361.64
+        },
+        {
+          "acct": "6700",
+          "amt": 361.64
+        }
+      ],
+      "memo": "cash EXP-199",
+      "proof": [
+        "bank_statement.csv#B035",
+        "rule:rule",
+        "ledger_cash.csv#EXP-199"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0195",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 18156.31
+        },
+        {
+          "acct": "1100",
+          "amt": -18156.31
+        }
+      ],
+      "memo": "cash FT-S-0036",
+      "proof": [
+        "bank_statement.csv#B036",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0036"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0196",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 8083.52
+        },
+        {
+          "acct": "1100",
+          "amt": -8083.52
+        }
+      ],
+      "memo": "cash FT-S-0050",
+      "proof": [
+        "bank_statement.csv#B037",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0050"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0197",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -15509.28
+        },
+        {
+          "acct": "2000",
+          "amt": 15509.28
+        }
+      ],
+      "memo": "cash PI-0038",
+      "proof": [
+        "bank_statement.csv#B038",
+        "rule:rule",
+        "ledger_cash.csv#PI-0038"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0198",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -317.14
+        },
+        {
+          "acct": "6700",
+          "amt": 317.14
+        }
+      ],
+      "memo": "cash EXP-093",
+      "proof": [
+        "bank_statement.csv#B039",
+        "rule:rule",
+        "ledger_cash.csv#EXP-093"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0199",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -780.1
+        },
+        {
+          "acct": "6700",
+          "amt": 780.1
+        }
+      ],
+      "memo": "cash EXP-103",
+      "proof": [
+        "bank_statement.csv#B040",
+        "rule:rule",
+        "ledger_cash.csv#EXP-103"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0200",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -501.61
+        },
+        {
+          "acct": "6700",
+          "amt": 501.61
+        }
+      ],
+      "memo": "cash EXP-129",
+      "proof": [
+        "bank_statement.csv#B041",
+        "rule:rule",
+        "ledger_cash.csv#EXP-129"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0201",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -611.46
+        },
+        {
+          "acct": "6700",
+          "amt": 611.46
+        }
+      ],
+      "memo": "cash EXP-154",
+      "proof": [
+        "bank_statement.csv#B042",
+        "rule:rule",
+        "ledger_cash.csv#EXP-154"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0202",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -755.47
+        },
+        {
+          "acct": "6700",
+          "amt": 755.47
+        }
+      ],
+      "memo": "cash EXP-162",
+      "proof": [
+        "bank_statement.csv#B043",
+        "rule:rule",
+        "ledger_cash.csv#EXP-162"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0203",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -786.16
+        },
+        {
+          "acct": "6700",
+          "amt": 786.16
+        }
+      ],
+      "memo": "cash EXP-171",
+      "proof": [
+        "bank_statement.csv#B044",
+        "rule:rule",
+        "ledger_cash.csv#EXP-171"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0204",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -191.04
+        },
+        {
+          "acct": "6700",
+          "amt": 191.04
+        }
+      ],
+      "memo": "cash EXP-178",
+      "proof": [
+        "bank_statement.csv#B045",
+        "rule:rule",
+        "ledger_cash.csv#EXP-178"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0205",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -886.26
+        },
+        {
+          "acct": "6700",
+          "amt": 886.26
+        }
+      ],
+      "memo": "cash EXP-186",
+      "proof": [
+        "bank_statement.csv#B046",
+        "rule:rule",
+        "ledger_cash.csv#EXP-186"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0206",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -25315.45
+        },
+        {
+          "acct": "2000",
+          "amt": 25315.45
+        }
+      ],
+      "memo": "cash PI-0056",
+      "proof": [
+        "bank_statement.csv#B047",
+        "rule:rule",
+        "ledger_cash.csv#PI-0056"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0207",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -699.61
+        },
+        {
+          "acct": "6700",
+          "amt": 699.61
+        }
+      ],
+      "memo": "cash EXP-104",
+      "proof": [
+        "bank_statement.csv#B048",
+        "rule:rule",
+        "ledger_cash.csv#EXP-104"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0208",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -423.51
+        },
+        {
+          "acct": "6700",
+          "amt": 423.51
+        }
+      ],
+      "memo": "cash EXP-166",
+      "proof": [
+        "bank_statement.csv#B049",
+        "rule:rule",
+        "ledger_cash.csv#EXP-166"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0209",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 26967.4
+        },
+        {
+          "acct": "1100",
+          "amt": -26967.4
+        }
+      ],
+      "memo": "cash FT-S-0044",
+      "proof": [
+        "bank_statement.csv#B050",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0044"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0210",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -682.01
+        },
+        {
+          "acct": "6700",
+          "amt": 682.01
+        }
+      ],
+      "memo": "cash EXP-151",
+      "proof": [
+        "bank_statement.csv#B051",
+        "rule:rule",
+        "ledger_cash.csv#EXP-151"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0211",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -186.06
+        },
+        {
+          "acct": "6700",
+          "amt": 186.06
+        }
+      ],
+      "memo": "cash EXP-180",
+      "proof": [
+        "bank_statement.csv#B052",
+        "rule:rule",
+        "ledger_cash.csv#EXP-180"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0212",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -728.91
+        },
+        {
+          "acct": "6700",
+          "amt": 728.91
+        }
+      ],
+      "memo": "cash EXP-188",
+      "proof": [
+        "bank_statement.csv#B053",
+        "rule:rule",
+        "ledger_cash.csv#EXP-188"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0213",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -480.59
+        },
+        {
+          "acct": "6700",
+          "amt": 480.59
+        }
+      ],
+      "memo": "cash EXP-145",
+      "proof": [
+        "bank_statement.csv#B054",
+        "rule:rule",
+        "ledger_cash.csv#EXP-145"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0214",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 22555.47
+        },
+        {
+          "acct": "1100",
+          "amt": -22555.47
+        }
+      ],
+      "memo": "cash FT-S-0040",
+      "proof": [
+        "bank_statement.csv#B055",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0040"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0215",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 14385.07
+        },
+        {
+          "acct": "1100",
+          "amt": -14385.07
+        }
+      ],
+      "memo": "cash FT-S-0072",
+      "proof": [
+        "bank_statement.csv#B056",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0072"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0216",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -16905.39
+        },
+        {
+          "acct": "2000",
+          "amt": 16905.39
+        }
+      ],
+      "memo": "cash PI-0017",
+      "proof": [
+        "bank_statement.csv#B057",
+        "rule:rule",
+        "ledger_cash.csv#PI-0017"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0217",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -24059.41
+        },
+        {
+          "acct": "2000",
+          "amt": 24059.41
+        }
+      ],
+      "memo": "cash PI-0035",
+      "proof": [
+        "bank_statement.csv#B058",
+        "rule:rule",
+        "ledger_cash.csv#PI-0035"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0218",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -3180.4
+        },
+        {
+          "acct": "6300",
+          "amt": 3180.4
+        }
+      ],
+      "memo": "cash DEWA-10",
+      "proof": [
+        "bank_statement.csv#B059",
+        "rule:rule",
+        "ledger_cash.csv#DEWA-10"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0219",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -784.45
+        },
+        {
+          "acct": "6700",
+          "amt": 784.45
+        }
+      ],
+      "memo": "cash EXP-177",
+      "proof": [
+        "bank_statement.csv#B060",
+        "rule:rule",
+        "ledger_cash.csv#EXP-177"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0220",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 24449.7
+        },
+        {
+          "acct": "1100",
+          "amt": -24449.7
+        }
+      ],
+      "memo": "cash FT-S-0002",
+      "proof": [
+        "bank_statement.csv#B061",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0002"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0221",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 27094.23
+        },
+        {
+          "acct": "1100",
+          "amt": -27094.23
+        }
+      ],
+      "memo": "cash FT-S-0008",
+      "proof": [
+        "bank_statement.csv#B062",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0008"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0222",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 16010.27
+        },
+        {
+          "acct": "1100",
+          "amt": -16010.27
+        }
+      ],
+      "memo": "cash FT-S-0064",
+      "proof": [
+        "bank_statement.csv#B063",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0064"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0223",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -668.01
+        },
+        {
+          "acct": "6700",
+          "amt": 668.01
+        }
+      ],
+      "memo": "cash EXP-101",
+      "proof": [
+        "bank_statement.csv#B064",
+        "rule:rule",
+        "ledger_cash.csv#EXP-101"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0224",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -879.73
+        },
+        {
+          "acct": "6700",
+          "amt": 879.73
+        }
+      ],
+      "memo": "cash EXP-111",
+      "proof": [
+        "bank_statement.csv#B065",
+        "rule:rule",
+        "ledger_cash.csv#EXP-111"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0225",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -279.88
+        },
+        {
+          "acct": "6700",
+          "amt": 279.88
+        }
+      ],
+      "memo": "cash EXP-135",
+      "proof": [
+        "bank_statement.csv#B066",
+        "rule:rule",
+        "ledger_cash.csv#EXP-135"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0226",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -584.83
+        },
+        {
+          "acct": "6700",
+          "amt": 584.83
+        }
+      ],
+      "memo": "cash EXP-160",
+      "proof": [
+        "bank_statement.csv#B067",
+        "rule:rule",
+        "ledger_cash.csv#EXP-160"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0227",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -150.47
+        },
+        {
+          "acct": "6700",
+          "amt": 150.47
+        }
+      ],
+      "memo": "cash EXP-173",
+      "proof": [
+        "bank_statement.csv#B068",
+        "rule:rule",
+        "ledger_cash.csv#EXP-173"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0228",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -587.27
+        },
+        {
+          "acct": "6700",
+          "amt": 587.27
+        }
+      ],
+      "memo": "cash EXP-182",
+      "proof": [
+        "bank_statement.csv#B069",
+        "rule:rule",
+        "ledger_cash.csv#EXP-182"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0229",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -575.62
+        },
+        {
+          "acct": "6700",
+          "amt": 575.62
+        }
+      ],
+      "memo": "cash EXP-192",
+      "proof": [
+        "bank_statement.csv#B070",
+        "rule:rule",
+        "ledger_cash.csv#EXP-192"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0230",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 34099.22
+        },
+        {
+          "acct": "1100",
+          "amt": -34099.22
+        }
+      ],
+      "memo": "cash FT-S-0015",
+      "proof": [
+        "bank_statement.csv#B071",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0015"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0231",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -20834.65
+        },
+        {
+          "acct": "2000",
+          "amt": 20834.65
+        }
+      ],
+      "memo": "cash PI-0015",
+      "proof": [
+        "bank_statement.csv#B072",
+        "rule:rule",
+        "ledger_cash.csv#PI-0015"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0232",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -25570.45
+        },
+        {
+          "acct": "2000",
+          "amt": 25570.45
+        }
+      ],
+      "memo": "cash PI-0032",
+      "proof": [
+        "bank_statement.csv#B073",
+        "rule:rule",
+        "ledger_cash.csv#PI-0032"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0233",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -75.5
+        },
+        {
+          "acct": "6700",
+          "amt": 75.5
+        }
+      ],
+      "memo": "cash EXP-096",
+      "proof": [
+        "bank_statement.csv#B074",
+        "rule:rule",
+        "ledger_cash.csv#EXP-096"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0234",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -371.82
+        },
+        {
+          "acct": "6700",
+          "amt": 371.82
+        }
+      ],
+      "memo": "cash EXP-131",
+      "proof": [
+        "bank_statement.csv#B075",
+        "rule:rule",
+        "ledger_cash.csv#EXP-131"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0235",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -848.64
+        },
+        {
+          "acct": "6700",
+          "amt": 848.64
+        }
+      ],
+      "memo": "cash EXP-158",
+      "proof": [
+        "bank_statement.csv#B076",
+        "rule:rule",
+        "ledger_cash.csv#EXP-158"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0236",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -443.77
+        },
+        {
+          "acct": "6700",
+          "amt": 443.77
+        }
+      ],
+      "memo": "cash EXP-167",
+      "proof": [
+        "bank_statement.csv#B077",
+        "rule:rule",
+        "ledger_cash.csv#EXP-167"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0237",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 25497.08
+        },
+        {
+          "acct": "1100",
+          "amt": -25497.08
+        }
+      ],
+      "memo": "cash FT-S-0034",
+      "proof": [
+        "bank_statement.csv#B078",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0034"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0238",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -2439.11
+        },
+        {
+          "acct": "2000",
+          "amt": 2439.11
+        }
+      ],
+      "memo": "cash PI-0025",
+      "proof": [
+        "bank_statement.csv#B079",
+        "rule:rule",
+        "ledger_cash.csv#PI-0025"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0239",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -17516.13
+        },
+        {
+          "acct": "2000",
+          "amt": 17516.13
+        }
+      ],
+      "memo": "cash PI-0029",
+      "proof": [
+        "bank_statement.csv#B080",
+        "rule:rule",
+        "ledger_cash.csv#PI-0029"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0240",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -15370.07
+        },
+        {
+          "acct": "2000",
+          "amt": 15370.07
+        }
+      ],
+      "memo": "cash PI-0059",
+      "proof": [
+        "bank_statement.csv#B081",
+        "rule:rule",
+        "ledger_cash.csv#PI-0059"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0241",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -714.76
+        },
+        {
+          "acct": "6700",
+          "amt": 714.76
+        }
+      ],
+      "memo": "cash EXP-102",
+      "proof": [
+        "bank_statement.csv#B083",
+        "rule:rule",
+        "ledger_cash.csv#EXP-102"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0242",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -388.64
+        },
+        {
+          "acct": "6700",
+          "amt": 388.64
+        }
+      ],
+      "memo": "cash EXP-109",
+      "proof": [
+        "bank_statement.csv#B084",
+        "rule:rule",
+        "ledger_cash.csv#EXP-109"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0243",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -620.39
+        },
+        {
+          "acct": "6700",
+          "amt": 620.39
+        }
+      ],
+      "memo": "cash EXP-132",
+      "proof": [
+        "bank_statement.csv#B085",
+        "rule:rule",
+        "ledger_cash.csv#EXP-132"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0244",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -119.48
+        },
+        {
+          "acct": "6700",
+          "amt": 119.48
+        }
+      ],
+      "memo": "cash EXP-136",
+      "proof": [
+        "bank_statement.csv#B086",
+        "rule:rule",
+        "ledger_cash.csv#EXP-136"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0245",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -563.33
+        },
+        {
+          "acct": "6700",
+          "amt": 563.33
+        }
+      ],
+      "memo": "cash EXP-159",
+      "proof": [
+        "bank_statement.csv#B087",
+        "rule:rule",
+        "ledger_cash.csv#EXP-159"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0246",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -545.04
+        },
+        {
+          "acct": "6700",
+          "amt": 545.04
+        }
+      ],
+      "memo": "cash EXP-161",
+      "proof": [
+        "bank_statement.csv#B088",
+        "rule:rule",
+        "ledger_cash.csv#EXP-161"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0247",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 11781.49
+        },
+        {
+          "acct": "1100",
+          "amt": -11781.49
+        }
+      ],
+      "memo": "cash FT-S-0022",
+      "proof": [
+        "bank_statement.csv#B089",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0022"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0248",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 11145.77
+        },
+        {
+          "acct": "1100",
+          "amt": -11145.77
+        }
+      ],
+      "memo": "cash FT-S-0037",
+      "proof": [
+        "bank_statement.csv#B090",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0037"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0249",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 13193.15
+        },
+        {
+          "acct": "1100",
+          "amt": -13193.15
+        }
+      ],
+      "memo": "cash FT-S-0081",
+      "proof": [
+        "bank_statement.csv#B091",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0081"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0250",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -7239.78
+        },
+        {
+          "acct": "2000",
+          "amt": 7239.78
+        }
+      ],
+      "memo": "cash PI-0052",
+      "proof": [
+        "bank_statement.csv#B092",
+        "rule:rule",
+        "ledger_cash.csv#PI-0052"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0251",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -835.32
+        },
+        {
+          "acct": "6700",
+          "amt": 835.32
+        }
+      ],
+      "memo": "cash EXP-124",
+      "proof": [
+        "bank_statement.csv#B093",
+        "rule:rule",
+        "ledger_cash.csv#EXP-124"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0252",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -571.29
+        },
+        {
+          "acct": "6700",
+          "amt": 571.29
+        }
+      ],
+      "memo": "cash EXP-197",
+      "proof": [
+        "bank_statement.csv#B094",
+        "rule:rule",
+        "ledger_cash.csv#EXP-197"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0253",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 8703.47
+        },
+        {
+          "acct": "1100",
+          "amt": -8703.47
+        }
+      ],
+      "memo": "cash FT-S-0010",
+      "proof": [
+        "bank_statement.csv#B095",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0010"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0254",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 8789.17
+        },
+        {
+          "acct": "1100",
+          "amt": -8789.17
+        }
+      ],
+      "memo": "cash FT-S-0011",
+      "proof": [
+        "bank_statement.csv#B096",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0011"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0255",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 13957.2
+        },
+        {
+          "acct": "1100",
+          "amt": -13957.2
+        }
+      ],
+      "memo": "cash FT-S-0074",
+      "proof": [
+        "bank_statement.csv#B097",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0074"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0256",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 14535.2
+        },
+        {
+          "acct": "1100",
+          "amt": -14535.2
+        }
+      ],
+      "memo": "cash FT-S-0078",
+      "proof": [
+        "bank_statement.csv#B098",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0078"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0257",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 15411.67
+        },
+        {
+          "acct": "1100",
+          "amt": -15411.67
+        }
+      ],
+      "memo": "cash FT-S-0084",
+      "proof": [
+        "bank_statement.csv#B099",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0084"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0258",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -9171.54
+        },
+        {
+          "acct": "2000",
+          "amt": 9171.54
+        }
+      ],
+      "memo": "cash PI-0016",
+      "proof": [
+        "bank_statement.csv#B100",
+        "rule:rule",
+        "ledger_cash.csv#PI-0016"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0259",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -28110.6
+        },
+        {
+          "acct": "2000",
+          "amt": 28110.6
+        }
+      ],
+      "memo": "cash PI-0055",
+      "proof": [
+        "bank_statement.csv#B101",
+        "rule:rule",
+        "ledger_cash.csv#PI-0055"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0260",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -780.62
+        },
+        {
+          "acct": "6700",
+          "amt": 780.62
+        }
+      ],
+      "memo": "cash EXP-095",
+      "proof": [
+        "bank_statement.csv#B102",
+        "rule:rule",
+        "ledger_cash.csv#EXP-095"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0261",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -269.09
+        },
+        {
+          "acct": "6700",
+          "amt": 269.09
+        }
+      ],
+      "memo": "cash EXP-113",
+      "proof": [
+        "bank_statement.csv#B103",
+        "rule:rule",
+        "ledger_cash.csv#EXP-113"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0262",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -341.15
+        },
+        {
+          "acct": "6700",
+          "amt": 341.15
+        }
+      ],
+      "memo": "cash EXP-189",
+      "proof": [
+        "bank_statement.csv#B104",
+        "rule:rule",
+        "ledger_cash.csv#EXP-189"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0263",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -29733.61
+        },
+        {
+          "acct": "2000",
+          "amt": 29733.61
+        }
+      ],
+      "memo": "cash PI-0033",
+      "proof": [
+        "bank_statement.csv#B105",
+        "rule:rule",
+        "ledger_cash.csv#PI-0033"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0264",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -23693.54
+        },
+        {
+          "acct": "2000",
+          "amt": 23693.54
+        }
+      ],
+      "memo": "cash PI-0054",
+      "proof": [
+        "bank_statement.csv#B106",
+        "rule:rule",
+        "ledger_cash.csv#PI-0054"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0265",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -2689.11
+        },
+        {
+          "acct": "2000",
+          "amt": 2689.11
+        }
+      ],
+      "memo": "cash PI-0061",
+      "proof": [
+        "bank_statement.csv#B107",
+        "rule:rule",
+        "ledger_cash.csv#PI-0061"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0266",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -50000.0
+        },
+        {
+          "acct": "2000",
+          "amt": 50000.0
+        }
+      ],
+      "memo": "cash QGT-001",
+      "proof": [
+        "bank_statement.csv#B108",
+        "rule:rule",
+        "ledger_cash.csv#QGT-001"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0267",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -780.01
+        },
+        {
+          "acct": "6700",
+          "amt": 780.01
+        }
+      ],
+      "memo": "cash EXP-088",
+      "proof": [
+        "bank_statement.csv#B109",
+        "rule:rule",
+        "ledger_cash.csv#EXP-088"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0268",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -66.35
+        },
+        {
+          "acct": "6700",
+          "amt": 66.35
+        }
+      ],
+      "memo": "cash EXP-169",
+      "proof": [
+        "bank_statement.csv#B110",
+        "rule:rule",
+        "ledger_cash.csv#EXP-169"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0269",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -874.87
+        },
+        {
+          "acct": "6700",
+          "amt": 874.87
+        }
+      ],
+      "memo": "cash EXP-176",
+      "proof": [
+        "bank_statement.csv#B111",
+        "rule:rule",
+        "ledger_cash.csv#EXP-176"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0270",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -296.23
+        },
+        {
+          "acct": "6700",
+          "amt": 296.23
+        }
+      ],
+      "memo": "cash EXP-185",
+      "proof": [
+        "bank_statement.csv#B112",
+        "rule:rule",
+        "ledger_cash.csv#EXP-185"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0271",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -542.76
+        },
+        {
+          "acct": "6700",
+          "amt": 542.76
+        }
+      ],
+      "memo": "cash EXP-194",
+      "proof": [
+        "bank_statement.csv#B113",
+        "rule:rule",
+        "ledger_cash.csv#EXP-194"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0272",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 31126.37
+        },
+        {
+          "acct": "1100",
+          "amt": -31126.37
+        }
+      ],
+      "memo": "cash FT-S-0032",
+      "proof": [
+        "bank_statement.csv#B114",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0032"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0273",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 34653.85
+        },
+        {
+          "acct": "1100",
+          "amt": -34653.85
+        }
+      ],
+      "memo": "cash FT-S-0048",
+      "proof": [
+        "bank_statement.csv#B115",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0048"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0274",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 29732.12
+        },
+        {
+          "acct": "1100",
+          "amt": -29732.12
+        }
+      ],
+      "memo": "cash FT-S-0053",
+      "proof": [
+        "bank_statement.csv#B116",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0053"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0275",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -21342.21
+        },
+        {
+          "acct": "2000",
+          "amt": 21342.21
+        }
+      ],
+      "memo": "cash PI-0022",
+      "proof": [
+        "bank_statement.csv#B117",
+        "rule:rule",
+        "ledger_cash.csv#PI-0022"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0276",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -368.19
+        },
+        {
+          "acct": "6700",
+          "amt": 368.19
+        }
+      ],
+      "memo": "cash EXP-099",
+      "proof": [
+        "bank_statement.csv#B118",
+        "rule:rule",
+        "ledger_cash.csv#EXP-099"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0277",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -356.9
+        },
+        {
+          "acct": "6700",
+          "amt": 356.9
+        }
+      ],
+      "memo": "cash EXP-107",
+      "proof": [
+        "bank_statement.csv#B119",
+        "rule:rule",
+        "ledger_cash.csv#EXP-107"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0278",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -105.34
+        },
+        {
+          "acct": "6700",
+          "amt": 105.34
+        }
+      ],
+      "memo": "cash EXP-108",
+      "proof": [
+        "bank_statement.csv#B120",
+        "rule:rule",
+        "ledger_cash.csv#EXP-108"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0279",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -504.59
+        },
+        {
+          "acct": "6700",
+          "amt": 504.59
+        }
+      ],
+      "memo": "cash EXP-127",
+      "proof": [
+        "bank_statement.csv#B121",
+        "rule:rule",
+        "ledger_cash.csv#EXP-127"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0280",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -198.49
+        },
+        {
+          "acct": "6700",
+          "amt": 198.49
+        }
+      ],
+      "memo": "cash EXP-097",
+      "proof": [
+        "bank_statement.csv#B122",
+        "rule:rule",
+        "ledger_cash.csv#EXP-097"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0281",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -860.87
+        },
+        {
+          "acct": "6700",
+          "amt": 860.87
+        }
+      ],
+      "memo": "cash EXP-155",
+      "proof": [
+        "bank_statement.csv#B123",
+        "rule:rule",
+        "ledger_cash.csv#EXP-155"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0282",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -493.61
+        },
+        {
+          "acct": "6700",
+          "amt": 493.61
+        }
+      ],
+      "memo": "cash EXP-157",
+      "proof": [
+        "bank_statement.csv#B124",
+        "rule:rule",
+        "ledger_cash.csv#EXP-157"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0283",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -512.21
+        },
+        {
+          "acct": "6700",
+          "amt": 512.21
+        }
+      ],
+      "memo": "cash EXP-175",
+      "proof": [
+        "bank_statement.csv#B125",
+        "rule:rule",
+        "ledger_cash.csv#EXP-175"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0284",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -304.13
+        },
+        {
+          "acct": "6700",
+          "amt": 304.13
+        }
+      ],
+      "memo": "cash EXP-183",
+      "proof": [
+        "bank_statement.csv#B126",
+        "rule:rule",
+        "ledger_cash.csv#EXP-183"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0285",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 17752.48
+        },
+        {
+          "acct": "1100",
+          "amt": -17752.48
+        }
+      ],
+      "memo": "cash FT-S-0009",
+      "proof": [
+        "bank_statement.csv#B127",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0009"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0286",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 13239.66
+        },
+        {
+          "acct": "1100",
+          "amt": -13239.66
+        }
+      ],
+      "memo": "cash FT-S-0017",
+      "proof": [
+        "bank_statement.csv#B128",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0017"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0287",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 11982.59
+        },
+        {
+          "acct": "1100",
+          "amt": -11982.59
+        }
+      ],
+      "memo": "cash FT-S-0057",
+      "proof": [
+        "bank_statement.csv#B129",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0057"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0288",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -600.04
+        },
+        {
+          "acct": "6700",
+          "amt": 600.04
+        }
+      ],
+      "memo": "cash EXP-120",
+      "proof": [
+        "bank_statement.csv#B130",
+        "rule:rule",
+        "ledger_cash.csv#EXP-120"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0289",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -96.34
+        },
+        {
+          "acct": "6700",
+          "amt": 96.34
+        }
+      ],
+      "memo": "cash EXP-122",
+      "proof": [
+        "bank_statement.csv#B131",
+        "rule:rule",
+        "ledger_cash.csv#EXP-122"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0290",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -400.02
+        },
+        {
+          "acct": "6700",
+          "amt": 400.02
+        }
+      ],
+      "memo": "cash EXP-144",
+      "proof": [
+        "bank_statement.csv#B132",
+        "rule:rule",
+        "ledger_cash.csv#EXP-144"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0291",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -501.39
+        },
+        {
+          "acct": "6700",
+          "amt": 501.39
+        }
+      ],
+      "memo": "cash EXP-174",
+      "proof": [
+        "bank_statement.csv#B133",
+        "rule:rule",
+        "ledger_cash.csv#EXP-174"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0292",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 14590.72
+        },
+        {
+          "acct": "1100",
+          "amt": -14590.72
+        }
+      ],
+      "memo": "cash FT-S-0014",
+      "proof": [
+        "bank_statement.csv#B134",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0014"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0293",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 36479.08
+        },
+        {
+          "acct": "1100",
+          "amt": -36479.08
+        }
+      ],
+      "memo": "cash FT-S-0068",
+      "proof": [
+        "bank_statement.csv#B135",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0068"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0294",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -18900.13
+        },
+        {
+          "acct": "2000",
+          "amt": 18900.13
+        }
+      ],
+      "memo": "cash PI-0001",
+      "proof": [
+        "bank_statement.csv#B136",
+        "rule:rule",
+        "ledger_cash.csv#PI-0001"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0295",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -70.59
+        },
+        {
+          "acct": "6700",
+          "amt": 70.59
+        }
+      ],
+      "memo": "cash EXP-117",
+      "proof": [
+        "bank_statement.csv#B137",
+        "rule:rule",
+        "ledger_cash.csv#EXP-117"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0296",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -894.72
+        },
+        {
+          "acct": "6700",
+          "amt": 894.72
+        }
+      ],
+      "memo": "cash EXP-150",
+      "proof": [
+        "bank_statement.csv#B138",
+        "rule:rule",
+        "ledger_cash.csv#EXP-150"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0297",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -539.2
+        },
+        {
+          "acct": "6700",
+          "amt": 539.2
+        }
+      ],
+      "memo": "cash EXP-181",
+      "proof": [
+        "bank_statement.csv#B139",
+        "rule:rule",
+        "ledger_cash.csv#EXP-181"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0298",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -171.78
+        },
+        {
+          "acct": "6700",
+          "amt": 171.78
+        }
+      ],
+      "memo": "cash EXP-092",
+      "proof": [
+        "bank_statement.csv#B141",
+        "rule:rule",
+        "ledger_cash.csv#EXP-092"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0299",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -248.58
+        },
+        {
+          "acct": "6700",
+          "amt": 248.58
+        }
+      ],
+      "memo": "cash EXP-094",
+      "proof": [
+        "bank_statement.csv#B142",
+        "rule:rule",
+        "ledger_cash.csv#EXP-094"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0300",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -434.04
+        },
+        {
+          "acct": "6700",
+          "amt": 434.04
+        }
+      ],
+      "memo": "cash EXP-153",
+      "proof": [
+        "bank_statement.csv#B143",
+        "rule:rule",
+        "ledger_cash.csv#EXP-153"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0301",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -293.24
+        },
+        {
+          "acct": "6700",
+          "amt": 293.24
+        }
+      ],
+      "memo": "cash EXP-170",
+      "proof": [
+        "bank_statement.csv#B144",
+        "rule:rule",
+        "ledger_cash.csv#EXP-170"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0302",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -3938.72
+        },
+        {
+          "acct": "2000",
+          "amt": 3938.72
+        }
+      ],
+      "memo": "cash PI-0006",
+      "proof": [
+        "bank_statement.csv#B145",
+        "rule:rule",
+        "ledger_cash.csv#PI-0006"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0303",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -868.94
+        },
+        {
+          "acct": "6700",
+          "amt": 868.94
+        }
+      ],
+      "memo": "cash EXP-091",
+      "proof": [
+        "bank_statement.csv#B146",
+        "rule:rule",
+        "ledger_cash.csv#EXP-091"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0304",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -848.59
+        },
+        {
+          "acct": "6700",
+          "amt": 848.59
+        }
+      ],
+      "memo": "cash EXP-165",
+      "proof": [
+        "bank_statement.csv#B147",
+        "rule:rule",
+        "ledger_cash.csv#EXP-165"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0305",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -557.68
+        },
+        {
+          "acct": "6700",
+          "amt": 557.68
+        }
+      ],
+      "memo": "cash EXP-090",
+      "proof": [
+        "bank_statement.csv#B148",
+        "rule:rule",
+        "ledger_cash.csv#EXP-090"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0306",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -137.8
+        },
+        {
+          "acct": "6700",
+          "amt": 137.8
+        }
+      ],
+      "memo": "cash EXP-098",
+      "proof": [
+        "bank_statement.csv#B149",
+        "rule:rule",
+        "ledger_cash.csv#EXP-098"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0307",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -249.16
+        },
+        {
+          "acct": "6700",
+          "amt": 249.16
+        }
+      ],
+      "memo": "cash EXP-139",
+      "proof": [
+        "bank_statement.csv#B150",
+        "rule:rule",
+        "ledger_cash.csv#EXP-139"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0308",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -375.0
+        },
+        {
+          "acct": "6700",
+          "amt": 375.0
+        }
+      ],
+      "memo": "cash EXP-190",
+      "proof": [
+        "bank_statement.csv#B151",
+        "rule:rule",
+        "ledger_cash.csv#EXP-190"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0309",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -15817.59
+        },
+        {
+          "acct": "2000",
+          "amt": 15817.59
+        }
+      ],
+      "memo": "cash PI-0002",
+      "proof": [
+        "bank_statement.csv#B152",
+        "rule:rule",
+        "ledger_cash.csv#PI-0002"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0310",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -19202.64
+        },
+        {
+          "acct": "2000",
+          "amt": 19202.64
+        }
+      ],
+      "memo": "cash PI-0010",
+      "proof": [
+        "bank_statement.csv#B153",
+        "rule:rule",
+        "ledger_cash.csv#PI-0010"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0311",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -27558.93
+        },
+        {
+          "acct": "2000",
+          "amt": 27558.93
+        }
+      ],
+      "memo": "cash PI-0024",
+      "proof": [
+        "bank_statement.csv#B154",
+        "rule:rule",
+        "ledger_cash.csv#PI-0024"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0312",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -12868.76
+        },
+        {
+          "acct": "2000",
+          "amt": 12868.76
+        }
+      ],
+      "memo": "cash PI-0057",
+      "proof": [
+        "bank_statement.csv#B155",
+        "rule:rule",
+        "ledger_cash.csv#PI-0057"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0313",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -130.87
+        },
+        {
+          "acct": "6700",
+          "amt": 130.87
+        }
+      ],
+      "memo": "cash EXP-110",
+      "proof": [
+        "bank_statement.csv#B156",
+        "rule:rule",
+        "ledger_cash.csv#EXP-110"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0314",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -98.7
+        },
+        {
+          "acct": "6700",
+          "amt": 98.7
+        }
+      ],
+      "memo": "cash EXP-163",
+      "proof": [
+        "bank_statement.csv#B157",
+        "rule:rule",
+        "ledger_cash.csv#EXP-163"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0315",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -553.1
+        },
+        {
+          "acct": "6700",
+          "amt": 553.1
+        }
+      ],
+      "memo": "cash EXP-184",
+      "proof": [
+        "bank_statement.csv#B158",
+        "rule:rule",
+        "ledger_cash.csv#EXP-184"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0316",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 21611.99
+        },
+        {
+          "acct": "1100",
+          "amt": -21611.99
+        }
+      ],
+      "memo": "cash FT-S-0062",
+      "proof": [
+        "bank_statement.csv#B159",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0062"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0317",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -856.35
+        },
+        {
+          "acct": "6700",
+          "amt": 856.35
+        }
+      ],
+      "memo": "cash EXP-118",
+      "proof": [
+        "bank_statement.csv#B161",
+        "rule:rule",
+        "ledger_cash.csv#EXP-118"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0318",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -85.77
+        },
+        {
+          "acct": "6700",
+          "amt": 85.77
+        }
+      ],
+      "memo": "cash EXP-128",
+      "proof": [
+        "bank_statement.csv#B162",
+        "rule:rule",
+        "ledger_cash.csv#EXP-128"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0319",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -184.61
+        },
+        {
+          "acct": "6700",
+          "amt": 184.61
+        }
+      ],
+      "memo": "cash EXP-168",
+      "proof": [
+        "bank_statement.csv#B163",
+        "rule:rule",
+        "ledger_cash.csv#EXP-168"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0320",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -175.27
+        },
+        {
+          "acct": "6700",
+          "amt": 175.27
+        }
+      ],
+      "memo": "cash EXP-198",
+      "proof": [
+        "bank_statement.csv#B164",
+        "rule:rule",
+        "ledger_cash.csv#EXP-198"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0321",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 3787.51
+        },
+        {
+          "acct": "1100",
+          "amt": -3787.51
+        }
+      ],
+      "memo": "cash FT-S-0055",
+      "proof": [
+        "bank_statement.csv#B165",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0055"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0322",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 11480.26
+        },
+        {
+          "acct": "1100",
+          "amt": -11480.26
+        }
+      ],
+      "memo": "cash FT-S-0065",
+      "proof": [
+        "bank_statement.csv#B166",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0065"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0323",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -128400.0
+        },
+        {
+          "acct": "6100",
+          "amt": 128400.0
+        }
+      ],
+      "memo": "cash SAL-10",
+      "proof": [
+        "bank_statement.csv#B167",
+        "rule:rule",
+        "ledger_cash.csv#SAL-10"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0324",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -636.36
+        },
+        {
+          "acct": "6700",
+          "amt": 636.36
+        }
+      ],
+      "memo": "cash EXP-140",
+      "proof": [
+        "bank_statement.csv#B168",
+        "rule:rule",
+        "ledger_cash.csv#EXP-140"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0325",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -852.84
+        },
+        {
+          "acct": "6700",
+          "amt": 852.84
+        }
+      ],
+      "memo": "cash EXP-193",
+      "proof": [
+        "bank_statement.csv#B169",
+        "rule:rule",
+        "ledger_cash.csv#EXP-193"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0326",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -679.06
+        },
+        {
+          "acct": "6700",
+          "amt": 679.06
+        }
+      ],
+      "memo": "cash EXP-195",
+      "proof": [
+        "bank_statement.csv#B170",
+        "rule:rule",
+        "ledger_cash.csv#EXP-195"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0327",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -313.84
+        },
+        {
+          "acct": "6700",
+          "amt": 313.84
+        }
+      ],
+      "memo": "cash EXP-086",
+      "proof": [
+        "bank_statement.csv#B171",
+        "rule:rule",
+        "ledger_cash.csv#EXP-086"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0328",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -642.61
+        },
+        {
+          "acct": "6700",
+          "amt": 642.61
+        }
+      ],
+      "memo": "cash EXP-125",
+      "proof": [
+        "bank_statement.csv#B172",
+        "rule:rule",
+        "ledger_cash.csv#EXP-125"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0329",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -753.28
+        },
+        {
+          "acct": "6700",
+          "amt": 753.28
+        }
+      ],
+      "memo": "cash EXP-187",
+      "proof": [
+        "bank_statement.csv#B173",
+        "rule:rule",
+        "ledger_cash.csv#EXP-187"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0330",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 11738.03
+        },
+        {
+          "acct": "1100",
+          "amt": -11738.03
+        }
+      ],
+      "memo": "cash FT-S-0039",
+      "proof": [
+        "bank_statement.csv#B174",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0039"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0331",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -22160.73
+        },
+        {
+          "acct": "2000",
+          "amt": 22160.73
+        }
+      ],
+      "memo": "cash PI-0051",
+      "proof": [
+        "bank_statement.csv#B175",
+        "rule:rule",
+        "ledger_cash.csv#PI-0051"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0332",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 30628.03
+        },
+        {
+          "acct": "1100",
+          "amt": -30628.03
+        }
+      ],
+      "memo": "cash FT-S-0006",
+      "proof": [
+        "bank_statement.csv#B176",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0006"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0333",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 10201.72
+        },
+        {
+          "acct": "1100",
+          "amt": -10201.72
+        }
+      ],
+      "memo": "cash FT-S-0013",
+      "proof": [
+        "bank_statement.csv#B177",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0013"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0334",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 25917.28
+        },
+        {
+          "acct": "1100",
+          "amt": -25917.28
+        }
+      ],
+      "memo": "cash FT-S-0020",
+      "proof": [
+        "bank_statement.csv#B178",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0020"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0335",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 2683.25
+        },
+        {
+          "acct": "1100",
+          "amt": -2683.25
+        }
+      ],
+      "memo": "cash FT-S-0023",
+      "proof": [
+        "bank_statement.csv#B179",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0023"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0336",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 25792.2
+        },
+        {
+          "acct": "1100",
+          "amt": -25792.2
+        }
+      ],
+      "memo": "cash FT-S-0041",
+      "proof": [
+        "bank_statement.csv#B180",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0041"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0337",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 3517.74
+        },
+        {
+          "acct": "1100",
+          "amt": -3517.74
+        }
+      ],
+      "memo": "cash FT-S-0052",
+      "proof": [
+        "bank_statement.csv#B181",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0052"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0338",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 13172.11
+        },
+        {
+          "acct": "1100",
+          "amt": -13172.11
+        }
+      ],
+      "memo": "cash FT-S-0058",
+      "proof": [
+        "bank_statement.csv#B182",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0058"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0339",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 25004.95
+        },
+        {
+          "acct": "1100",
+          "amt": -25004.95
+        }
+      ],
+      "memo": "cash FT-S-0060",
+      "proof": [
+        "bank_statement.csv#B183",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0060"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0340",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 28150.29
+        },
+        {
+          "acct": "1100",
+          "amt": -28150.29
+        }
+      ],
+      "memo": "cash FT-S-0075",
+      "proof": [
+        "bank_statement.csv#B184",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0075"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0341",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 32462.46
+        },
+        {
+          "acct": "1100",
+          "amt": -32462.46
+        }
+      ],
+      "memo": "cash FT-S-0076",
+      "proof": [
+        "bank_statement.csv#B185",
+        "rule:rule",
+        "ledger_cash.csv#FT-S-0076"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0342",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -10835.23
+        },
+        {
+          "acct": "2000",
+          "amt": 10835.23
+        }
+      ],
+      "memo": "cash PI-0009",
+      "proof": [
+        "bank_statement.csv#B186",
+        "rule:rule",
+        "ledger_cash.csv#PI-0009"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0343",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -14129.61
+        },
+        {
+          "acct": "2000",
+          "amt": 14129.61
+        }
+      ],
+      "memo": "cash PI-0011",
+      "proof": [
+        "bank_statement.csv#B187",
+        "rule:rule",
+        "ledger_cash.csv#PI-0011"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0344",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -23182.76
+        },
+        {
+          "acct": "2000",
+          "amt": 23182.76
+        }
+      ],
+      "memo": "cash PI-0019",
+      "proof": [
+        "bank_statement.csv#B188",
+        "rule:rule",
+        "ledger_cash.csv#PI-0019"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0345",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -16825.8
+        },
+        {
+          "acct": "2000",
+          "amt": 16825.8
+        }
+      ],
+      "memo": "cash PI-0021",
+      "proof": [
+        "bank_statement.csv#B189",
+        "rule:rule",
+        "ledger_cash.csv#PI-0021"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0346",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -25453.04
+        },
+        {
+          "acct": "2000",
+          "amt": 25453.04
+        }
+      ],
+      "memo": "cash PI-0023",
+      "proof": [
+        "bank_statement.csv#B190",
+        "rule:rule",
+        "ledger_cash.csv#PI-0023"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0347",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -17332.81
+        },
+        {
+          "acct": "2000",
+          "amt": 17332.81
+        }
+      ],
+      "memo": "cash PI-0026",
+      "proof": [
+        "bank_statement.csv#B191",
+        "rule:rule",
+        "ledger_cash.csv#PI-0026"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0348",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -27723.7
+        },
+        {
+          "acct": "2000",
+          "amt": 27723.7
+        }
+      ],
+      "memo": "cash PI-0027",
+      "proof": [
+        "bank_statement.csv#B192",
+        "rule:rule",
+        "ledger_cash.csv#PI-0027"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0349",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -12247.78
+        },
+        {
+          "acct": "2000",
+          "amt": 12247.78
+        }
+      ],
+      "memo": "cash PI-0034",
+      "proof": [
+        "bank_statement.csv#B193",
+        "rule:rule",
+        "ledger_cash.csv#PI-0034"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0350",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -18338.8
+        },
+        {
+          "acct": "2000",
+          "amt": 18338.8
+        }
+      ],
+      "memo": "cash PI-0058",
+      "proof": [
+        "bank_statement.csv#B194",
+        "rule:rule",
+        "ledger_cash.csv#PI-0058"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0351",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -15114.21
+        },
+        {
+          "acct": "2000",
+          "amt": 15114.21
+        }
+      ],
+      "memo": "cash PI-0062",
+      "proof": [
+        "bank_statement.csv#B195",
+        "rule:rule",
+        "ledger_cash.csv#PI-0062"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0352",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -841.12
+        },
+        {
+          "acct": "6700",
+          "amt": 841.12
+        }
+      ],
+      "memo": "cash EXP-119",
+      "proof": [
+        "bank_statement.csv#B197",
+        "rule:rule",
+        "ledger_cash.csv#EXP-119"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0353",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -527.53
+        },
+        {
+          "acct": "6700",
+          "amt": 527.53
+        }
+      ],
+      "memo": "cash EXP-138",
+      "proof": [
+        "bank_statement.csv#B198",
+        "rule:rule",
+        "ledger_cash.csv#EXP-138"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0354",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -301.22
+        },
+        {
+          "acct": "6700",
+          "amt": 301.22
+        }
+      ],
+      "memo": "cash EXP-149",
+      "proof": [
+        "bank_statement.csv#B199",
+        "rule:rule",
+        "ledger_cash.csv#EXP-149"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0355",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -275.39
+        },
+        {
+          "acct": "6700",
+          "amt": 275.39
+        }
+      ],
+      "memo": "cash EXP-164",
+      "proof": [
+        "bank_statement.csv#B200",
+        "rule:rule",
+        "ledger_cash.csv#EXP-164"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0356",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -26.25
+        },
+        {
+          "acct": "6200",
+          "amt": 25.0
+        },
+        {
+          "acct": "1300",
+          "amt": 1.25
+        }
+      ],
+      "memo": "bank charge with 5% VAT",
+      "proof": [
+        "bank_statement.csv#B001",
+        "rule:bank_charge"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0357",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -52.5
+        },
+        {
+          "acct": "6200",
+          "amt": 50.0
+        },
+        {
+          "acct": "1300",
+          "amt": 2.5
+        }
+      ],
+      "memo": "bank charge with 5% VAT",
+      "proof": [
+        "bank_statement.csv#B082",
+        "rule:bank_charge"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0358",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -18900.13
+        },
+        {
+          "acct": "1400",
+          "amt": 18900.13
+        }
+      ],
+      "memo": "duplicate payment, recover from vendor",
+      "proof": [
+        "bank_statement.csv#B140",
+        "rule:duplicate_payment",
+        "bank_statement.csv#B136"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0359",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": 18500.0
+        },
+        {
+          "acct": "2300",
+          "amt": -18500.0
+        }
+      ],
+      "memo": "unidentified receipt held pending remittance",
+      "proof": [
+        "bank_statement.csv#B160",
+        "rule:unrecorded_receipt"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0360",
+      "lines": [
+        {
+          "acct": "1000",
+          "amt": -52.5
+        },
+        {
+          "acct": "6200",
+          "amt": 50.0
+        },
+        {
+          "acct": "1300",
+          "amt": 2.5
+        }
+      ],
+      "memo": "bank charge with 5% VAT",
+      "proof": [
+        "bank_statement.csv#B196",
+        "rule:bank_charge"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0361",
+      "lines": [
+        {
+          "acct": "6000",
+          "amt": 9750.0
+        },
+        {
+          "acct": "2200",
+          "amt": -9750.0
+        }
+      ],
+      "memo": "accrual adj",
+      "proof": [
+        "journals.csv#JE-1041"
+      ],
+      "source": "human_review"
+    },
+    {
+      "id": "DV-0362",
+      "lines": [
+        {
+          "acct": "5000",
+          "amt": 1190000.0
+        },
+        {
+          "acct": "1200",
+          "amt": -1190000.0
+        }
+      ],
+      "memo": "COGS Oct, 72% margin method",
+      "proof": [
+        "journals.csv#JE-1040"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0363",
+      "lines": [
+        {
+          "acct": "6400",
+          "amt": 2000.0
+        },
+        {
+          "acct": "2200",
+          "amt": -2000.0
+        }
+      ],
+      "memo": "audit fee accrual, 24,000 a year / 12",
+      "proof": [
+        "rule:accrual_audit_fee"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0364",
+      "lines": [
+        {
+          "acct": "6500",
+          "amt": 1500.0
+        },
+        {
+          "acct": "1250",
+          "amt": -1500.0
+        }
+      ],
+      "memo": "insurance prepayment release, 18,000 a year / 12",
+      "proof": [
+        "rule:prepayment_insurance"
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "DV-0365",
+      "lines": [
+        {
+          "acct": "1250",
+          "amt": 1500.0
+        },
+        {
+          "acct": "3100",
+          "amt": -1500.0
+        }
+      ],
+      "memo": "recognise prepaid insurance brought forward",
+      "proof": [
+        "rule:prepayment_insurance"
+      ],
+      "source": "rule"
+    }
+  ],
+  "trial_balance": {
+    "1000": {
+      "amount": 316223.42,
+      "proof": [
+        "DV-0001",
+        "DV-0161",
+        "DV-0162",
+        "DV-0163",
+        "DV-0164",
+        "DV-0165",
+        "DV-0166",
+        "DV-0167",
+        "DV-0168",
+        "DV-0169",
+        "DV-0170",
+        "DV-0171",
+        "DV-0172",
+        "DV-0173",
+        "DV-0174",
+        "DV-0175",
+        "DV-0176",
+        "DV-0177",
+        "DV-0178",
+        "DV-0179",
+        "DV-0180",
+        "DV-0181",
+        "DV-0182",
+        "DV-0183",
+        "DV-0184",
+        "DV-0185",
+        "DV-0186",
+        "DV-0187",
+        "DV-0188",
+        "DV-0189",
+        "DV-0190",
+        "DV-0191",
+        "DV-0192",
+        "DV-0193",
+        "DV-0194",
+        "DV-0195",
+        "DV-0196",
+        "DV-0197",
+        "DV-0198",
+        "DV-0199",
+        "DV-0200",
+        "DV-0201",
+        "DV-0202",
+        "DV-0203",
+        "DV-0204",
+        "DV-0205",
+        "DV-0206",
+        "DV-0207",
+        "DV-0208",
+        "DV-0209",
+        "DV-0210",
+        "DV-0211",
+        "DV-0212",
+        "DV-0213",
+        "DV-0214",
+        "DV-0215",
+        "DV-0216",
+        "DV-0217",
+        "DV-0218",
+        "DV-0219",
+        "DV-0220",
+        "DV-0221",
+        "DV-0222",
+        "DV-0223",
+        "DV-0224",
+        "DV-0225",
+        "DV-0226",
+        "DV-0227",
+        "DV-0228",
+        "DV-0229",
+        "DV-0230",
+        "DV-0231",
+        "DV-0232",
+        "DV-0233",
+        "DV-0234",
+        "DV-0235",
+        "DV-0236",
+        "DV-0237",
+        "DV-0238",
+        "DV-0239",
+        "DV-0240",
+        "DV-0241",
+        "DV-0242",
+        "DV-0243",
+        "DV-0244",
+        "DV-0245",
+        "DV-0246",
+        "DV-0247",
+        "DV-0248",
+        "DV-0249",
+        "DV-0250",
+        "DV-0251",
+        "DV-0252",
+        "DV-0253",
+        "DV-0254",
+        "DV-0255",
+        "DV-0256",
+        "DV-0257",
+        "DV-0258",
+        "DV-0259",
+        "DV-0260",
+        "DV-0261",
+        "DV-0262",
+        "DV-0263",
+        "DV-0264",
+        "DV-0265",
+        "DV-0266",
+        "DV-0267",
+        "DV-0268",
+        "DV-0269",
+        "DV-0270",
+        "DV-0271",
+        "DV-0272",
+        "DV-0273",
+        "DV-0274",
+        "DV-0275",
+        "DV-0276",
+        "DV-0277",
+        "DV-0278",
+        "DV-0279",
+        "DV-0280",
+        "DV-0281",
+        "DV-0282",
+        "DV-0283",
+        "DV-0284",
+        "DV-0285",
+        "DV-0286",
+        "DV-0287",
+        "DV-0288",
+        "DV-0289",
+        "DV-0290",
+        "DV-0291",
+        "DV-0292",
+        "DV-0293",
+        "DV-0294",
+        "DV-0295",
+        "DV-0296",
+        "DV-0297",
+        "DV-0298",
+        "DV-0299",
+        "DV-0300",
+        "DV-0301",
+        "DV-0302",
+        "DV-0303",
+        "DV-0304",
+        "DV-0305",
+        "DV-0306",
+        "DV-0307",
+        "DV-0308",
+        "DV-0309",
+        "DV-0310",
+        "DV-0311",
+        "DV-0312",
+        "DV-0313",
+        "DV-0314",
+        "DV-0315",
+        "DV-0316",
+        "DV-0317",
+        "DV-0318",
+        "DV-0319",
+        "DV-0320",
+        "DV-0321",
+        "DV-0322",
+        "DV-0323",
+        "DV-0324",
+        "DV-0325",
+        "DV-0326",
+        "DV-0327",
+        "DV-0328",
+        "DV-0329",
+        "DV-0330",
+        "DV-0331",
+        "DV-0332",
+        "DV-0333",
+        "DV-0334",
+        "DV-0335",
+        "DV-0336",
+        "DV-0337",
+        "DV-0338",
+        "DV-0339",
+        "DV-0340",
+        "DV-0341",
+        "DV-0342",
+        "DV-0343",
+        "DV-0344",
+        "DV-0345",
+        "DV-0346",
+        "DV-0347",
+        "DV-0348",
+        "DV-0349",
+        "DV-0350",
+        "DV-0351",
+        "DV-0352",
+        "DV-0353",
+        "DV-0354",
+        "DV-0355",
+        "DV-0356",
+        "DV-0357",
+        "DV-0358",
+        "DV-0359",
+        "DV-0360"
+      ]
+    },
+    "1100": {
+      "amount": 1538023.81,
+      "proof": [
+        "DV-0002",
+        "DV-0011",
+        "DV-0012",
+        "DV-0013",
+        "DV-0014",
+        "DV-0015",
+        "DV-0016",
+        "DV-0017",
+        "DV-0018",
+        "DV-0019",
+        "DV-0020",
+        "DV-0021",
+        "DV-0022",
+        "DV-0023",
+        "DV-0024",
+        "DV-0025",
+        "DV-0026",
+        "DV-0027",
+        "DV-0028",
+        "DV-0029",
+        "DV-0030",
+        "DV-0031",
+        "DV-0032",
+        "DV-0033",
+        "DV-0034",
+        "DV-0035",
+        "DV-0036",
+        "DV-0037",
+        "DV-0038",
+        "DV-0039",
+        "DV-0040",
+        "DV-0041",
+        "DV-0042",
+        "DV-0043",
+        "DV-0044",
+        "DV-0045",
+        "DV-0046",
+        "DV-0047",
+        "DV-0048",
+        "DV-0049",
+        "DV-0050",
+        "DV-0051",
+        "DV-0052",
+        "DV-0053",
+        "DV-0054",
+        "DV-0055",
+        "DV-0056",
+        "DV-0057",
+        "DV-0058",
+        "DV-0059",
+        "DV-0060",
+        "DV-0061",
+        "DV-0062",
+        "DV-0063",
+        "DV-0064",
+        "DV-0065",
+        "DV-0066",
+        "DV-0067",
+        "DV-0068",
+        "DV-0069",
+        "DV-0070",
+        "DV-0071",
+        "DV-0072",
+        "DV-0073",
+        "DV-0074",
+        "DV-0075",
+        "DV-0076",
+        "DV-0077",
+        "DV-0078",
+        "DV-0079",
+        "DV-0080",
+        "DV-0081",
+        "DV-0082",
+        "DV-0083",
+        "DV-0084",
+        "DV-0085",
+        "DV-0086",
+        "DV-0087",
+        "DV-0088",
+        "DV-0089",
+        "DV-0090",
+        "DV-0091",
+        "DV-0092",
+        "DV-0093",
+        "DV-0094",
+        "DV-0095",
+        "DV-0189",
+        "DV-0190",
+        "DV-0195",
+        "DV-0196",
+        "DV-0209",
+        "DV-0214",
+        "DV-0215",
+        "DV-0220",
+        "DV-0221",
+        "DV-0222",
+        "DV-0230",
+        "DV-0237",
+        "DV-0247",
+        "DV-0248",
+        "DV-0249",
+        "DV-0253",
+        "DV-0254",
+        "DV-0255",
+        "DV-0256",
+        "DV-0257",
+        "DV-0272",
+        "DV-0273",
+        "DV-0274",
+        "DV-0285",
+        "DV-0286",
+        "DV-0287",
+        "DV-0292",
+        "DV-0293",
+        "DV-0316",
+        "DV-0321",
+        "DV-0322",
+        "DV-0330",
+        "DV-0332",
+        "DV-0333",
+        "DV-0334",
+        "DV-0335",
+        "DV-0336",
+        "DV-0337",
+        "DV-0338",
+        "DV-0339",
+        "DV-0340",
+        "DV-0341"
+      ]
+    },
+    "1200": {
+      "amount": 349209.47,
+      "proof": [
+        "DV-0003",
+        "DV-0096",
+        "DV-0097",
+        "DV-0098",
+        "DV-0099",
+        "DV-0100",
+        "DV-0101",
+        "DV-0102",
+        "DV-0103",
+        "DV-0104",
+        "DV-0105",
+        "DV-0106",
+        "DV-0107",
+        "DV-0108",
+        "DV-0109",
+        "DV-0110",
+        "DV-0111",
+        "DV-0112",
+        "DV-0113",
+        "DV-0114",
+        "DV-0115",
+        "DV-0116",
+        "DV-0117",
+        "DV-0118",
+        "DV-0119",
+        "DV-0120",
+        "DV-0121",
+        "DV-0122",
+        "DV-0123",
+        "DV-0124",
+        "DV-0125",
+        "DV-0126",
+        "DV-0127",
+        "DV-0128",
+        "DV-0129",
+        "DV-0130",
+        "DV-0131",
+        "DV-0132",
+        "DV-0133",
+        "DV-0134",
+        "DV-0135",
+        "DV-0136",
+        "DV-0137",
+        "DV-0138",
+        "DV-0139",
+        "DV-0140",
+        "DV-0141",
+        "DV-0142",
+        "DV-0143",
+        "DV-0144",
+        "DV-0145",
+        "DV-0146",
+        "DV-0147",
+        "DV-0148",
+        "DV-0149",
+        "DV-0150",
+        "DV-0151",
+        "DV-0152",
+        "DV-0153",
+        "DV-0154",
+        "DV-0155",
+        "DV-0156",
+        "DV-0157",
+        "DV-0158",
+        "DV-0159",
+        "DV-0160",
+        "DV-0362"
+      ]
+    },
+    "1300": {
+      "amount": 57716.75,
+      "proof": [
+        "DV-0004",
+        "DV-0096",
+        "DV-0097",
+        "DV-0098",
+        "DV-0099",
+        "DV-0100",
+        "DV-0101",
+        "DV-0102",
+        "DV-0103",
+        "DV-0104",
+        "DV-0105",
+        "DV-0106",
+        "DV-0107",
+        "DV-0108",
+        "DV-0109",
+        "DV-0110",
+        "DV-0111",
+        "DV-0112",
+        "DV-0113",
+        "DV-0114",
+        "DV-0115",
+        "DV-0116",
+        "DV-0117",
+        "DV-0118",
+        "DV-0119",
+        "DV-0120",
+        "DV-0121",
+        "DV-0122",
+        "DV-0123",
+        "DV-0124",
+        "DV-0125",
+        "DV-0126",
+        "DV-0127",
+        "DV-0128",
+        "DV-0129",
+        "DV-0130",
+        "DV-0131",
+        "DV-0132",
+        "DV-0133",
+        "DV-0134",
+        "DV-0135",
+        "DV-0136",
+        "DV-0137",
+        "DV-0138",
+        "DV-0139",
+        "DV-0140",
+        "DV-0141",
+        "DV-0142",
+        "DV-0143",
+        "DV-0144",
+        "DV-0145",
+        "DV-0146",
+        "DV-0147",
+        "DV-0148",
+        "DV-0149",
+        "DV-0150",
+        "DV-0151",
+        "DV-0152",
+        "DV-0153",
+        "DV-0154",
+        "DV-0155",
+        "DV-0156",
+        "DV-0157",
+        "DV-0158",
+        "DV-0159",
+        "DV-0160",
+        "DV-0356",
+        "DV-0357",
+        "DV-0360"
+      ]
+    },
+    "1500": {
+      "amount": 150000.0,
+      "proof": [
+        "DV-0005"
+      ]
+    },
+    "2000": {
+      "amount": -975843.61,
+      "proof": [
+        "DV-0006",
+        "DV-0096",
+        "DV-0097",
+        "DV-0098",
+        "DV-0099",
+        "DV-0100",
+        "DV-0101",
+        "DV-0102",
+        "DV-0103",
+        "DV-0104",
+        "DV-0105",
+        "DV-0106",
+        "DV-0107",
+        "DV-0108",
+        "DV-0109",
+        "DV-0110",
+        "DV-0111",
+        "DV-0112",
+        "DV-0113",
+        "DV-0114",
+        "DV-0115",
+        "DV-0116",
+        "DV-0117",
+        "DV-0118",
+        "DV-0119",
+        "DV-0120",
+        "DV-0121",
+        "DV-0122",
+        "DV-0123",
+        "DV-0124",
+        "DV-0125",
+        "DV-0126",
+        "DV-0127",
+        "DV-0128",
+        "DV-0129",
+        "DV-0130",
+        "DV-0131",
+        "DV-0132",
+        "DV-0133",
+        "DV-0134",
+        "DV-0135",
+        "DV-0136",
+        "DV-0137",
+        "DV-0138",
+        "DV-0139",
+        "DV-0140",
+        "DV-0141",
+        "DV-0142",
+        "DV-0143",
+        "DV-0144",
+        "DV-0145",
+        "DV-0146",
+        "DV-0147",
+        "DV-0148",
+        "DV-0149",
+        "DV-0150",
+        "DV-0151",
+        "DV-0152",
+        "DV-0153",
+        "DV-0154",
+        "DV-0155",
+        "DV-0156",
+        "DV-0157",
+        "DV-0158",
+        "DV-0159",
+        "DV-0160",
+        "DV-0176",
+        "DV-0182",
+        "DV-0197",
+        "DV-0206",
+        "DV-0216",
+        "DV-0217",
+        "DV-0231",
+        "DV-0232",
+        "DV-0238",
+        "DV-0239",
+        "DV-0240",
+        "DV-0250",
+        "DV-0258",
+        "DV-0259",
+        "DV-0263",
+        "DV-0264",
+        "DV-0265",
+        "DV-0266",
+        "DV-0275",
+        "DV-0294",
+        "DV-0302",
+        "DV-0309",
+        "DV-0310",
+        "DV-0311",
+        "DV-0312",
+        "DV-0331",
+        "DV-0342",
+        "DV-0343",
+        "DV-0344",
+        "DV-0345",
+        "DV-0346",
+        "DV-0347",
+        "DV-0348",
+        "DV-0349",
+        "DV-0350",
+        "DV-0351"
+      ]
+    },
+    "2100": {
+      "amount": -82717.16,
+      "proof": [
+        "DV-0007",
+        "DV-0011",
+        "DV-0012",
+        "DV-0013",
+        "DV-0014",
+        "DV-0015",
+        "DV-0016",
+        "DV-0017",
+        "DV-0018",
+        "DV-0019",
+        "DV-0020",
+        "DV-0021",
+        "DV-0022",
+        "DV-0023",
+        "DV-0024",
+        "DV-0025",
+        "DV-0026",
+        "DV-0027",
+        "DV-0028",
+        "DV-0029",
+        "DV-0030",
+        "DV-0031",
+        "DV-0032",
+        "DV-0033",
+        "DV-0034",
+        "DV-0035",
+        "DV-0036",
+        "DV-0037",
+        "DV-0038",
+        "DV-0039",
+        "DV-0040",
+        "DV-0041",
+        "DV-0042",
+        "DV-0043",
+        "DV-0044",
+        "DV-0045",
+        "DV-0046",
+        "DV-0047",
+        "DV-0048",
+        "DV-0049",
+        "DV-0050",
+        "DV-0051",
+        "DV-0052",
+        "DV-0053",
+        "DV-0054",
+        "DV-0055",
+        "DV-0056",
+        "DV-0057",
+        "DV-0058",
+        "DV-0059",
+        "DV-0060",
+        "DV-0061",
+        "DV-0062",
+        "DV-0063",
+        "DV-0064",
+        "DV-0065",
+        "DV-0066",
+        "DV-0067",
+        "DV-0068",
+        "DV-0069",
+        "DV-0070",
+        "DV-0071",
+        "DV-0072",
+        "DV-0073",
+        "DV-0074",
+        "DV-0075",
+        "DV-0076",
+        "DV-0077",
+        "DV-0078",
+        "DV-0079",
+        "DV-0080",
+        "DV-0081",
+        "DV-0082",
+        "DV-0083",
+        "DV-0084",
+        "DV-0085",
+        "DV-0086",
+        "DV-0087",
+        "DV-0088",
+        "DV-0089",
+        "DV-0090",
+        "DV-0091",
+        "DV-0092",
+        "DV-0093",
+        "DV-0094",
+        "DV-0095"
+      ]
+    },
+    "2200": {
+      "amount": -51750.0,
+      "proof": [
+        "DV-0008",
+        "DV-0361",
+        "DV-0363"
+      ]
+    },
+    "3000": {
+      "amount": -300000.0,
+      "proof": [
+        "DV-0009"
+      ]
+    },
+    "3100": {
+      "amount": -771500.0,
+      "proof": [
+        "DV-0010",
+        "DV-0365"
+      ]
+    },
+    "4000": {
+      "amount": -1654342.56,
+      "proof": [
+        "DV-0011",
+        "DV-0012",
+        "DV-0013",
+        "DV-0014",
+        "DV-0015",
+        "DV-0016",
+        "DV-0017",
+        "DV-0018",
+        "DV-0019",
+        "DV-0020",
+        "DV-0021",
+        "DV-0022",
+        "DV-0023",
+        "DV-0024",
+        "DV-0025",
+        "DV-0026",
+        "DV-0027",
+        "DV-0028",
+        "DV-0029",
+        "DV-0030",
+        "DV-0031",
+        "DV-0032",
+        "DV-0033",
+        "DV-0034",
+        "DV-0035",
+        "DV-0036",
+        "DV-0037",
+        "DV-0038",
+        "DV-0039",
+        "DV-0040",
+        "DV-0041",
+        "DV-0042",
+        "DV-0043",
+        "DV-0044",
+        "DV-0045",
+        "DV-0046",
+        "DV-0047",
+        "DV-0048",
+        "DV-0049",
+        "DV-0050",
+        "DV-0051",
+        "DV-0052",
+        "DV-0053",
+        "DV-0054",
+        "DV-0055",
+        "DV-0056",
+        "DV-0057",
+        "DV-0058",
+        "DV-0059",
+        "DV-0060",
+        "DV-0061",
+        "DV-0062",
+        "DV-0063",
+        "DV-0064",
+        "DV-0065",
+        "DV-0066",
+        "DV-0067",
+        "DV-0068",
+        "DV-0069",
+        "DV-0070",
+        "DV-0071",
+        "DV-0072",
+        "DV-0073",
+        "DV-0074",
+        "DV-0075",
+        "DV-0076",
+        "DV-0077",
+        "DV-0078",
+        "DV-0079",
+        "DV-0080",
+        "DV-0081",
+        "DV-0082",
+        "DV-0083",
+        "DV-0084",
+        "DV-0085",
+        "DV-0086",
+        "DV-0087",
+        "DV-0088",
+        "DV-0089",
+        "DV-0090",
+        "DV-0091",
+        "DV-0092",
+        "DV-0093",
+        "DV-0094",
+        "DV-0095"
+      ]
+    },
+    "6000": {
+      "amount": 44750.0,
+      "proof": [
+        "DV-0161",
+        "DV-0361"
+      ]
+    },
+    "6700": {
+      "amount": 54624.35,
+      "proof": [
+        "DV-0162",
+        "DV-0163",
+        "DV-0164",
+        "DV-0165",
+        "DV-0166",
+        "DV-0167",
+        "DV-0168",
+        "DV-0169",
+        "DV-0170",
+        "DV-0171",
+        "DV-0172",
+        "DV-0173",
+        "DV-0174",
+        "DV-0175",
+        "DV-0177",
+        "DV-0178",
+        "DV-0179",
+        "DV-0180",
+        "DV-0181",
+        "DV-0183",
+        "DV-0184",
+        "DV-0185",
+        "DV-0186",
+        "DV-0187",
+        "DV-0188",
+        "DV-0191",
+        "DV-0192",
+        "DV-0193",
+        "DV-0194",
+        "DV-0198",
+        "DV-0199",
+        "DV-0200",
+        "DV-0201",
+        "DV-0202",
+        "DV-0203",
+        "DV-0204",
+        "DV-0205",
+        "DV-0207",
+        "DV-0208",
+        "DV-0210",
+        "DV-0211",
+        "DV-0212",
+        "DV-0213",
+        "DV-0219",
+        "DV-0223",
+        "DV-0224",
+        "DV-0225",
+        "DV-0226",
+        "DV-0227",
+        "DV-0228",
+        "DV-0229",
+        "DV-0233",
+        "DV-0234",
+        "DV-0235",
+        "DV-0236",
+        "DV-0241",
+        "DV-0242",
+        "DV-0243",
+        "DV-0244",
+        "DV-0245",
+        "DV-0246",
+        "DV-0251",
+        "DV-0252",
+        "DV-0260",
+        "DV-0261",
+        "DV-0262",
+        "DV-0267",
+        "DV-0268",
+        "DV-0269",
+        "DV-0270",
+        "DV-0271",
+        "DV-0276",
+        "DV-0277",
+        "DV-0278",
+        "DV-0279",
+        "DV-0280",
+        "DV-0281",
+        "DV-0282",
+        "DV-0283",
+        "DV-0284",
+        "DV-0288",
+        "DV-0289",
+        "DV-0290",
+        "DV-0291",
+        "DV-0295",
+        "DV-0296",
+        "DV-0297",
+        "DV-0298",
+        "DV-0299",
+        "DV-0300",
+        "DV-0301",
+        "DV-0303",
+        "DV-0304",
+        "DV-0305",
+        "DV-0306",
+        "DV-0307",
+        "DV-0308",
+        "DV-0313",
+        "DV-0314",
+        "DV-0315",
+        "DV-0317",
+        "DV-0318",
+        "DV-0319",
+        "DV-0320",
+        "DV-0324",
+        "DV-0325",
+        "DV-0326",
+        "DV-0327",
+        "DV-0328",
+        "DV-0329",
+        "DV-0352",
+        "DV-0353",
+        "DV-0354",
+        "DV-0355"
+      ]
+    },
+    "6300": {
+      "amount": 3180.4,
+      "proof": [
+        "DV-0218"
+      ]
+    },
+    "6100": {
+      "amount": 128400.0,
+      "proof": [
+        "DV-0323"
+      ]
+    },
+    "6200": {
+      "amount": 125.0,
+      "proof": [
+        "DV-0356",
+        "DV-0357",
+        "DV-0360"
+      ]
+    },
+    "1400": {
+      "amount": 18900.13,
+      "proof": [
+        "DV-0358"
+      ]
+    },
+    "2300": {
+      "amount": -18500.0,
+      "proof": [
+        "DV-0359"
+      ]
+    },
+    "5000": {
+      "amount": 1190000.0,
+      "proof": [
+        "DV-0362"
+      ]
+    },
+    "6400": {
+      "amount": 2000.0,
+      "proof": [
+        "DV-0363"
+      ]
+    },
+    "6500": {
+      "amount": 1500.0,
+      "proof": [
+        "DV-0364"
+      ]
+    },
+    "1250": {
+      "amount": 0.0,
+      "proof": [
+        "DV-0364",
+        "DV-0365"
+      ]
+    }
+  },
+  "pnl": {
+    "4000": {
+      "name": "Sales",
+      "amount": -1654342.56,
+      "proof": [
+        "DV-0011",
+        "DV-0012",
+        "DV-0013",
+        "DV-0014",
+        "DV-0015",
+        "DV-0016",
+        "DV-0017",
+        "DV-0018",
+        "DV-0019",
+        "DV-0020",
+        "DV-0021",
+        "DV-0022",
+        "DV-0023",
+        "DV-0024",
+        "DV-0025",
+        "DV-0026",
+        "DV-0027",
+        "DV-0028",
+        "DV-0029",
+        "DV-0030",
+        "DV-0031",
+        "DV-0032",
+        "DV-0033",
+        "DV-0034",
+        "DV-0035",
+        "DV-0036",
+        "DV-0037",
+        "DV-0038",
+        "DV-0039",
+        "DV-0040",
+        "DV-0041",
+        "DV-0042",
+        "DV-0043",
+        "DV-0044",
+        "DV-0045",
+        "DV-0046",
+        "DV-0047",
+        "DV-0048",
+        "DV-0049",
+        "DV-0050",
+        "DV-0051",
+        "DV-0052",
+        "DV-0053",
+        "DV-0054",
+        "DV-0055",
+        "DV-0056",
+        "DV-0057",
+        "DV-0058",
+        "DV-0059",
+        "DV-0060",
+        "DV-0061",
+        "DV-0062",
+        "DV-0063",
+        "DV-0064",
+        "DV-0065",
+        "DV-0066",
+        "DV-0067",
+        "DV-0068",
+        "DV-0069",
+        "DV-0070",
+        "DV-0071",
+        "DV-0072",
+        "DV-0073",
+        "DV-0074",
+        "DV-0075",
+        "DV-0076",
+        "DV-0077",
+        "DV-0078",
+        "DV-0079",
+        "DV-0080",
+        "DV-0081",
+        "DV-0082",
+        "DV-0083",
+        "DV-0084",
+        "DV-0085",
+        "DV-0086",
+        "DV-0087",
+        "DV-0088",
+        "DV-0089",
+        "DV-0090",
+        "DV-0091",
+        "DV-0092",
+        "DV-0093",
+        "DV-0094",
+        "DV-0095"
+      ]
+    },
+    "5000": {
+      "name": "Cost of Goods Sold",
+      "amount": 1190000.0,
+      "proof": [
+        "DV-0362"
+      ]
+    },
+    "6000": {
+      "name": "Rent",
+      "amount": 44750.0,
+      "proof": [
+        "DV-0161",
+        "DV-0361"
+      ]
+    },
+    "6100": {
+      "name": "Salaries",
+      "amount": 128400.0,
+      "proof": [
+        "DV-0323"
+      ]
+    },
+    "6200": {
+      "name": "Bank Charges",
+      "amount": 125.0,
+      "proof": [
+        "DV-0356",
+        "DV-0357",
+        "DV-0360"
+      ]
+    },
+    "6300": {
+      "name": "Utilities DEWA",
+      "amount": 3180.4,
+      "proof": [
+        "DV-0218"
+      ]
+    },
+    "6400": {
+      "name": "Audit Fee",
+      "amount": 2000.0,
+      "proof": [
+        "DV-0363"
+      ]
+    },
+    "6500": {
+      "name": "Insurance",
+      "amount": 1500.0,
+      "proof": [
+        "DV-0364"
+      ]
+    },
+    "6700": {
+      "name": "General Expenses",
+      "amount": 54624.35,
+      "proof": [
+        "DV-0162",
+        "DV-0163",
+        "DV-0164",
+        "DV-0165",
+        "DV-0166",
+        "DV-0167",
+        "DV-0168",
+        "DV-0169",
+        "DV-0170",
+        "DV-0171",
+        "DV-0172",
+        "DV-0173",
+        "DV-0174",
+        "DV-0175",
+        "DV-0177",
+        "DV-0178",
+        "DV-0179",
+        "DV-0180",
+        "DV-0181",
+        "DV-0183",
+        "DV-0184",
+        "DV-0185",
+        "DV-0186",
+        "DV-0187",
+        "DV-0188",
+        "DV-0191",
+        "DV-0192",
+        "DV-0193",
+        "DV-0194",
+        "DV-0198",
+        "DV-0199",
+        "DV-0200",
+        "DV-0201",
+        "DV-0202",
+        "DV-0203",
+        "DV-0204",
+        "DV-0205",
+        "DV-0207",
+        "DV-0208",
+        "DV-0210",
+        "DV-0211",
+        "DV-0212",
+        "DV-0213",
+        "DV-0219",
+        "DV-0223",
+        "DV-0224",
+        "DV-0225",
+        "DV-0226",
+        "DV-0227",
+        "DV-0228",
+        "DV-0229",
+        "DV-0233",
+        "DV-0234",
+        "DV-0235",
+        "DV-0236",
+        "DV-0241",
+        "DV-0242",
+        "DV-0243",
+        "DV-0244",
+        "DV-0245",
+        "DV-0246",
+        "DV-0251",
+        "DV-0252",
+        "DV-0260",
+        "DV-0261",
+        "DV-0262",
+        "DV-0267",
+        "DV-0268",
+        "DV-0269",
+        "DV-0270",
+        "DV-0271",
+        "DV-0276",
+        "DV-0277",
+        "DV-0278",
+        "DV-0279",
+        "DV-0280",
+        "DV-0281",
+        "DV-0282",
+        "DV-0283",
+        "DV-0284",
+        "DV-0288",
+        "DV-0289",
+        "DV-0290",
+        "DV-0291",
+        "DV-0295",
+        "DV-0296",
+        "DV-0297",
+        "DV-0298",
+        "DV-0299",
+        "DV-0300",
+        "DV-0301",
+        "DV-0303",
+        "DV-0304",
+        "DV-0305",
+        "DV-0306",
+        "DV-0307",
+        "DV-0308",
+        "DV-0313",
+        "DV-0314",
+        "DV-0315",
+        "DV-0317",
+        "DV-0318",
+        "DV-0319",
+        "DV-0320",
+        "DV-0324",
+        "DV-0325",
+        "DV-0326",
+        "DV-0327",
+        "DV-0328",
+        "DV-0329",
+        "DV-0352",
+        "DV-0353",
+        "DV-0354",
+        "DV-0355"
+      ]
+    }
+  },
+  "balance_sheet": {
+    "1000": {
+      "name": "Cash at Bank Emirates NBD",
+      "amount": 316223.42,
+      "proof": [
+        "DV-0001",
+        "DV-0161",
+        "DV-0162",
+        "DV-0163",
+        "DV-0164",
+        "DV-0165",
+        "DV-0166",
+        "DV-0167",
+        "DV-0168",
+        "DV-0169",
+        "DV-0170",
+        "DV-0171",
+        "DV-0172",
+        "DV-0173",
+        "DV-0174",
+        "DV-0175",
+        "DV-0176",
+        "DV-0177",
+        "DV-0178",
+        "DV-0179",
+        "DV-0180",
+        "DV-0181",
+        "DV-0182",
+        "DV-0183",
+        "DV-0184",
+        "DV-0185",
+        "DV-0186",
+        "DV-0187",
+        "DV-0188",
+        "DV-0189",
+        "DV-0190",
+        "DV-0191",
+        "DV-0192",
+        "DV-0193",
+        "DV-0194",
+        "DV-0195",
+        "DV-0196",
+        "DV-0197",
+        "DV-0198",
+        "DV-0199",
+        "DV-0200",
+        "DV-0201",
+        "DV-0202",
+        "DV-0203",
+        "DV-0204",
+        "DV-0205",
+        "DV-0206",
+        "DV-0207",
+        "DV-0208",
+        "DV-0209",
+        "DV-0210",
+        "DV-0211",
+        "DV-0212",
+        "DV-0213",
+        "DV-0214",
+        "DV-0215",
+        "DV-0216",
+        "DV-0217",
+        "DV-0218",
+        "DV-0219",
+        "DV-0220",
+        "DV-0221",
+        "DV-0222",
+        "DV-0223",
+        "DV-0224",
+        "DV-0225",
+        "DV-0226",
+        "DV-0227",
+        "DV-0228",
+        "DV-0229",
+        "DV-0230",
+        "DV-0231",
+        "DV-0232",
+        "DV-0233",
+        "DV-0234",
+        "DV-0235",
+        "DV-0236",
+        "DV-0237",
+        "DV-0238",
+        "DV-0239",
+        "DV-0240",
+        "DV-0241",
+        "DV-0242",
+        "DV-0243",
+        "DV-0244",
+        "DV-0245",
+        "DV-0246",
+        "DV-0247",
+        "DV-0248",
+        "DV-0249",
+        "DV-0250",
+        "DV-0251",
+        "DV-0252",
+        "DV-0253",
+        "DV-0254",
+        "DV-0255",
+        "DV-0256",
+        "DV-0257",
+        "DV-0258",
+        "DV-0259",
+        "DV-0260",
+        "DV-0261",
+        "DV-0262",
+        "DV-0263",
+        "DV-0264",
+        "DV-0265",
+        "DV-0266",
+        "DV-0267",
+        "DV-0268",
+        "DV-0269",
+        "DV-0270",
+        "DV-0271",
+        "DV-0272",
+        "DV-0273",
+        "DV-0274",
+        "DV-0275",
+        "DV-0276",
+        "DV-0277",
+        "DV-0278",
+        "DV-0279",
+        "DV-0280",
+        "DV-0281",
+        "DV-0282",
+        "DV-0283",
+        "DV-0284",
+        "DV-0285",
+        "DV-0286",
+        "DV-0287",
+        "DV-0288",
+        "DV-0289",
+        "DV-0290",
+        "DV-0291",
+        "DV-0292",
+        "DV-0293",
+        "DV-0294",
+        "DV-0295",
+        "DV-0296",
+        "DV-0297",
+        "DV-0298",
+        "DV-0299",
+        "DV-0300",
+        "DV-0301",
+        "DV-0302",
+        "DV-0303",
+        "DV-0304",
+        "DV-0305",
+        "DV-0306",
+        "DV-0307",
+        "DV-0308",
+        "DV-0309",
+        "DV-0310",
+        "DV-0311",
+        "DV-0312",
+        "DV-0313",
+        "DV-0314",
+        "DV-0315",
+        "DV-0316",
+        "DV-0317",
+        "DV-0318",
+        "DV-0319",
+        "DV-0320",
+        "DV-0321",
+        "DV-0322",
+        "DV-0323",
+        "DV-0324",
+        "DV-0325",
+        "DV-0326",
+        "DV-0327",
+        "DV-0328",
+        "DV-0329",
+        "DV-0330",
+        "DV-0331",
+        "DV-0332",
+        "DV-0333",
+        "DV-0334",
+        "DV-0335",
+        "DV-0336",
+        "DV-0337",
+        "DV-0338",
+        "DV-0339",
+        "DV-0340",
+        "DV-0341",
+        "DV-0342",
+        "DV-0343",
+        "DV-0344",
+        "DV-0345",
+        "DV-0346",
+        "DV-0347",
+        "DV-0348",
+        "DV-0349",
+        "DV-0350",
+        "DV-0351",
+        "DV-0352",
+        "DV-0353",
+        "DV-0354",
+        "DV-0355",
+        "DV-0356",
+        "DV-0357",
+        "DV-0358",
+        "DV-0359",
+        "DV-0360"
+      ]
+    },
+    "1100": {
+      "name": "Accounts Receivable",
+      "amount": 1538023.81,
+      "proof": [
+        "DV-0002",
+        "DV-0011",
+        "DV-0012",
+        "DV-0013",
+        "DV-0014",
+        "DV-0015",
+        "DV-0016",
+        "DV-0017",
+        "DV-0018",
+        "DV-0019",
+        "DV-0020",
+        "DV-0021",
+        "DV-0022",
+        "DV-0023",
+        "DV-0024",
+        "DV-0025",
+        "DV-0026",
+        "DV-0027",
+        "DV-0028",
+        "DV-0029",
+        "DV-0030",
+        "DV-0031",
+        "DV-0032",
+        "DV-0033",
+        "DV-0034",
+        "DV-0035",
+        "DV-0036",
+        "DV-0037",
+        "DV-0038",
+        "DV-0039",
+        "DV-0040",
+        "DV-0041",
+        "DV-0042",
+        "DV-0043",
+        "DV-0044",
+        "DV-0045",
+        "DV-0046",
+        "DV-0047",
+        "DV-0048",
+        "DV-0049",
+        "DV-0050",
+        "DV-0051",
+        "DV-0052",
+        "DV-0053",
+        "DV-0054",
+        "DV-0055",
+        "DV-0056",
+        "DV-0057",
+        "DV-0058",
+        "DV-0059",
+        "DV-0060",
+        "DV-0061",
+        "DV-0062",
+        "DV-0063",
+        "DV-0064",
+        "DV-0065",
+        "DV-0066",
+        "DV-0067",
+        "DV-0068",
+        "DV-0069",
+        "DV-0070",
+        "DV-0071",
+        "DV-0072",
+        "DV-0073",
+        "DV-0074",
+        "DV-0075",
+        "DV-0076",
+        "DV-0077",
+        "DV-0078",
+        "DV-0079",
+        "DV-0080",
+        "DV-0081",
+        "DV-0082",
+        "DV-0083",
+        "DV-0084",
+        "DV-0085",
+        "DV-0086",
+        "DV-0087",
+        "DV-0088",
+        "DV-0089",
+        "DV-0090",
+        "DV-0091",
+        "DV-0092",
+        "DV-0093",
+        "DV-0094",
+        "DV-0095",
+        "DV-0189",
+        "DV-0190",
+        "DV-0195",
+        "DV-0196",
+        "DV-0209",
+        "DV-0214",
+        "DV-0215",
+        "DV-0220",
+        "DV-0221",
+        "DV-0222",
+        "DV-0230",
+        "DV-0237",
+        "DV-0247",
+        "DV-0248",
+        "DV-0249",
+        "DV-0253",
+        "DV-0254",
+        "DV-0255",
+        "DV-0256",
+        "DV-0257",
+        "DV-0272",
+        "DV-0273",
+        "DV-0274",
+        "DV-0285",
+        "DV-0286",
+        "DV-0287",
+        "DV-0292",
+        "DV-0293",
+        "DV-0316",
+        "DV-0321",
+        "DV-0322",
+        "DV-0330",
+        "DV-0332",
+        "DV-0333",
+        "DV-0334",
+        "DV-0335",
+        "DV-0336",
+        "DV-0337",
+        "DV-0338",
+        "DV-0339",
+        "DV-0340",
+        "DV-0341"
+      ]
+    },
+    "1200": {
+      "name": "Inventory",
+      "amount": 349209.47,
+      "proof": [
+        "DV-0003",
+        "DV-0096",
+        "DV-0097",
+        "DV-0098",
+        "DV-0099",
+        "DV-0100",
+        "DV-0101",
+        "DV-0102",
+        "DV-0103",
+        "DV-0104",
+        "DV-0105",
+        "DV-0106",
+        "DV-0107",
+        "DV-0108",
+        "DV-0109",
+        "DV-0110",
+        "DV-0111",
+        "DV-0112",
+        "DV-0113",
+        "DV-0114",
+        "DV-0115",
+        "DV-0116",
+        "DV-0117",
+        "DV-0118",
+        "DV-0119",
+        "DV-0120",
+        "DV-0121",
+        "DV-0122",
+        "DV-0123",
+        "DV-0124",
+        "DV-0125",
+        "DV-0126",
+        "DV-0127",
+        "DV-0128",
+        "DV-0129",
+        "DV-0130",
+        "DV-0131",
+        "DV-0132",
+        "DV-0133",
+        "DV-0134",
+        "DV-0135",
+        "DV-0136",
+        "DV-0137",
+        "DV-0138",
+        "DV-0139",
+        "DV-0140",
+        "DV-0141",
+        "DV-0142",
+        "DV-0143",
+        "DV-0144",
+        "DV-0145",
+        "DV-0146",
+        "DV-0147",
+        "DV-0148",
+        "DV-0149",
+        "DV-0150",
+        "DV-0151",
+        "DV-0152",
+        "DV-0153",
+        "DV-0154",
+        "DV-0155",
+        "DV-0156",
+        "DV-0157",
+        "DV-0158",
+        "DV-0159",
+        "DV-0160",
+        "DV-0362"
+      ]
+    },
+    "1300": {
+      "name": "VAT Input Recoverable",
+      "amount": 57716.75,
+      "proof": [
+        "DV-0004",
+        "DV-0096",
+        "DV-0097",
+        "DV-0098",
+        "DV-0099",
+        "DV-0100",
+        "DV-0101",
+        "DV-0102",
+        "DV-0103",
+        "DV-0104",
+        "DV-0105",
+        "DV-0106",
+        "DV-0107",
+        "DV-0108",
+        "DV-0109",
+        "DV-0110",
+        "DV-0111",
+        "DV-0112",
+        "DV-0113",
+        "DV-0114",
+        "DV-0115",
+        "DV-0116",
+        "DV-0117",
+        "DV-0118",
+        "DV-0119",
+        "DV-0120",
+        "DV-0121",
+        "DV-0122",
+        "DV-0123",
+        "DV-0124",
+        "DV-0125",
+        "DV-0126",
+        "DV-0127",
+        "DV-0128",
+        "DV-0129",
+        "DV-0130",
+        "DV-0131",
+        "DV-0132",
+        "DV-0133",
+        "DV-0134",
+        "DV-0135",
+        "DV-0136",
+        "DV-0137",
+        "DV-0138",
+        "DV-0139",
+        "DV-0140",
+        "DV-0141",
+        "DV-0142",
+        "DV-0143",
+        "DV-0144",
+        "DV-0145",
+        "DV-0146",
+        "DV-0147",
+        "DV-0148",
+        "DV-0149",
+        "DV-0150",
+        "DV-0151",
+        "DV-0152",
+        "DV-0153",
+        "DV-0154",
+        "DV-0155",
+        "DV-0156",
+        "DV-0157",
+        "DV-0158",
+        "DV-0159",
+        "DV-0160",
+        "DV-0356",
+        "DV-0357",
+        "DV-0360"
+      ]
+    },
+    "1400": {
+      "name": "Vendor Recoverable",
+      "amount": 18900.13,
+      "proof": [
+        "DV-0358"
+      ]
+    },
+    "1500": {
+      "name": "Fixed Assets",
+      "amount": 150000.0,
+      "proof": [
+        "DV-0005"
+      ]
+    },
+    "2000": {
+      "name": "Accounts Payable",
+      "amount": -975843.61,
+      "proof": [
+        "DV-0006",
+        "DV-0096",
+        "DV-0097",
+        "DV-0098",
+        "DV-0099",
+        "DV-0100",
+        "DV-0101",
+        "DV-0102",
+        "DV-0103",
+        "DV-0104",
+        "DV-0105",
+        "DV-0106",
+        "DV-0107",
+        "DV-0108",
+        "DV-0109",
+        "DV-0110",
+        "DV-0111",
+        "DV-0112",
+        "DV-0113",
+        "DV-0114",
+        "DV-0115",
+        "DV-0116",
+        "DV-0117",
+        "DV-0118",
+        "DV-0119",
+        "DV-0120",
+        "DV-0121",
+        "DV-0122",
+        "DV-0123",
+        "DV-0124",
+        "DV-0125",
+        "DV-0126",
+        "DV-0127",
+        "DV-0128",
+        "DV-0129",
+        "DV-0130",
+        "DV-0131",
+        "DV-0132",
+        "DV-0133",
+        "DV-0134",
+        "DV-0135",
+        "DV-0136",
+        "DV-0137",
+        "DV-0138",
+        "DV-0139",
+        "DV-0140",
+        "DV-0141",
+        "DV-0142",
+        "DV-0143",
+        "DV-0144",
+        "DV-0145",
+        "DV-0146",
+        "DV-0147",
+        "DV-0148",
+        "DV-0149",
+        "DV-0150",
+        "DV-0151",
+        "DV-0152",
+        "DV-0153",
+        "DV-0154",
+        "DV-0155",
+        "DV-0156",
+        "DV-0157",
+        "DV-0158",
+        "DV-0159",
+        "DV-0160",
+        "DV-0176",
+        "DV-0182",
+        "DV-0197",
+        "DV-0206",
+        "DV-0216",
+        "DV-0217",
+        "DV-0231",
+        "DV-0232",
+        "DV-0238",
+        "DV-0239",
+        "DV-0240",
+        "DV-0250",
+        "DV-0258",
+        "DV-0259",
+        "DV-0263",
+        "DV-0264",
+        "DV-0265",
+        "DV-0266",
+        "DV-0275",
+        "DV-0294",
+        "DV-0302",
+        "DV-0309",
+        "DV-0310",
+        "DV-0311",
+        "DV-0312",
+        "DV-0331",
+        "DV-0342",
+        "DV-0343",
+        "DV-0344",
+        "DV-0345",
+        "DV-0346",
+        "DV-0347",
+        "DV-0348",
+        "DV-0349",
+        "DV-0350",
+        "DV-0351"
+      ]
+    },
+    "2100": {
+      "name": "VAT Output Payable",
+      "amount": -82717.16,
+      "proof": [
+        "DV-0007",
+        "DV-0011",
+        "DV-0012",
+        "DV-0013",
+        "DV-0014",
+        "DV-0015",
+        "DV-0016",
+        "DV-0017",
+        "DV-0018",
+        "DV-0019",
+        "DV-0020",
+        "DV-0021",
+        "DV-0022",
+        "DV-0023",
+        "DV-0024",
+        "DV-0025",
+        "DV-0026",
+        "DV-0027",
+        "DV-0028",
+        "DV-0029",
+        "DV-0030",
+        "DV-0031",
+        "DV-0032",
+        "DV-0033",
+        "DV-0034",
+        "DV-0035",
+        "DV-0036",
+        "DV-0037",
+        "DV-0038",
+        "DV-0039",
+        "DV-0040",
+        "DV-0041",
+        "DV-0042",
+        "DV-0043",
+        "DV-0044",
+        "DV-0045",
+        "DV-0046",
+        "DV-0047",
+        "DV-0048",
+        "DV-0049",
+        "DV-0050",
+        "DV-0051",
+        "DV-0052",
+        "DV-0053",
+        "DV-0054",
+        "DV-0055",
+        "DV-0056",
+        "DV-0057",
+        "DV-0058",
+        "DV-0059",
+        "DV-0060",
+        "DV-0061",
+        "DV-0062",
+        "DV-0063",
+        "DV-0064",
+        "DV-0065",
+        "DV-0066",
+        "DV-0067",
+        "DV-0068",
+        "DV-0069",
+        "DV-0070",
+        "DV-0071",
+        "DV-0072",
+        "DV-0073",
+        "DV-0074",
+        "DV-0075",
+        "DV-0076",
+        "DV-0077",
+        "DV-0078",
+        "DV-0079",
+        "DV-0080",
+        "DV-0081",
+        "DV-0082",
+        "DV-0083",
+        "DV-0084",
+        "DV-0085",
+        "DV-0086",
+        "DV-0087",
+        "DV-0088",
+        "DV-0089",
+        "DV-0090",
+        "DV-0091",
+        "DV-0092",
+        "DV-0093",
+        "DV-0094",
+        "DV-0095"
+      ]
+    },
+    "2200": {
+      "name": "Accrued Expenses",
+      "amount": -51750.0,
+      "proof": [
+        "DV-0008",
+        "DV-0361",
+        "DV-0363"
+      ]
+    },
+    "2300": {
+      "name": "Unidentified Receipts",
+      "amount": -18500.0,
+      "proof": [
+        "DV-0359"
+      ]
+    },
+    "3000": {
+      "name": "Share Capital",
+      "amount": -300000.0,
+      "proof": [
+        "DV-0009"
+      ]
+    },
+    "3100": {
+      "name": "Retained Earnings",
+      "amount": -771500.0,
+      "proof": [
+        "DV-0010",
+        "DV-0365"
+      ]
+    }
+  },
+  "net_profit": 229762.81,
+  "vat_payable": 25000.41,
+  "checklist": {
+    "bank_reconciled": true,
+    "trial_balance_balances": true,
+    "vat_control_computed": true,
+    "accruals_posted": true,
+    "prepayments_released": true,
+    "suspense_reviewed": false,
+    "flagged_journals_cleared": false
+  },
+  "variance": {
+    "4000": {
+      "actual": 1654342.5600000003,
+      "budget": 1600000,
+      "variance": 54342.56
+    },
+    "5000": {
+      "actual": 1190000.0,
+      "budget": 1150000,
+      "variance": 40000.0
+    },
+    "6000": {
+      "actual": 44750.0,
+      "budget": 45000,
+      "variance": -250.0
+    },
+    "6100": {
+      "actual": 128400.0,
+      "budget": 128000,
+      "variance": 400.0
+    },
+    "6200": {
+      "actual": 125.0,
+      "budget": 300,
+      "variance": -175.0
+    },
+    "6300": {
+      "actual": 3180.4,
+      "budget": 3000,
+      "variance": 180.4
+    }
+  },
+  "commentary": "- Revenue (4000): AED 1,654,343 vs AED 1,600,000 budget, +AED 54,343 favourable on higher sales.\n- Cost of sales (5000): AED 1,190,000 vs AED 1,150,000 budget, +AED 40,000 with volume; gross profit up ~AED 14,343 vs budget.\n- Overheads on budget: 6000 -AED 250 and 6200 -AED 175 savings offset by 6100 +AED 400 and 6300 +AED 180; net profit AED 229,763.\n- Net VAT payable AED 25,000 for October, due per FTA filing."
+}

@@ -1,0 +1,125 @@
+{
+ "sam": {
+  "concept": "receipt",
+  "sam_box": [
+   761,
+   230,
+   1239,
+   820
+  ],
+  "photo_size": [
+   1600,
+   1100
+  ],
+  "matches": 1,
+  "masks_returned": true,
+  "latency_s": null,
+  "fields": {
+   "vendor": "Sahara Freight Services",
+   "invoice_no": "PI-0006",
+   "date": "2026-10-12",
+   "net": 3751.16,
+   "vat": 187.56,
+   "total": 3938.72,
+   "currency": "AED",
+   "trn": "100837929841622"
+  },
+  "matched": 8,
+  "of": 8,
+  "match": {
+   "vendor": true,
+   "invoice_no": true,
+   "date": true,
+   "net": true,
+   "vat": true,
+   "total": true,
+   "currency": true,
+   "trn": true
+  },
+  "field_boxes": {
+   "vendor": "Sahara Freight Services",
+   "trn": "100837929841622",
+   "invoice_no": "PI-0006",
+   "date": "12-10-2026",
+   "net": "3,751.16",
+   "vat": "187.56",
+   "total": "3,938.72"
+  },
+  "images": {
+   "photo": "sam/photo_with_sam_box.png",
+   "cutout": "sam/receipt_cutout.png",
+   "boxed": "sam/receipt_fields_boxed.png"
+  },
+  "note": "Scene is a synthetic desk photo built from a fictional receipt. SAM 3.1 returns a box and a mask; Divi crops by the box."
+ },
+ "tax": {
+  "checks": [
+   {
+    "rule": "vat rate pct",
+    "divi_uses": 5,
+    "web_says": 5,
+    "agrees": true
+   },
+   {
+    "rule": "ct rate pct",
+    "divi_uses": 9,
+    "web_says": 9,
+    "agrees": true
+   },
+   {
+    "rule": "ct zero band aed",
+    "divi_uses": 375000,
+    "web_says": 375000,
+    "agrees": true
+   },
+   {
+    "rule": "vat return due days",
+    "divi_uses": 28,
+    "web_says": 28,
+    "agrees": true
+   }
+  ],
+  "searches": [
+   "site:tax.gov.ae VAT rate 5% UAE",
+   "site:mof.gov.ae corporate tax rate 9% threshold 375000",
+   "site:u.ae VAT rate corporate tax UAE",
+   "site:tax.gov.ae VAT return filing deadline 28 days tax period",
+   "https://U.AE/en/information-and-services/finance-and-investment/taxation/vat/valueaddedtaxvat",
+   "https://mof.gov.ae/en/news/ministry-of-finance-confirms-applicable-taxable-income-threshold-for-corporate-tax-abu-dhabi-uae/",
+   "https://tax.gov.ae/en/content/filing.vat.returns.and.making.payments.aspx"
+  ],
+  "sources": [
+   {
+    "url": "https://u.ae/en/information-and-services/finance-and-investment/taxation/vat/valueaddedtaxvat",
+    "supports": "VAT rate is 5 per cent; VAT imposed at 5 per cent on taxable supply"
+   },
+   {
+    "url": "https://mof.gov.ae/en/news/ministry-of-finance-confirms-applicable-taxable-income-threshold-for-corporate-tax-abu-dhabi-uae/",
+    "supports": "9% applicable to taxable income above AED 375,000; 0% to income not exceeding AED375,000; 9% to income exceeding AED375,000"
+   },
+   {
+    "url": "https://tax.gov.ae/en/content/filing.vat.returns.and.making.payments.aspx",
+    "supports": "file VAT return and make payments within 28 days from end of tax period"
+   }
+  ],
+  "latency_s": 12.6
+ },
+ "exports": {
+  "journals": 355,
+  "files": [
+   "exports/xero_manual_journals.csv",
+   "exports/zoho_books_journals.csv"
+  ],
+  "note": "Xero manual journal import (signed amounts, debits positive) and Zoho Books journal import (debit and credit columns). Opening balances excluded. VAT lines map to the VAT accounts, so tax rate is No VAT on each line."
+ },
+ "art": {
+  "thumbnail": {
+   "file": "art/thumbnail.png",
+   "prompt": "Clean light-theme abstract illustration for a finance app video thumbnail: soft teal and white, a rising cash-flow line chart, a stack of paper invoices with a green check mark, Dubai skyline silhouette faint in the background, no people, no text, no logos, 16:9."
+  },
+  "end_card": {
+   "file": "art/end_card.png",
+   "prompt": "Minimal light background end card art: soft teal gradient, subtle geometric grid, a single elegant check mark made of light, generous empty space in the centre for a title, no people, no text, no logos, 16:9."
+  }
+ }
+}

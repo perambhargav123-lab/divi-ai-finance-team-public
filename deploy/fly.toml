@@ -1,0 +1,23 @@
+# Fly.io config (not deployed). Run `fly launch --copy-config --no-deploy` first. Replay only: never set model key secrets.
+app = "divi-demo"
+primary_region = "bom"  # Mumbai; pick the closest region to the judges
+
+[build]
+  dockerfile = "../Dockerfile"
+
+[env]
+  DIVI_MOCK = "1"
+  DIVI_LIVE = "0"  # replay only; do not set fly secrets for the model keys
+  PORT = "8000"
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[http_service.checks]]
+  path = "/api/scoreboard"
+  interval = "30s"
+  timeout = "5s"

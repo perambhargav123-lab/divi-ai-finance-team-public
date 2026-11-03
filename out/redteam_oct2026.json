@@ -1,0 +1,62 @@
+[
+  {
+    "rule": "duplicate_vendor_invoice",
+    "severity": "high",
+    "items": [
+      "PI-0006",
+      "PI-0006-A"
+    ],
+    "proof": [
+      "invoices.csv#PI-0006",
+      "invoices.csv#PI-0006-A"
+    ],
+    "explanation": "PI-0006 and PI-0006-A look like the same invoice billed twice which risks double payment, so next check the invoices, goods receipts and vendor ledger to see if a duplicate was paid."
+  },
+  {
+    "rule": "large_payment_to_new_vendor",
+    "severity": "high",
+    "items": [
+      "B108"
+    ],
+    "detail": "AED 50,000.00 paid 2 days after vendor created",
+    "proof": [
+      "bank_statement.csv#B108",
+      "vendor_master.csv#Quickline General Trading"
+    ],
+    "explanation": "Paying AED 50,000 to Quickline General Trading only 2 days after the vendor was created risks a fake vendor payout, so next check vendor KYC, trade license and the approved PO and invoice behind B108."
+  },
+  {
+    "rule": "round_amount_payment",
+    "severity": "medium",
+    "items": [
+      "B108"
+    ],
+    "proof": [
+      "bank_statement.csv#B108"
+    ],
+    "explanation": "B108 for an exact round AED 50,000 is risky because genuine trading bills rarely round with VAT and costs, so next check the underlying invoice and payment approval for what this covers."
+  },
+  {
+    "rule": "duplicate_bank_payment",
+    "severity": "high",
+    "items": [
+      "B136"
+    ],
+    "proof": [
+      "bank_statement.csv#B136"
+    ],
+    "explanation": "B136 flagged as a duplicate bank payment risks cash leaving twice for one liability, so next check the bank debits and vendor account to confirm and recover any overpayment."
+  },
+  {
+    "rule": "weekend_journal_by_junior",
+    "severity": "high",
+    "items": [
+      "JE-1041"
+    ],
+    "detail": "Saturday by intern.k (junior)",
+    "proof": [
+      "journals.csv#JE-1041"
+    ],
+    "explanation": "JE-1041 posted on Saturday by junior intern.k risks an unauthorised override of controls, so next check the journal lines, supporting documents and who approved it."
+  }
+]

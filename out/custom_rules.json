@@ -1,0 +1,22 @@
+[
+ {
+  "name": "payment_over_20k_vendor_added_this_month",
+  "source": "payments",
+  "conditions": [
+   {
+    "field": "amount",
+    "op": ">",
+    "value": 20000
+   },
+   {
+    "field": "vendor_created_this_month",
+    "op": "==",
+    "value": true
+   }
+  ],
+  "severity": "high",
+  "plain": "Flag any payment over AED 20,000 to a vendor added this month.",
+  "text": "flag any payment over AED 20k to a vendor added this month",
+  "compiled_by": "Muse Spark"
+ }
+]

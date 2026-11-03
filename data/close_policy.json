@@ -1,0 +1,9 @@
+{"company": "Falcon Trading LLC (fictional)", "owner_editable": true, "version": "Oct 2026",
+ "policies": [
+  {"id": "P1", "title": "New vendor payments", "rule": "Any payment over AED 10,000 to a vendor added in the last 30 days needs the owner's decision before it leaves.", "applies_to": ["large_payment_to_new_vendor", "round_amount_payment"], "auditor": ["Q5"]},
+  {"id": "P2", "title": "Weekend journals", "rule": "Journals posted on a weekend by a junior user need the Financial Controller's approval.", "applies_to": ["weekend_journal_by_junior"], "auditor": ["Q6"]},
+  {"id": "P3", "title": "Duplicates", "rule": "An invoice or payment that repeats the same party and amount is held and recovered, never paid twice.", "applies_to": ["duplicate_vendor_invoice", "duplicate_bank_payment"], "auditor": ["Q3", "Q4"]},
+  {"id": "P4", "title": "Contract prices", "rule": "A supplier price above the contract price is held and a credit note is requested.", "applies_to": ["overbilling"], "auditor": ["Q7"]},
+  {"id": "P5", "title": "Unexplained receipts", "rule": "Money received with no invoice is treated as a possible unrecorded sale and queried within 2 days.", "applies_to": ["hidden_sale"], "auditor": ["Q2"]},
+  {"id": "P6", "title": "Materiality", "rule": "Differences of 1% of monthly sales or more are adjusted. Below 0.05% they are cleared as trivial.", "applies_to": [], "auditor": ["Q1"]}
+ ]}

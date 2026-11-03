@@ -1,0 +1,2037 @@
+[
+ {
+  "agent": "divi",
+  "name": "Divi",
+  "color": "#0f766e",
+  "kind": "start",
+  "text": "Closing October 2026 for Falcon Trading LLC. Five agents, one month, every number proved.",
+  "data": {},
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "reconciler": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "controller": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "red_team": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 0,
+    "model": 0,
+    "human": 0,
+    "total": 1,
+    "automated_pct": 0.0
+   }
+  },
+  "t": 1793065313.12
+ },
+ {
+  "agent": "capture",
+  "name": "Capture",
+  "color": "#0284c7",
+  "kind": "say",
+  "text": "Reading 15 receipts and invoices with Muse Spark vision (English, Arabic, bilingual).",
+  "data": {},
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "reconciler": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "controller": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "red_team": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 0,
+    "model": 0,
+    "human": 0,
+    "total": 1,
+    "automated_pct": 0.0
+   }
+  },
+  "t": 1793065313.12
+ },
+ {
+  "agent": "capture",
+  "name": "Capture",
+  "color": "#0284c7",
+  "kind": "doc",
+  "text": "doc_02_en.png: 8/8 fields, VAT check passed",
+  "data": {
+   "image": "/docs/doc_02_en.png",
+   "fields": {
+    "vendor": "Palm Foods Import",
+    "invoice_no": "PI-0002",
+    "date": "2026-10-26",
+    "net": 15064.37,
+    "vat": 753.22,
+    "total": 15817.59,
+    "currency": "AED",
+    "trn": "100701079819331"
+   },
+   "issues": [],
+   "accuracy": 8,
+   "secs": 2.8
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 1,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "controller": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "red_team": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 0,
+    "model": 1,
+    "human": 0,
+    "total": 1,
+    "automated_pct": 100.0
+   }
+  },
+  "t": 1793065315.91
+ },
+ {
+  "agent": "capture",
+  "name": "Capture",
+  "color": "#0284c7",
+  "kind": "doc",
+  "text": "doc_01_ar.png: 8/8 fields, VAT check passed",
+  "data": {
+   "image": "/docs/doc_01_ar.png",
+   "fields": {
+    "vendor": "Horizon Office Supplies",
+    "invoice_no": "PI-0001",
+    "date": "2026-10-11",
+    "net": 18000.12,
+    "vat": 900.01,
+    "total": 18900.13,
+    "currency": "AED",
+    "trn": "100908452059972"
+   },
+   "issues": [],
+   "accuracy": 8,
+   "secs": 4.4
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 2,
+     "human": 0,
+     "total": 2,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "controller": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "red_team": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 0,
+    "model": 2,
+    "human": 0,
+    "total": 2,
+    "automated_pct": 100.0
+   }
+  },
+  "t": 1793065320.3
+ },
+ {
+  "agent": "capture",
+  "name": "Capture",
+  "color": "#0284c7",
+  "kind": "doc",
+  "text": "doc_04_bilingual.png: 8/8 fields, VAT check passed",
+  "data": {
+   "image": "/docs/doc_04_bilingual.png",
+   "fields": {
+    "vendor": "Jebel Ali Packaging LLC",
+    "invoice_no": "PI-0004",
+    "date": "2026-10-31",
+    "net": 9156.36,
+    "vat": 457.82,
+    "total": 9614.18,
+    "currency": "AED",
+    "trn": "100002978753477"
+   },
+   "issues": [],
+   "accuracy": 8,
+   "secs": 2.4
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 3,
+     "human": 0,
+     "total": 3,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "controller": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "red_team": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 0,
+    "model": 3,
+    "human": 0,
+    "total": 3,
+    "automated_pct": 100.0
+   }
+  },
+  "t": 1793065322.73
+ },
+ {
+  "agent": "capture",
+  "name": "Capture",
+  "color": "#0284c7",
+  "kind": "doc",
+  "text": "doc_06_ar.png: 8/8 fields, VAT check passed",
+  "data": {
+   "image": "/docs/doc_06_ar.png",
+   "fields": {
+    "vendor": "Sahara Freight Services",
+    "invoice_no": "PI-0006",
+    "date": "2026-10-12",
+    "net": 3751.16,
+    "vat": 187.56,
+    "total": 3938.72,
+    "currency": "AED",
+    "trn": "100837929841622"
+   },
+   "issues": [],
+   "accuracy": 8,
+   "secs": 3.2
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 4,
+     "human": 0,
+     "total": 4,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "controller": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "red_team": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 0,
+    "model": 4,
+    "human": 0,
+    "total": 4,
+    "automated_pct": 100.0
+   }
+  },
+  "t": 1793065325.96
+ },
+ {
+  "agent": "capture",
+  "name": "Capture",
+  "color": "#0284c7",
+  "kind": "say",
+  "text": "Remaining 11 documents extracted in batch. 150 invoices on file match the captured totals.",
+  "data": {},
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "controller": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "red_team": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 0,
+    "model": 15,
+    "human": 0,
+    "total": 15,
+    "automated_pct": 100.0
+   }
+  },
+  "t": 1793065325.96
+ },
+ {
+  "agent": "reconciler",
+  "name": "Reconciler",
+  "color": "#7c3aed",
+  "kind": "say",
+  "text": "Matched 196 of 200 bank lines by rules alone (reference, amount, 5-day window, duplicate check).",
+  "data": {
+   "matched": 196,
+   "total": 200
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 0,
+     "human": 0,
+     "total": 196,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "red_team": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 196,
+    "model": 15,
+    "human": 0,
+    "total": 211,
+    "automated_pct": 100.0
+   }
+  },
+  "t": 1793065325.96
+ },
+ {
+  "agent": "reconciler",
+  "name": "Reconciler",
+  "color": "#7c3aed",
+  "kind": "think",
+  "text": "4 lines left. Asked Muse Spark to classify them.",
+  "data": {
+   "items": [
+    {
+     "bank_id": "B001",
+     "category": "Bank Charges",
+     "reason": "Bank telegraphic transfer service fee"
+    },
+    {
+     "bank_id": "B082",
+     "category": "Bank Charges",
+     "reason": "Bank telegraphic transfer service fee"
+    },
+    {
+     "bank_id": "B160",
+     "category": "Inward Remittance",
+     "reason": "Incoming transfer from Desert Rose Trading"
+    },
+    {
+     "bank_id": "B196",
+     "category": "Bank Charges",
+     "reason": "Bank telegraphic transfer service fee"
+    }
+   ]
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "red_team": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 196,
+    "model": 19,
+    "human": 0,
+    "total": 215,
+    "automated_pct": 100.0
+   }
+  },
+  "t": 1793065330.83
+ },
+ {
+  "agent": "controller",
+  "name": "Controller",
+  "color": "#059669",
+  "kind": "say",
+  "text": "Posted 365 journals: invoices, cash, bank charges with VAT, audit accrual, insurance prepayment.",
+  "data": {
+   "entries": 365
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 560,
+    "model": 19,
+    "human": 1,
+    "total": 580,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065335.72
+ },
+ {
+  "agent": "controller",
+  "name": "Controller",
+  "color": "#059669",
+  "kind": "say",
+  "text": "Trial balance balances. Net profit AED 229,763. VAT payable AED 25,000.",
+  "data": {
+   "net_profit": 229762.81,
+   "vat": 25000.41,
+   "checklist": {
+    "bank_reconciled": true,
+    "trial_balance_balances": true,
+    "vat_control_computed": true,
+    "accruals_posted": true,
+    "prepayments_released": true,
+    "suspense_reviewed": false,
+    "flagged_journals_cleared": false
+   }
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 560,
+    "model": 19,
+    "human": 1,
+    "total": 580,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065335.72
+ },
+ {
+  "agent": "redteam",
+  "name": "Red Team",
+  "color": "#dc2626",
+  "kind": "flag",
+  "text": "duplicate vendor invoice: PI-0006, PI-0006-A",
+  "data": {
+   "finding": {
+    "rule": "duplicate_vendor_invoice",
+    "severity": "high",
+    "items": [
+     "PI-0006",
+     "PI-0006-A"
+    ],
+    "proof": [
+     "invoices.csv#PI-0006",
+     "invoices.csv#PI-0006-A"
+    ],
+    "explanation": "Invoices PI-0006 and PI-0006-A look like the same bill entered twice, which risks paying twice for one purchase."
+   }
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 1,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 100.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 561,
+    "model": 19,
+    "human": 1,
+    "total": 581,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065341.29
+ },
+ {
+  "agent": "redteam",
+  "name": "Red Team",
+  "color": "#dc2626",
+  "kind": "flag",
+  "text": "large payment to new vendor: B108",
+  "data": {
+   "finding": {
+    "rule": "large_payment_to_new_vendor",
+    "severity": "high",
+    "items": [
+     "B108"
+    ],
+    "detail": "AED 50,000.00 paid 2 days after vendor created",
+    "proof": [
+     "bank_statement.csv#B108",
+     "vendor_master.csv#Quickline General Trading"
+    ],
+    "explanation": "Paying AED 50,000 to a vendor only 2 days after creation risks sending money to a fictitious supplier set up to steal funds."
+   }
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 2,
+     "model": 0,
+     "human": 0,
+     "total": 2,
+     "automated_pct": 100.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 562,
+    "model": 19,
+    "human": 1,
+    "total": 582,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065341.29
+ },
+ {
+  "agent": "redteam",
+  "name": "Red Team",
+  "color": "#dc2626",
+  "kind": "flag",
+  "text": "round amount payment: B108",
+  "data": {
+   "finding": {
+    "rule": "round_amount_payment",
+    "severity": "medium",
+    "items": [
+     "B108"
+    ],
+    "proof": [
+     "bank_statement.csv#B108"
+    ],
+    "explanation": "The exact round-amount payment B108 is risky because legitimate trading payments seldom round evenly and may indicate a fabricated amount."
+   }
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 3,
+     "model": 0,
+     "human": 0,
+     "total": 3,
+     "automated_pct": 100.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 563,
+    "model": 19,
+    "human": 1,
+    "total": 583,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065341.29
+ },
+ {
+  "agent": "redteam",
+  "name": "Red Team",
+  "color": "#dc2626",
+  "kind": "flag",
+  "text": "duplicate bank payment: B136",
+  "data": {
+   "finding": {
+    "rule": "duplicate_bank_payment",
+    "severity": "high",
+    "items": [
+     "B136"
+    ],
+    "proof": [
+     "bank_statement.csv#B136"
+    ],
+    "explanation": "Duplicate bank payment B136 risks paying the same obligation twice and losing cash if not recovered."
+   }
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 4,
+     "model": 0,
+     "human": 0,
+     "total": 4,
+     "automated_pct": 100.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 564,
+    "model": 19,
+    "human": 1,
+    "total": 584,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065341.29
+ },
+ {
+  "agent": "redteam",
+  "name": "Red Team",
+  "color": "#dc2626",
+  "kind": "flag",
+  "text": "weekend journal by junior: JE-1041",
+  "data": {
+   "finding": {
+    "rule": "weekend_journal_by_junior",
+    "severity": "high",
+    "items": [
+     "JE-1041"
+    ],
+    "detail": "Saturday by intern.k (junior)",
+    "proof": [
+     "journals.csv#JE-1041"
+    ],
+    "explanation": "Journal JE-1041 posted on a Saturday by a junior staff member risks bypassing normal review and enabling unauthorized manipulation."
+   }
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 0,
+     "human": 0,
+     "total": 5,
+     "automated_pct": 100.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 19,
+    "human": 1,
+    "total": 585,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065341.29
+ },
+ {
+  "agent": "divi",
+  "name": "Divi",
+  "color": "#0f766e",
+  "kind": "debate_start",
+  "text": "Debate: large payment to new vendor",
+  "data": {},
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 0,
+     "total": 6,
+     "automated_pct": 100.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 1,
+    "total": 586,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "redteam",
+  "name": "Red Team",
+  "color": "#dc2626",
+  "kind": "debate",
+  "text": "AED 50,000 paid to Quickline General Trading 2 days after creation per vendor_master.csv. bank_statement.csv#B108 shows rushed payout, classic fictitious vendor pattern.",
+  "data": {
+   "flag": "large_payment_to_new_vendor"
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 0,
+     "total": 6,
+     "automated_pct": 100.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 1,
+    "total": 586,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "controller",
+  "name": "Controller",
+  "color": "#059669",
+  "kind": "debate",
+  "text": "Could be urgent legitimate order. For B108, request PO, invoice, and goods receipt matching AED 50,000 before fraud conclusion.",
+  "data": {
+   "flag": "large_payment_to_new_vendor"
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 0,
+     "total": 6,
+     "automated_pct": 100.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 1,
+    "total": 586,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "redteam",
+  "name": "Red Team",
+  "color": "#dc2626",
+  "kind": "debate",
+  "text": "No PO or receipt cited in proof. Only bank_statement.csv#B108 and vendor_master.csv exist. Two-day gap leaves no due diligence time.",
+  "data": {
+   "flag": "large_payment_to_new_vendor"
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 0,
+     "total": 6,
+     "automated_pct": 100.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 1,
+    "total": 586,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "controller",
+  "name": "Controller",
+  "color": "#059669",
+  "kind": "debate",
+  "text": "Agreed evidence insufficient for B108. Without PO/invoice, cannot clear AED 50,000 risk. Escalate Quickline payment for human review.",
+  "data": {
+   "flag": "large_payment_to_new_vendor"
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 0,
+     "total": 6,
+     "automated_pct": 100.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 1,
+    "total": 586,
+    "automated_pct": 99.8
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "human",
+  "name": "You",
+  "color": "#0f2b4c",
+  "kind": "approval",
+  "text": "Agreed: escalate large payment to new vendor to a human. Approve or reject.",
+  "data": {
+   "flag": "large_payment_to_new_vendor",
+   "items": [
+    "B108"
+   ]
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 1,
+     "total": 7,
+     "automated_pct": 85.7
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 2,
+    "total": 587,
+    "automated_pct": 99.7
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "divi",
+  "name": "Divi",
+  "color": "#0f766e",
+  "kind": "debate_start",
+  "text": "Debate: weekend journal by junior",
+  "data": {},
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 1,
+     "total": 7,
+     "automated_pct": 85.7
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 2,
+    "total": 587,
+    "automated_pct": 99.7
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "redteam",
+  "name": "Red Team",
+  "color": "#dc2626",
+  "kind": "debate",
+  "text": "JE-1041 posted Saturday by intern.k per journals.csv#JE-1041. Weekend junior posting bypasses review, risks unauthorized manipulation.",
+  "data": {
+   "flag": "weekend_journal_by_junior"
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 1,
+     "total": 7,
+     "automated_pct": 85.7
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 2,
+    "total": 587,
+    "automated_pct": 99.7
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "controller",
+  "name": "Controller",
+  "color": "#059669",
+  "kind": "debate",
+  "text": "Could be legitimate overtime catch-up. For JE-1041, need approval log, supporting docs, and amount before assuming misuse.",
+  "data": {
+   "flag": "weekend_journal_by_junior"
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 1,
+     "total": 7,
+     "automated_pct": 85.7
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 2,
+    "total": 587,
+    "automated_pct": 99.7
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "redteam",
+  "name": "Red Team",
+  "color": "#dc2626",
+  "kind": "debate",
+  "text": "journals.csv#JE-1041 shows junior alone on Saturday. No approver cited. High severity requires segregation check.",
+  "data": {
+   "flag": "weekend_journal_by_junior"
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 1,
+     "total": 7,
+     "automated_pct": 85.7
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 2,
+    "total": 587,
+    "automated_pct": 99.7
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "controller",
+  "name": "Controller",
+  "color": "#059669",
+  "kind": "debate",
+  "text": "No approval evidence for JE-1041 intern.k entry. Cannot rule out bypass. Escalate weekend journal for human review.",
+  "data": {
+   "flag": "weekend_journal_by_junior"
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 1,
+     "total": 7,
+     "automated_pct": 85.7
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 2,
+    "total": 587,
+    "automated_pct": 99.7
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "human",
+  "name": "You",
+  "color": "#0f2b4c",
+  "kind": "approval",
+  "text": "Agreed: escalate weekend journal by junior to a human. Approve or reject.",
+  "data": {
+   "flag": "weekend_journal_by_junior",
+   "items": [
+    "JE-1041"
+   ]
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 0,
+     "human": 1,
+     "total": 365,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 2,
+     "total": 8,
+     "automated_pct": 75.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 20,
+    "human": 3,
+    "total": 588,
+    "automated_pct": 99.5
+   }
+  },
+  "t": 1793065347.74
+ },
+ {
+  "agent": "redteam",
+  "name": "Red Team",
+  "color": "#dc2626",
+  "kind": "fraud",
+  "text": "Hidden sale found: AED 18,500 received, never invoiced.",
+  "data": {
+   "amount": 18500,
+   "vat_at_risk": 880.95,
+   "chain": [
+    {
+     "step": "Bank shows inward TT AED 18,500 from Desert Rose Trading",
+     "proof": "bank_statement.csv#B160"
+    },
+    {
+     "step": "No sales invoice, no ledger receipt, narrative has no reference",
+     "proof": "ledger_cash.csv (no match)"
+    },
+    {
+     "step": "Desert Rose is an existing customer with open invoices",
+     "proof": "invoices.csv party=Desert Rose Trading"
+    },
+    {
+     "step": "Cash parked in Unidentified Receipts 2300, sale and 5% VAT missing",
+     "proof": "tb#2300"
+    }
+   ],
+   "how": "The AED 18,500 bank receipt from Desert Rose Trading was parked in Unidentified Receipts 2300 with no sales invoice or ledger entry, creating an off-book sale. This hides the revenue and omits about AED 881 in 5% UAE output VAT (18500 x 5/105).",
+   "query": "Dear Team, We noted an inward TT of AED 18,500 from Desert Rose Trading in the bank statement with no matching sales invoice or ledger receipt, currently held in Unidentified Receipts 2300. Please share the related sales invoice, confirm the salesperson responsible, advise what goods or services were released against this payment, and clarify the VAT treatment applied. Many thanks for your prompt help.",
+   "bank_id": "B160"
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 1,
+     "human": 1,
+     "total": 366,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 2,
+     "total": 8,
+     "automated_pct": 75.0
+    },
+    "treasurer": {
+     "rule": 0,
+     "model": 0,
+     "human": 0,
+     "total": 1,
+     "automated_pct": 0.0
+    }
+   },
+   "overall": {
+    "rule": 565,
+    "model": 21,
+    "human": 3,
+    "total": 589,
+    "automated_pct": 99.5
+   }
+  },
+  "t": 1793065352.12
+ },
+ {
+  "agent": "treasurer",
+  "name": "Treasurer",
+  "color": "#d97706",
+  "kind": "forecast",
+  "text": "13-week forecast ready. Downside low AED -162,810 in week 6.",
+  "data": {
+   "series": {
+    "base": [
+     349562.74,
+     344831.99,
+     234291.1,
+     247376.44,
+     332073.91,
+     305163.64,
+     713222.62,
+     838823.41,
+     773574.91,
+     888707.62,
+     981662.38,
+     1123297.54,
+     1069532.7
+    ],
+    "downside": [
+     217413.63,
+     118508.38,
+     -6470.66,
+     -123094.31,
+     -142314.18,
+     -162809.92,
+     -4058.77,
+     -80060.32,
+     -159687.85,
+     -73867.89,
+     2944.84,
+     78820.11,
+     -8427.29
+    ],
+    "base_with_levers": [
+     349562.74,
+     386831.99,
+     296519.51,
+     363945.76,
+     446984.14,
+     418414.78,
+     824814.67,
+     950859.78,
+     886055.6,
+     1001632.62,
+     1095031.69,
+     1195111.17,
+     1141790.65
+    ],
+    "downside_with_levers": [
+     217413.63,
+     147908.38,
+     30557.75,
+     -48525.0,
+     -69403.95,
+     -91558.78,
+     65533.27,
+     -10023.95,
+     -89207.17,
+     -2942.89,
+     74314.15,
+     150633.74,
+     63830.67
+    ]
+   },
+   "weeks": [
+    "2026-11-02",
+    "2026-11-09",
+    "2026-11-16",
+    "2026-11-23",
+    "2026-11-30",
+    "2026-12-07",
+    "2026-12-14",
+    "2026-12-21",
+    "2026-12-28",
+    "2027-01-04",
+    "2027-01-11",
+    "2027-01-18",
+    "2027-01-25"
+   ],
+   "levers": [
+    {
+     "rank": 1,
+     "id": "L1",
+     "name": "Collect overdue receivables",
+     "amount": 140000.0,
+     "owner": "Credit controller",
+     "action": "Call Gulf Star (48,000), Oasis Hotels (52,000) and Sharjah Wholesale (40,000); agree dated payment plans; hold new orders over 90 days",
+     "first_week": 2,
+     "last_week": 4
+    },
+    {
+     "rank": 2,
+     "id": "L2",
+     "name": "Sell slow-moving stock",
+     "amount": 80450.0,
+     "owner": "Sales manager",
+     "action": "Clearance on Bluetooth speaker X2 and office chairs (over 120 days unsold) at cost to retail customers",
+     "first_week": 4,
+     "last_week": 7
+    },
+    {
+     "rank": 3,
+     "id": "L3",
+     "name": "Take early-pay discounts",
+     "amount": 19550.0,
+     "kind": "early_pay",
+     "note": "annualised; 13-week share shown in forecast",
+     "owner": "AP lead",
+     "action": "Pay Jebel Ali Packaging, Al Futtaim Logistics Demo and Zenith Electronics inside 10 days for 2% off",
+     "first_week": 3,
+     "last_week": 13
+    }
+   ],
+   "narrative": "On our base plan cash stays positive, dipping to its lowest of AED 234291.1 in Week 3 before closing Week 13 at AED 1069532.7. If sales slip and payments run late, our downside case goes overdrawn to AED -162809.92 in Week 6 and still ends Week 13 at AED -8427.29. With our cash levers the base case improves to a low of AED 296519.51 in Week 3 and AED 1141790.65 at Week 13. In the downside the same levers lift the low to AED -91558.78 in Week 6 and turn Week 13 positive to AED 63830.67.\n1. Collect overdue receivables AED 140000.0 — Owner: Credit controller — Weeks 2-4 — Call Gulf Star (48,000), Oasis Hotels (52,000) and Sharjah Wholesale (40,000); agree dated payment plans; hold new orders over 90 days\n2. Sell slow-moving stock AED 80450.0 — Owner: Sales manager — Weeks 4-7 — Clearance on Bluetooth speaker X2 and office chairs (over 120 days unsold) at cost to retail customers\n3. Take early-pay discounts AED 19550.0 annualised; 13-week share shown in forecast — Owner: AP lead — Weeks 3-13 — Pay Jebel Ali Packaging, Al Futtaim Logistics Demo and Zenith Electronics inside 10 days for 2% off"
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 1,
+     "human": 1,
+     "total": 366,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 2,
+     "total": 8,
+     "automated_pct": 75.0
+    },
+    "treasurer": {
+     "rule": 52,
+     "model": 1,
+     "human": 3,
+     "total": 56,
+     "automated_pct": 94.6
+    }
+   },
+   "overall": {
+    "rule": 617,
+    "model": 22,
+    "human": 6,
+    "total": 645,
+    "automated_pct": 99.1
+   }
+  },
+  "t": 1793065366.72
+ },
+ {
+  "agent": "divi",
+  "name": "Divi",
+  "color": "#0f766e",
+  "kind": "done",
+  "text": "Close complete. Waiting on your decisions for escalated items.",
+  "data": {
+   "calls": 10
+  },
+  "meter": {
+   "stages": {
+    "capture": {
+     "rule": 0,
+     "model": 15,
+     "human": 0,
+     "total": 15,
+     "automated_pct": 100.0
+    },
+    "reconciler": {
+     "rule": 196,
+     "model": 4,
+     "human": 0,
+     "total": 200,
+     "automated_pct": 100.0
+    },
+    "controller": {
+     "rule": 364,
+     "model": 1,
+     "human": 1,
+     "total": 366,
+     "automated_pct": 99.7
+    },
+    "red_team": {
+     "rule": 5,
+     "model": 1,
+     "human": 2,
+     "total": 8,
+     "automated_pct": 75.0
+    },
+    "treasurer": {
+     "rule": 52,
+     "model": 1,
+     "human": 3,
+     "total": 56,
+     "automated_pct": 94.6
+    }
+   },
+   "overall": {
+    "rule": 617,
+    "model": 22,
+    "human": 6,
+    "total": 645,
+    "automated_pct": 99.1
+   }
+  },
+  "t": 1793065366.72
+ }
+]

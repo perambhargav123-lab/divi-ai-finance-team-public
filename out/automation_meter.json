@@ -1,0 +1,46 @@
+{
+  "stages": {
+    "capture": {
+      "rule": 0,
+      "model": 14,
+      "human": 1,
+      "total": 15,
+      "automated_pct": 93.3
+    },
+    "reconciler": {
+      "rule": 196,
+      "model": 4,
+      "human": 0,
+      "total": 200,
+      "automated_pct": 100.0
+    },
+    "controller": {
+      "rule": 364,
+      "model": 1,
+      "human": 1,
+      "total": 366,
+      "automated_pct": 99.7
+    },
+    "red_team": {
+      "rule": 5,
+      "model": 1,
+      "human": 5,
+      "total": 11,
+      "automated_pct": 54.5
+    },
+    "treasurer": {
+      "rule": 55,
+      "model": 1,
+      "human": 3,
+      "total": 59,
+      "automated_pct": 94.9
+    }
+  },
+  "overall": {
+    "rule": 620,
+    "model": 21,
+    "human": 10,
+    "total": 651,
+    "automated_pct": 98.5
+  }
+}

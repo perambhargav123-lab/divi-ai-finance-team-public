@@ -1,0 +1,5 @@
+id,kind,party,currency,amount_fc,booked_rate,booked_date,ref
+FX-AR-01,receivable,Atlantic Home Retail Inc (USA),USD,18500.00,3.6700,2026-10-06,FT-S-0141
+FX-AP-01,payable,Shenzhen Bright Audio Co,USD,22400.00,3.6735,2026-10-14,PI-0151
+FX-AP-02,payable,Rhein Office Furniture GmbH,EUR,9800.00,4.0210,2026-10-09,PI-0152
+FX-BK-01,bank,USD current account (Falcon Trading LLC),USD,41250.00,3.6690,2026-09-30,BANK-USD

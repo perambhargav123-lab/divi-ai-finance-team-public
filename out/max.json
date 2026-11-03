@@ -1,0 +1,444 @@
+{
+ "fx": {
+  "items": [
+   {
+    "id": "FX-AR-01",
+    "kind": "receivable",
+    "party": "Atlantic Home Retail Inc (USA)",
+    "currency": "USD",
+    "amount_fc": "18500.00",
+    "booked_rate": "3.6700",
+    "booked_date": "2026-10-06",
+    "ref": "FT-S-0141",
+    "booked_aed": 67895.0,
+    "closing_rate": 3.6725,
+    "closing_aed": 67941.25,
+    "gain_loss": 46.25
+   },
+   {
+    "id": "FX-AP-01",
+    "kind": "payable",
+    "party": "Shenzhen Bright Audio Co",
+    "currency": "USD",
+    "amount_fc": "22400.00",
+    "booked_rate": "3.6735",
+    "booked_date": "2026-10-14",
+    "ref": "PI-0151",
+    "booked_aed": 82286.4,
+    "closing_rate": 3.6725,
+    "closing_aed": 82264.0,
+    "gain_loss": 22.4
+   },
+   {
+    "id": "FX-AP-02",
+    "kind": "payable",
+    "party": "Rhein Office Furniture GmbH",
+    "currency": "EUR",
+    "amount_fc": "9800.00",
+    "booked_rate": "4.0210",
+    "booked_date": "2026-10-09",
+    "ref": "PI-0152",
+    "booked_aed": 39405.8,
+    "closing_rate": 3.984,
+    "closing_aed": 39043.2,
+    "gain_loss": 362.6
+   },
+   {
+    "id": "FX-BK-01",
+    "kind": "bank",
+    "party": "USD current account (Falcon Trading LLC)",
+    "currency": "USD",
+    "amount_fc": "41250.00",
+    "booked_rate": "3.6690",
+    "booked_date": "2026-09-30",
+    "ref": "BANK-USD",
+    "booked_aed": 151346.25,
+    "closing_rate": 3.6725,
+    "closing_aed": 151490.62,
+    "gain_loss": 144.37
+   }
+  ],
+  "net_gain_loss": 575.62,
+  "entry": {
+   "je": "JE-FX-OCT",
+   "date": "2026-10-31",
+   "memo": "Month-end revaluation of foreign currency balances (IAS 21)",
+   "lines": [
+    {
+     "account": "1100/1000/2000 balances",
+     "debit": 575.62,
+     "credit": 0
+    },
+    {
+     "account": "7900 Unrealised FX gain or loss",
+     "debit": 0,
+     "credit": 575.62
+    }
+   ]
+  },
+  "rates": {
+   "note": "Fictional month-end rates for the demo. AED is pegged to USD at 3.6725; EUR rate is illustrative only.",
+   "date": "2026-10-31",
+   "USD": 3.6725,
+   "EUR": 3.984
+  }
+ },
+ "long_context": {
+  "chars": 29065,
+  "tokens_in": 13436,
+  "findings": [
+   {
+    "title": "Unsupported AED 1.19m COGS margin-method entry",
+    "why": "Single Friday manual JE books COGS of 1,190,000 as 72% margin method with no support, dwarfing October purchases and sales and distorting gross margin, inventory and VAT position - reverse and book actuals with GRN/inventory rollforward.",
+    "amount_aed": 1190000.0,
+    "refs": [
+     "journals.csv#JE-1040"
+    ],
+    "refs_checked": [
+     {
+      "ref": "journals.csv#JE-1040",
+      "found": true
+     }
+    ],
+    "grounded": true
+   },
+   {
+    "title": "AED 50k same-day round payment to 2-day-old vendor",
+    "why": "Quickline General Trading created 16 Oct, invoiced 18 Oct for exactly 50000 due same day and paid same day B108 - classic fictitious-vendor / diversion pattern with no track record, requires contract, GRN, KYC, bank-IBAN check and approval recovery.",
+    "amount_aed": 50000.0,
+    "refs": [
+     "invoices.csv#QGT-001",
+     "bank_statement.csv#B108",
+     "vendor_master.csv#Quickline General Trading"
+    ],
+    "refs_checked": [
+     {
+      "ref": "invoices.csv#QGT-001",
+      "found": true
+     },
+     {
+      "ref": "bank_statement.csv#B108",
+      "found": true
+     },
+     {
+      "ref": "vendor_master.csv#Quickline General Trading",
+      "found": true
+     }
+    ],
+    "grounded": true
+   },
+   {
+    "title": "Duplicate AED 18.9k payment to Horizon Office Supplies",
+    "why": "PI-0001 for 18900.13 paid twice - B136 flagged DUPLICATE on 22 Oct and again B140 on 23 Oct - double cash outflow, overstates expense/AP payment, recover from vendor and fix payment controls.",
+    "amount_aed": 18900.13,
+    "refs": [
+     "invoices.csv#PI-0001",
+     "bank_statement.csv#B136",
+     "bank_statement.csv#B140"
+    ],
+    "refs_checked": [
+     {
+      "ref": "invoices.csv#PI-0001",
+      "found": true
+     },
+     {
+      "ref": "bank_statement.csv#B136",
+      "found": true
+     },
+     {
+      "ref": "bank_statement.csv#B140",
+      "found": true
+     }
+    ],
+    "grounded": true
+   },
+   {
+    "title": "AED 18.5k unallocated Desert Rose receipt with no ref",
+    "why": "Inward TT 18500 on 27 Oct coded DESERT ROSE TRADING NO REF matches no sales invoice, leaving AR/cash unreconciled and cutoff and lapping risk - match to credit note/remittance or hold as unapplied.",
+    "amount_aed": 18500.0,
+    "refs": [
+     "bank_statement.csv#B160"
+    ],
+    "refs_checked": [
+     {
+      "ref": "bank_statement.csv#B160",
+      "found": true
+     }
+    ],
+    "grounded": true
+   },
+   {
+    "title": "Weekend junior journal with no approver",
+    "why": "JE-1041 posted Saturday by intern.k (junior) debit 6000 credit 2200 for 9750 with accrual adj and no approver - segregation of duties and period-end control failure, requires review, support and reversal if unsupported.",
+    "amount_aed": 9750.0,
+    "refs": [
+     "journals.csv#JE-1041"
+    ],
+    "refs_checked": [
+     {
+      "ref": "journals.csv#JE-1041",
+      "found": true
+     }
+    ],
+    "grounded": true
+   },
+   {
+    "title": "Duplicate Sahara Freight invoice doubles liability",
+    "why": "PI-0006 and PI-0006-A are identical vendor, date 2026-10-12 and amount 3938.72, flag confirms duplicate vendor invoice - inflates AP/input VAT and risks double payment, void duplicate.",
+    "amount_aed": 3938.72,
+    "refs": [
+     "invoices.csv#PI-0006",
+     "invoices.csv#PI-0006-A"
+    ],
+    "refs_checked": [
+     {
+      "ref": "invoices.csv#PI-0006",
+      "found": true
+     },
+     {
+      "ref": "invoices.csv#PI-0006-A",
+      "found": true
+     }
+    ],
+    "grounded": true
+   }
+  ],
+  "grounded": 6
+ },
+ "tool_calls": [
+  {
+   "question": "Can we survive week 6 if customers pay late?",
+   "calls": [
+    {
+     "name": "get_lowest_cash",
+     "arguments": {
+      "scenario": "downside"
+     },
+     "result": {
+      "aed": -162809.92,
+      "week": 6,
+      "ref": "treasury#downside"
+     }
+    }
+   ]
+  },
+  {
+   "question": "What does invoice PI-0012 charge Palm Foods?",
+   "calls": [
+    {
+     "name": "get_invoice",
+     "arguments": {
+      "invoice_no": "PI-0012"
+     },
+     "result": {
+      "row": "{\"type\": \"purchase\", \"invoice_no\": \"PI-0012\", \"party\": \"Palm Foods Import\", \"trn\": \"100701079819331\", \"date\": \"2026-10-08\", \"due\": \"2026-11-22\", \"net\": \"29669.37\", \"vat\": \"1483.47\", \"total\": \"31152.84\", \"currency\": \"AED\", \"status\": \"open\", \"flag\": \"\"}",
+      "ref": "invoices.csv#PI-0012"
+     }
+    }
+   ]
+  },
+  {
+   "question": "How much VAT do we owe for October?",
+   "calls": [
+    {
+     "name": "get_vat_payable",
+     "arguments": {},
+     "result": {
+      "aed": 25000.41,
+      "ref": "close_oct2026.json#vat_payable"
+     }
+    }
+   ]
+  }
+ ],
+ "vision": {
+  "crumpled": [
+   {
+    "file": "vision/crumpled_doc_06_ar.png",
+    "source": "docs/doc_06_ar.png",
+    "lang": "ar",
+    "fields": {
+     "vendor": "Sahara Freight Services",
+     "invoice_no": "PI-0006",
+     "date": "2026-10-12",
+     "net": 3751.16,
+     "vat": 187.56,
+     "total": 3938.72,
+     "currency": "AED",
+     "trn": "100837929841622"
+    },
+    "matched": 8,
+    "of": 8,
+    "match": {
+     "vendor": true,
+     "invoice_no": true,
+     "date": true,
+     "net": true,
+     "vat": true,
+     "total": true,
+     "currency": true,
+     "trn": true
+    }
+   },
+   {
+    "file": "vision/crumpled_doc_11_ar.png",
+    "source": "docs/doc_11_ar.png",
+    "lang": "ar",
+    "fields": {
+     "vendor": "Al Futtaim Logistics Demo",
+     "invoice_no": "PI-0011",
+     "date": "2026-10-31",
+     "net": 13456.77,
+     "vat": 672.84,
+     "total": 14129.61,
+     "currency": "AED",
+     "trn": "100876804571784"
+    },
+    "matched": 8,
+    "of": 8,
+    "match": {
+     "vendor": true,
+     "invoice_no": true,
+     "date": true,
+     "net": true,
+     "vat": true,
+     "total": true,
+     "currency": true,
+     "trn": true
+    }
+   }
+  ],
+  "grounding": {
+   "file": "vision/grounded_doc_02.png",
+   "source": "docs/doc_02_en.png",
+   "boxes": {
+    "invoice_no": {
+     "value": "PI-0002",
+     "box": [
+      216,
+      192,
+      320,
+      216
+     ]
+    },
+    "date": {
+     "value": "2026-10-26",
+     "box": [
+      130,
+      237,
+      262,
+      261
+     ]
+    },
+    "trn": {
+     "value": "100701079819331",
+     "box": [
+      124,
+      145,
+      316,
+      170
+     ]
+    },
+    "net": {
+     "value": "AED 15,064.37",
+     "box": [
+      210,
+      282,
+      381,
+      306
+     ]
+    },
+    "vat": {
+     "value": "AED 753.22",
+     "box": [
+      160,
+      328,
+      290,
+      352
+     ]
+    },
+    "total": {
+     "value": "AED 15,817.59",
+     "box": [
+      140,
+      373,
+      310,
+      397
+     ]
+    }
+   }
+  }
+ },
+ "trace": [
+  {
+   "purpose": "controller_long_context_review",
+   "model": "muse-spark-1.3",
+   "tokens_in": 13436,
+   "tokens_out": 3126,
+   "latency_s": 11.8,
+   "cost_aed": 0.1105,
+   "source": "live call",
+   "mode": "structured JSON output"
+  },
+  {
+   "purpose": "cfo_tool_calling",
+   "model": "muse-spark-1.3",
+   "tokens_in": 692,
+   "tokens_out": 467,
+   "latency_s": 2.5,
+   "cost_aed": 0.0105,
+   "source": "live call",
+   "mode": "tool calling"
+  },
+  {
+   "purpose": "cfo_tool_calling",
+   "model": "muse-spark-1.3",
+   "tokens_in": 692,
+   "tokens_out": 458,
+   "latency_s": 1.7,
+   "cost_aed": 0.0103,
+   "source": "live call",
+   "mode": "tool calling"
+  },
+  {
+   "purpose": "cfo_tool_calling",
+   "model": "muse-spark-1.3",
+   "tokens_in": 690,
+   "tokens_out": 643,
+   "latency_s": 2.0,
+   "cost_aed": 0.0132,
+   "source": "live call",
+   "mode": "tool calling"
+  },
+  {
+   "purpose": "capture_crumpled_receipt",
+   "model": "muse-spark-1.3",
+   "tokens_in": 1271,
+   "tokens_out": 620,
+   "latency_s": 2.4,
+   "cost_aed": 0.0155,
+   "source": "live call",
+   "mode": "structured JSON output"
+  },
+  {
+   "purpose": "capture_crumpled_receipt",
+   "model": "muse-spark-1.3",
+   "tokens_in": 1271,
+   "tokens_out": 688,
+   "latency_s": 2.6,
+   "cost_aed": 0.0166,
+   "source": "live call",
+   "mode": "structured JSON output"
+  },
+  {
+   "purpose": "vision_grounding_boxes",
+   "model": "muse-spark-1.3",
+   "tokens_in": 1078,
+   "tokens_out": 2366,
+   "latency_s": 6.9,
+   "cost_aed": 0.0419,
+   "source": "live call",
+   "mode": "structured JSON output"
+  }
+ ]
+}

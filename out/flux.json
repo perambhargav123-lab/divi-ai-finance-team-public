@@ -1,0 +1,187 @@
+{
+ "table": [
+  {
+   "acct": "4000",
+   "name": "Sales",
+   "oct": -1654342.56,
+   "sep": -1512300.0,
+   "change": -142042.56,
+   "pct": -9.4
+  },
+  {
+   "acct": "5000",
+   "name": "Cost of Goods Sold",
+   "oct": 1190000.0,
+   "sep": 1071000.0,
+   "change": 119000.0,
+   "pct": 11.1
+  },
+  {
+   "acct": "6000",
+   "name": "Rent",
+   "oct": 44750.0,
+   "sep": 35000.0,
+   "change": 9750.0,
+   "pct": 27.9
+  },
+  {
+   "acct": "6100",
+   "name": "Salaries",
+   "oct": 128400.0,
+   "sep": 121400.0,
+   "change": 7000.0,
+   "pct": 5.8
+  },
+  {
+   "acct": "6200",
+   "name": "Bank Charges",
+   "oct": 125.0,
+   "sep": 310.0,
+   "change": -185.0,
+   "pct": -59.7
+  },
+  {
+   "acct": "6300",
+   "name": "Utilities DEWA",
+   "oct": 3180.4,
+   "sep": 3420.0,
+   "change": -239.6,
+   "pct": -7.0
+  },
+  {
+   "acct": "6400",
+   "name": "Audit Fee",
+   "oct": 2000.0,
+   "sep": 2000.0,
+   "change": 0.0,
+   "pct": 0.0
+  },
+  {
+   "acct": "6500",
+   "name": "Insurance",
+   "oct": 1500.0,
+   "sep": 1500.0,
+   "change": 0.0,
+   "pct": 0.0
+  },
+  {
+   "acct": "6700",
+   "name": "General Expenses",
+   "oct": 54624.35,
+   "sep": 22800.0,
+   "change": 31824.35,
+   "pct": 139.6
+  }
+ ],
+ "commentary": [
+  {
+   "claim": "Revenue grew to 1654342.56 in October from 1512300.0 in September as units sold rose to 64900 from 61200 and average price rose to 25.49 from 24.71 with 3 promo days and active customers steady at 8.",
+   "cites": [
+    "pnl_oct#4000",
+    "pnl_sep#4000",
+    "drivers_oct#units_sold",
+    "drivers_sep#units_sold",
+    "drivers_oct#avg_price_aed",
+    "drivers_sep#avg_price_aed",
+    "drivers_oct#promo_days",
+    "drivers_sep#promo_days",
+    "drivers_oct#active_customers",
+    "drivers_sep#active_customers"
+   ],
+   "id": "C01",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "All figures match cited sources exactly",
+   "verified": true
+  },
+  {
+   "claim": "Cost of goods sold rose to 1190000.0 in October from 1071000.0 in September, up 119000.0 or 11.1, broadly in line with higher units sold.",
+   "cites": [
+    "pnl_oct#5000",
+    "pnl_sep#5000",
+    "drivers_oct#units_sold",
+    "drivers_sep#units_sold"
+   ],
+   "id": "C02",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Amounts and calculated change match sources",
+   "verified": true
+  },
+  {
+   "claim": "Rent rose to 44750.0 in October from 35000.0 in September, up 9750.0 or 27.9.",
+   "cites": [
+    "pnl_oct#6000",
+    "pnl_sep#6000"
+   ],
+   "id": "C03",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Amounts and calculated change match sources",
+   "verified": true
+  },
+  {
+   "claim": "Salaries rose to 128400.0 in October from 121400.0 in September, up 7000.0 or 5.8, after headcount moved to 23 from 22 following a warehouse hire noted for October.",
+   "cites": [
+    "pnl_oct#6100",
+    "pnl_sep#6100",
+    "drivers_oct#headcount",
+    "drivers_sep#headcount",
+    "drivers_oct#note"
+   ],
+   "id": "C04",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Amounts headcount and hire note match",
+   "verified": true
+  },
+  {
+   "claim": "General expenses rose to 54624.35 in October from 22800.0 in September, up 31824.35 or 139.6, including a trade show stand of 21,000 noted for October.",
+   "cites": [
+    "pnl_oct#6700",
+    "pnl_sep#6700",
+    "drivers_oct#note"
+   ],
+   "id": "C05",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Amounts and trade show note match",
+   "verified": true
+  },
+  {
+   "claim": "Bank charges moved to 125.0 in October from 310.0 in September, a change of -185.0 and -59.7, while utilities moved to 3180.4 in October from 3420.0 in September, a change of -239.6 and -7.0.",
+   "cites": [
+    "pnl_oct#6200",
+    "pnl_sep#6200",
+    "pnl_oct#6300",
+    "pnl_sep#6300"
+   ],
+   "id": "C06",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "All amounts and changes match sources",
+   "verified": true
+  },
+  {
+   "claim": "Audit fee held at 2000.0 in both months and insurance held at 1500.0 in both months, with change 0.0.",
+   "cites": [
+    "pnl_oct#6400",
+    "pnl_sep#6400",
+    "pnl_oct#6500",
+    "pnl_sep#6500"
+   ],
+   "id": "C07",
+   "det_ok": true,
+   "det_reason": "all numbers traced to sources",
+   "muse_ok": true,
+   "muse_reason": "Both balances unchanged as cited",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+invoice_no,party,item,qty,unit_price,net
+PI-0002,Palm Foods Import,Basmati rice per kg,1369.49,11.0,15064.37
+PI-0003,Jebel Ali Packaging LLC,Printed carton size A,1849.13,4.2,7766.33
+PI-0004,Jebel Ali Packaging LLC,Printed carton size A,2180.09,4.2,9156.36
+PI-0005,Zenith Electronics FZCO,LED panel 60x60,234.33,62.0,14528.39
+PI-0012,Palm Foods Import,Basmati rice per kg,2373.55,12.5,29669.37
+PI-0013,Zenith Electronics FZCO,LED panel 60x60,182.12,62.0,11291.41
+PI-0014,Zenith Electronics FZCO,LED panel 60x60,248.66,62.0,15417.01
+PI-0018,Palm Foods Import,Basmati rice per kg,276.76,11.0,3044.35
+PI-0020,Palm Foods Import,Basmati rice per kg,2359.41,11.0,25953.46
+PI-0022,Zenith Electronics FZCO,LED panel 60x60,327.84,62.0,20325.91
+PI-0027,Palm Foods Import,Basmati rice per kg,2400.32,11.0,26403.52
+PI-0028,Zenith Electronics FZCO,LED panel 60x60,418.05,62.0,25919.04
+PI-0034,Palm Foods Import,Basmati rice per kg,1060.41,11.0,11664.55
+PI-0037,Zenith Electronics FZCO,LED panel 60x60,125.75,62.0,7796.69
+PI-0039,Jebel Ali Packaging LLC,Printed carton size A,5207.69,4.2,21872.28
+PI-0041,Zenith Electronics FZCO,LED panel 60x60,399.71,62.0,24781.84
+PI-0046,Palm Foods Import,Basmati rice per kg,2004.69,11.0,22051.62
+PI-0047,Zenith Electronics FZCO,LED panel 60x60,120.35,62.0,7461.66
+PI-0050,Zenith Electronics FZCO,LED panel 60x60,371.73,62.0,23047.51
+PI-0051,Jebel Ali Packaging LLC,Printed carton size A,5025.11,4.2,21105.46
+PI-0052,Palm Foods Import,Basmati rice per kg,626.82,11.0,6895.03
+PI-0054,Palm Foods Import,Basmati rice per kg,2051.39,11.0,22565.28
+PI-0059,Zenith Electronics FZCO,LED panel 60x60,236.1,62.0,14638.16
+PI-0060,Jebel Ali Packaging LLC,Printed carton size A,5927.98,4.2,24897.52
+PI-0062,Jebel Ali Packaging LLC,Printed carton size A,3427.26,4.2,14394.49
+PI-0063,Palm Foods Import,Basmati rice per kg,1626.08,11.0,17886.83

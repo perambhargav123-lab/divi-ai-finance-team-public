@@ -1,0 +1,13 @@
+# Render blueprint. The live demo runs replay only (DIVI_MOCK=1). Never add model keys.
+services:
+  - type: web
+    name: divi-demo
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/scoreboard
+    envVars:
+      - key: DIVI_MOCK
+        value: "1"          # safest default: replay recorded answers, no spend
+      - key: DIVI_LIVE
+        value: "0"          # public demo is replay only; never add BASETEN_API_KEY or META_API_KEY here

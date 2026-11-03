@@ -1,0 +1,18 @@
+{
+ "question": "Are we safe in week 4?",
+ "answer": "Yes, we are safe in the expected case with AED 247,376.44 in week 4 and a median of AED 134,914.45 with drafts. The risk is a downside of AED -123,094.31 in week 4 (AED -48,525.00 with levers), with a 1.8% chance of being negative in week 4 and a 3.4% chance in any week. What keeps it safe is a AED 165,000.00 credit line.",
+ "proof": [
+  "treasury#base:week4",
+  "cash#with_actions:p50:week4",
+  "treasury#downside:week4",
+  "treasury#downside_with_levers:week4",
+  "cash#with_actions:p_negative:week4",
+  "cash#with_actions:p_negative_any",
+  "treasury#downside lowest week + 1% buffer"
+ ],
+ "model": "meta-models/muse-spark-open-1026",
+ "audio": "data/audio/q_week4.wav",
+ "transcript": "Are we safe in week 4?",
+ "transcript_source": "recorded; Muse Voice Transcribe runs live when META_API_KEY is set",
+ "recorded_at": "2026-10-31 21:37 IST"
+}
