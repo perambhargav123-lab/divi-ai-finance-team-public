@@ -128,3 +128,20 @@ A full close costs about AED 0.63 in Muse tokens, measured from the trace. A man
 ## License
 
 MIT. See `LICENSE`. All company data in `data/` is fictional.
+
+## Cash leak finder (QAR) and signed evidence fingerprint (sample data)
+
+Added 5 Nov 2026. Both run on **sample data only** in `data/qatar/` (made-up Qatar vendors and amounts, not a real company).
+
+- **Cash leak finder** (`divi/cashleak.py`): rule-based, no AI. Reads a bank CSV, a ledger CSV and a usage CSV and flags duplicate payments, unused subscriptions, idle seats, subscription price increases, vendor price creep and charges with no invoice or ledger entry. Totals are in QAR and every flag cites its transaction ids. On the sample data it flags QAR 5,427.00 across 6 items.
+- **Signed evidence fingerprint** (`divi/fingerprint.py`): a SHA-256 hash over every figure and its source references (canonical JSON), signed with HMAC-SHA256. `verify` recomputes both, so an edited figure, a removed source or a wrong key shows NOT VERIFIED. The signing key comes from `DIVI_SIGNING_KEY`; without it a public demo key is used and the output says `key: demo` (that proves the pack was not altered, not who signed it).
+
+Demo:
+
+```
+python -m divi.cashleak                                   # report + signed pack in out/cash_leak_pack.json
+python -m divi.fingerprint verify out/cash_leak_pack.json # VERIFIED / NOT VERIFIED
+uvicorn divi.app:app  # then open /cashleak (UI with verified state) or /api/cash_leak
+```
+
+Tests: `tests/test_cashleak_fingerprint.py`.

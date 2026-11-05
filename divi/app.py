@@ -310,3 +310,13 @@ def close_policy(): return tidy(_dlog.policy())
 
 @app.get("/api/decision_log")
 def decision_log(): return tidy(_dlog.run())
+
+
+@app.get("/api/cash_leak")
+def cash_leak():
+    from divi import cashleak, fingerprint
+    r = cashleak.find(); s = fingerprint.sign(fingerprint.pack_from_leaks(r))
+    return {"report": r, "fingerprint": s["fingerprint"], "verify": fingerprint.verify(s)}
+
+@app.get("/cashleak", response_class=HTMLResponse)
+def cash_leak_page(): return (Path(__file__).parent / "web" / "cashleak.html").read_text()

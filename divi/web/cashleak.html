@@ -1,0 +1,8 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Divi cash leak finder (sample data)</title>
+<style>body{font-family:system-ui,sans-serif;max-width:900px;margin:30px auto;color:#1d1d1f}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left}.ok{background:#e6f6ec;color:#0a6b2d;padding:10px;border-radius:6px}.bad{background:#fde8e8;color:#9b1c1c;padding:10px;border-radius:6px}.tag{background:#fff3cd;padding:2px 8px;border-radius:4px;font-size:12px}</style></head>
+<body><h1>Cash leak finder <span class="tag">SAMPLE DATA</span></h1><p id="sum"></p><div id="fp"></div><table><thead><tr><th>Type</th><th>Vendor</th><th>QAR</th><th>Why</th><th>Source</th></tr></thead><tbody id="rows"></tbody></table>
+<script>fetch('/api/cash_leak').then(r=>r.json()).then(d=>{const r=d.report;
+document.getElementById('sum').textContent=`Total flagged: QAR ${r.total_qar.toLocaleString('en',{minimumFractionDigits:2})} across ${r.leaks.length} items, as of ${r.as_of}`;
+const f=document.getElementById('fp');f.className=d.verify.verified?'ok':'bad';
+f.textContent=(d.verify.verified?'✓ Evidence fingerprint verified. ':'✗ Not verified. ')+d.verify.reason+` · SHA-256 ${d.fingerprint.sha256.slice(0,16)}... · key: ${d.verify.key_mode}`;
+document.getElementById('rows').innerHTML=r.leaks.map(l=>`<tr><td>${l.type}</td><td>${l.vendor}</td><td>${l.amount_qar.toFixed(2)}</td><td>${l.detail}</td><td>${l.sources.join(', ')}</td></tr>`).join('')})</script></body></html>

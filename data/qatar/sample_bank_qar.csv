@@ -1,0 +1,23 @@
+txn_id,date,vendor,description,amount_qar,reference
+Q001,2026-07-03,Ooredoo Business,Mobile and fibre,-1450.00,INV-OO-0701
+Q002,2026-07-05,Doha Office Supplies,Stationery,-820.00,INV-DOS-311
+Q003,2026-07-10,CloudCRM,CRM subscription 10 seats,-1100.00,SUB-CRM-07
+Q004,2026-07-12,DesignSuite,Design software subscription,-365.00,SUB-DS-07
+Q005,2026-07-15,Al Waab Logistics,Delivery services,-4200.00,INV-AWL-1001
+Q006,2026-08-03,Ooredoo Business,Mobile and fibre,-1450.00,INV-OO-0801
+Q007,2026-08-10,CloudCRM,CRM subscription 10 seats,-1100.00,SUB-CRM-08
+Q008,2026-08-12,DesignSuite,Design software subscription,-365.00,SUB-DS-08
+Q009,2026-08-15,Al Waab Logistics,Delivery services,-4410.00,INV-AWL-1042
+Q010,2026-08-20,Doha Office Supplies,Stationery,-910.00,INV-DOS-344
+Q011,2026-09-03,Ooredoo Business,Mobile and fibre,-1450.00,INV-OO-0901
+Q012,2026-09-10,CloudCRM,CRM subscription 10 seats,-1320.00,SUB-CRM-09
+Q013,2026-09-12,DesignSuite,Design software subscription,-365.00,SUB-DS-09
+Q014,2026-09-15,Al Waab Logistics,Delivery services,-4630.00,INV-AWL-1088
+Q015,2026-09-18,Pearl Catering,Staff lunch event,-2750.00,INV-PC-221
+Q016,2026-09-19,Pearl Catering,Staff lunch event,-2750.00,INV-PC-221
+Q017,2026-10-03,Ooredoo Business,Mobile and fibre,-1450.00,INV-OO-1001
+Q018,2026-10-10,CloudCRM,CRM subscription 10 seats,-1320.00,SUB-CRM-10
+Q019,2026-10-12,DesignSuite,Design software subscription,-365.00,SUB-DS-10
+Q020,2026-10-15,Al Waab Logistics,Delivery services,-4860.00,INV-AWL-1131
+Q021,2026-10-22,POS TRF 88213 DOHA,Card charge,-640.00,
+Q022,2026-10-25,Client Receipt Lusail Trading,Customer payment,18500.00,AR-LT-55
